@@ -7,7 +7,7 @@
     <meta name="description" content="A Passionate Software Engineer from Sri Lanka">
     <meta name="author" content="Kasun Kavinda">
     <meta name="viewPort" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/ico"  href="../assets/images/Kkk.png">
+    <link rel="icon" type="image/ico"  href="../assets/images/Kkk.ico">
 
 </head>
 <body>
@@ -20,12 +20,12 @@
     </picture>
 
     <nav>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Project</a>
-            <a href="">Assignment</a>
-            <a href="">Gallery</a>
-            <a href="">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#assignment">Assignment</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="#contact">Contact</a>
     </nav>
 </header>
 
@@ -47,9 +47,11 @@
             <button>Contact Me</button>
         </div>
 
-        <img src="../assets/images/patterns/arrow_heads/Arrow_head2.svg" alt="" width="50" title="Arrow head">
-
         <div>
+
+            <img src="../assets/images/patterns/arrow_heads/Arrow_head2.svg" alt="" width="50" title="Arrow head">
+
+
 
             <picture>
                 <source media="(min-width: 1000px)" srcset="../assets/images/my_images/My_Pic.png">
@@ -96,6 +98,7 @@
                 </div>
 
         <div>
+            <div>
               <picture>
                     <source media="(min-width: 1000px)" srcset="../assets/images/my_images/My_Pic2_large.png">
                     <source media="(min-width: 700px)" srcset="../assets/images/my_images/My_Pic2_medium.png">
@@ -116,7 +119,7 @@
                     <source media="(min-width: 400px)" srcset="../assets/images/my_images/My_Pic3_small2.png">
                     <img src="../assets/images/my_images/My_Pic3_small2.png.png" alt="Kasun Kavinda" title="Third image">
              </picture>
-
+            </div>
             <div>
                 <a href="https://github.com/KasunKVI" ><img src="../assets/images/logos/socials/GitHub_Logo.png" alt="Github" title="Github" width="50"></a>
                 <a href="http://facebook.com/KaViYaKv"><img src="../assets/images/logos/socials/FB_Logo.png" alt="Facebook" title="Facebook" width="50"></a>
@@ -127,9 +130,10 @@
 
         </div>
 
-            <button>Download Cv</button>
+            <button type="button">Download Cv</button>
 
-            <p>As a full-stack developer,  I am driven by a deep passion for  crafting user-friendly and aesthetically pleasing<br>
+            <p>
+                As a full-stack developer,  I am driven by a deep passion for  crafting user-friendly and aesthetically pleasing<br>
                 UI designs that seamlessly integrate with  robust back-end functionality.<br>
                 I believe that great software goes beyond functionality;   it should also provide an exceptional user experience.<br>
                 I am a continuous learner, always keeping an eye on the latest trends and best practices in software engineering.<br>
@@ -137,7 +141,8 @@
                 the unique needs of each project.<br>
                 I'm excited to take on new challenges, work with like-minded professionals, and create software solutions<br>
                 that not only meet technical requirements but also exceed  user expectations.<br>
-                Let's connect and collaborate on building exceptional digital experiences.</p>
+                Let's connect and collaborate on building exceptional digital experiences.
+            </p>
 
     </section>
 
@@ -334,10 +339,11 @@
 
     </section>
 
-    <section>
-
-        <h4>Projects</h4>
-        <h1>What I Do</h1>
+    <section id="project">
+        <div>
+                <h4>Projects</h4>
+                <h1>What I Do</h1>
+        </div>
 
         <section>
 
@@ -531,16 +537,16 @@
 
     </section>
 
-    <section>
+    <section id="assignment">
 
         <h4>Assignments</h4>
         <h1>Unlock my potential</h1>
 
-        <a href=""><button> More >></button></a>
+        <a href="assignment.html"><button> More >></button></a>
 
     </section>
 
-    <section>
+    <section id="contact">
 
         <h4>Get In Touch</h4>
 
@@ -561,36 +567,23 @@
                 </p>
             </div>
 
+            <form action="">
             <div>
-                <div>
-                    <label for="inputField"></label>
-                    <input type="text" id="1" placeholder="Name">
-                </div>
 
-                <div>
-                    <label for="inputField"></label>
-                    <input type="text" id="2" placeholder="Email">
-                </div>
+                    <input type="text" id="name" placeholder="Name">
 
-                <div>
-                    <label for="inputField"></label>
-                    <input type="text" id="3" placeholder="Contact">
-                </div>
+                    <input type="email" id="2" placeholder="Email">
 
-                <div>
-                    <label for="inputField"></label>
-                    <input type="text" id="4" placeholder="Subject">
-                </div>
+                    <input type="tel" id="contact_num" placeholder="Contact">
 
-                <div>
-                    <label for="inputField"></label>
-                    <input type="text" id="inputField" placeholder="Massage">
-                </div>
+                    <input type="text" id="subject" placeholder="Subject">
+
+                    <textarea name="" id="massage" cols="30" rows="10" placeholder="Massage"></textarea>
 
             </div>
 
-            <button>Submit</button>
-
+            <button type="submit">Submit</button>
+            </form>
         </div>
     </section>
 </main>
