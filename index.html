@@ -8,34 +8,45 @@
     <meta name="author" content="Kasun Kavinda">
     <meta name="viewPort" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico"  href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/youtube.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
 
 </head>
 <body>
 
 <header>
 
-    <picture>
-        <source srcset="../assets/images/logos/my_logo/My_Logo1.png" type="image/png+xml" title="logo - Kaviya">
-        <img src="../assets/images/logos/my_logo/My_Logo.svg" alt="Kaviya" width="57" title="logo - Kaviya">
-    </picture>
+    <section>
+        <picture>
+            <source srcset="../assets/images/logos/my_logo/My_Logo1.png" type="image/png+xml" title="logo - Kaviya">
+            <img src="../assets/images/logos/my_logo/My_Logo.svg" alt="Kaviya" width="57" title="logo - Kaviya">
+        </picture>
 
-    <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#project">Project</a>
-            <a href="#assignment">Assignment</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="#contact">Contact</a>
-    </nav>
+        <nav>
+            <dl id="header_navigation">
+                <dd><a href="#home">Home</a></dd>
+                <dd><a href="#about">About</a></dd>
+                <dd><a href="#project">Project</a></dd>
+                <dd><a href="#assignment">Assignment</a></dd>
+                <dd><a href="gallery.html">Gallery</a></dd>
+                <dd><a href="#contact">Contact</a></dd>
+            </dl>
+        </nav>
+    </section>
 </header>
 
 <main>
     <section id="home">
 
 
-            <img src="../assets/images/patterns/arrow_heads/Arrow_head.svg" alt="" width="50" title="Arrow head">
+            <img src="../assets/images/patterns/arrow_heads/Arrow_head.svg" alt="" width="50" title="Arrow head" id="arrow_1">
 
-        <div>
+        <div class="about_brief">
             <h1>Hey! I am Kasun Kavinda</h1>
 
             <div>
@@ -49,11 +60,11 @@
 
         <div>
 
-            <img src="../assets/images/patterns/arrow_heads/Arrow_head2.svg" alt="" width="50" title="Arrow head">
+            <img src="../assets/images/patterns/arrow_heads/Arrow_head2.svg" alt="" width="50" title="Arrow head" id="arrow_2">
 
 
 
-            <picture>
+            <picture id="my_main_image">
                 <source media="(min-width: 1000px)" srcset="../assets/images/my_images/My_Pic.png">
                 <source media="(min-width: 700px)" srcset="../assets/images/my_images/My_Pic_Medium.png">
                 <source media="(min-width: 400px)" srcset="../assets/images/my_images/My_Pic_Small.png">
@@ -63,7 +74,7 @@
         </div>
 
 
-        <picture>
+        <picture class="seperated_line">
             <source media="(min-width: 1900px)" srcset="../assets/images/patterns/line_separator/Line2.png">
             <source media="(min-width: 1800px)" srcset="../assets/images/patterns/line_separator/Line_1.png">
             <source media="(min-width: 1050px)" srcset="../assets/images/patterns/line_separator/Line2_(7).png">
@@ -80,14 +91,14 @@
 
             <h4>ABOUT ME</h4>
 
-            <div>
+            <div id="about_me">
                 <h1>I am Software Engineer</h1>
                 <h3>And  Tech Reviewer 👨‍💻 Video Creator 🎥 | ❤️💫.</h3>
             </div>
 
 
 
-                <div>
+                <div class="side_pattern">
 
                     <picture>
                         <source media="(min-width: 1000px)" srcset="../assets/images/patterns/about_side_art/Group_large.png">
@@ -99,28 +110,28 @@
 
         <div>
             <div>
-              <picture>
+              <picture id="my_second_image">
                     <source media="(min-width: 1000px)" srcset="../assets/images/my_images/My_Pic2_large.png">
                     <source media="(min-width: 700px)" srcset="../assets/images/my_images/My_Pic2_medium.png">
                     <source media="(min-width: 400px)" srcset="../assets/images/my_images/My_Pic2_small2.png">
                     <img src="../assets/images/my_images/My_Pic2_small2.png" alt="Kasun Kavinda" title="Second image">
              </picture>
 
-            <picture>
+            <picture id="dot_pattern">
                 <source media="(min-width: 1000px)" srcset="../assets/images/patterns/dot_pattern/Back_dots.png">
                 <source media="(min-width: 700px)" srcset="../assets/images/patterns/dot_pattern/Back_dots_(1).png">
                 <source media="(min-width: 400px)" srcset="../assets/images/patterns/dot_pattern/Back_dots_(2).png">
                 <img src="../assets/images/patterns/dot_pattern/Back_dots_(2).png" alt="" title="Background design">
             </picture>
 
-             <picture>
+             <picture id="my_third_image">
                     <source media="(min-width: 1000px)" srcset="../assets/images/my_images/My_Pic3_large.png">
                     <source media="(min-width: 700px)" srcset="../assets/images/my_images/My_Pic3_medium.png">
                     <source media="(min-width: 400px)" srcset="../assets/images/my_images/My_Pic3_small2.png">
                     <img src="../assets/images/my_images/My_Pic3_small2.png.png" alt="Kasun Kavinda" title="Third image">
              </picture>
             </div>
-            <div>
+            <div class="socials">
                 <a href="https://github.com/KasunKVI" ><img src="../assets/images/logos/socials/GitHub_Logo.png" alt="Github" title="Github" width="50"></a>
                 <a href="http://facebook.com/KaViYaKv"><img src="../assets/images/logos/socials/FB_Logo.png" alt="Facebook" title="Facebook" width="50"></a>
                 <a href="mailto:kkhettiarachchi10@gmail.com"><img src="../assets/images/logos/socials/Gmail_Logo.png" alt="Gmail" title="Email" width="50"></a>
@@ -130,9 +141,9 @@
 
         </div>
 
-            <button type="button">Download Cv</button>
+            <button type="button" id="download_btn">Download Cv</button>
 
-            <p>
+            <p id="about_explain">
                 As a full-stack developer,  I am driven by a deep passion for  crafting user-friendly and aesthetically pleasing<br>
                 UI designs that seamlessly integrate with  robust back-end functionality.<br>
                 I believe that great software goes beyond functionality;   it should also provide an exceptional user experience.<br>
@@ -150,9 +161,9 @@
 
 
 
-        <h3>youtube Showcase</h3>
+        <h3>YouTube Showcase</h3>
 
-        <picture>
+        <picture class="tangle_pattern">
             <source media="(min-width: 1000px)" srcset="../assets/images/patterns/tangle_pattern/Background_pattern_large.png">
             <source media="(min-width: 700px)" srcset="../assets/images/patterns/tangle_pattern/Background_pattern_medium.png">
             <source media="(min-width: 400px)" srcset="../assets/images/patterns/tangle_pattern/Background_pattern_small.png">
@@ -160,7 +171,7 @@
         </picture>
 
 
-        <div>
+        <div id="kvArt">
 
             <picture>
                 <source media="(min-width: 1000px)" srcset="../assets/images/logos/kaviArt/kaviArt_logo_large.png">
@@ -180,7 +191,7 @@
 
         </div>
 
-        <div>
+        <div id="kvTech">
 
             <picture>
                 <source media="(min-width: 1000px)" srcset="../assets/images/logos/kaviTech/kaviTech_logo_large.png">
@@ -198,7 +209,7 @@
 
         </div>
 
-        <div>
+        <div id="whoIs">
 
             <picture>
                 <source media="(min-width: 1000px)" srcset="../assets/images/logos/whoIs/whoIs_logo_large.png">
@@ -221,12 +232,12 @@
 
     </section>
 
-    <section>
+    <section id="skills">
 
-        <div>
+
 
             <h3>Code Maestro</h3>
-
+        <div id="square_pattern">
             <picture>
                 <source media="(min-width: 1000px)" srcset="../assets/images/patterns/square_pattern/Bcp.png">
                 <source media="(min-width: 700px)" srcset="../assets/images/patterns/square_pattern/Bcp(1).png">
@@ -240,7 +251,7 @@
 
             <div>
 
-                <img src="../assets/images/Ellipse_19.png" alt="" width="50">
+                <img src="../assets/images/Ellipse_19.png" alt="" width="50" id="blue_dot">
 
                 <picture>
                     <source media="(min-width: 1000px)" srcset="../assets/images/patterns/divider/Group_85.png">
@@ -275,7 +286,7 @@
 
     </section>
 
-    <section>
+    <section id="resume">
 
         <h3>My Resume</h3>
 
