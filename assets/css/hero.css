@@ -1,0 +1,31 @@
+#home{
+    position: relative;
+    background: #F3FFF1;
+    height: 100vh;
+    padding-bottom: 80vh;
+    overflow: auto;
+}
+#arrow_1{
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+}
+.about_brief{
+    position: absolute;
+    top: 43vh;
+    left: 8vw;
+}
+#my_main_image{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+}
+#arrow_2{
+    position: absolute;
+    right: 40vw;
+    top: 10vh;
+}
+.seperated_line{
+    position: absolute;
+    top: 90vh;
+}
