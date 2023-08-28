@@ -3,29 +3,286 @@
     background: #F3FFF1;
     height: 100vh;
     padding-bottom: 80vh;
-    overflow: auto;
+    overflow: visible;
 }
-#arrow_1{
+#contact_btn::before {
+    content: '';
     position: absolute;
-    top: 40vh;
-    left: 5vw;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffc506;
+    transition: .5s ease;
 }
-.about_brief{
-    position: absolute;
-    top: 43vh;
-    left: 8vw;
+
+#contact_btn:hover {
+    color: #1e1e2b;
+    transition-delay: .5s;
 }
-#my_main_image{
-    position: absolute;
-    right: 5vw;
-    top: 0;
+
+#contact_btn:hover::before {
+    width: 100%;
 }
-#arrow_2{
+
+#contact_btn::after {
+    content: '';
     position: absolute;
-    right: 40vw;
-    top: 10vh;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffc506;
+    transition: .4s ease;
+    z-index: -1;
 }
-.seperated_line{
-    position: absolute;
-    top: 90vh;
+
+#contact_btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: black;
+}
+#home>div>h1{
+    font-family: 'Aclonica', sans-serif;
+    color: #302929;
+}
+#home>div>h1>span{
+    color: #5FA853;
+}
+#home>div>div>h3{
+    font-family: 'Bellefair', serif;
+    color: #837634;
+}
+#home>div>h2{
+    font-family: 'Akaya Kanadaka', cursive;
+    color: #686B68;
+}
+
+#contact_btn {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+}
+@media all and (max-width: 1400px) and (min-width: 1024px){
+
+    #arrow_1 {
+        position: absolute;
+        top: 40vh;
+        left: 5vw;
+    }
+
+    .about_brief {
+        position: absolute;
+        top: 43vh;
+        left: 8vw;
+    }
+
+    #my_main_image {
+        position: relative;
+        left: 50vw;
+        top: 0;
+    }
+
+    #arrow_2 {
+        position: absolute;
+        right: 40vw;
+        top: 10vh;
+    }
+
+    .seperated_line {
+        position: absolute;
+        top: 90vh;
+    }
+    #home>div>h1{
+        font-size: 36px;
+    }
+    #home>div>div>h3{
+        font-size: 33px;
+    }
+    #home>div>h2{
+        font-size: 34px;
+    }
+
+}
+
+@media all and (min-width: 1400px){
+
+    #arrow_1 {
+        position: absolute;
+        top: 40vh;
+        left: 5vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 43vh;
+        left: 8vw;
+    }
+
+    #my_main_image {
+        position: absolute;
+        right: 5vw;
+        top: 0;
+    }
+
+    #arrow_2 {
+        position: absolute;
+        right: 40vw;
+        top: 10vh;
+    }
+
+    .seperated_line {
+        position: absolute;
+        top: 90vh;
+    }
+
+    #contact_btn {
+        font-size: 17px;
+        background: transparent;
+        border: none;
+        padding: 1em 1.5em;
+        color: #ffedd3;
+        text-transform: uppercase;
+        position: relative;
+        transition: .5s ease;
+    }
+    #home>div>h1{
+        font-size: 43px;
+    }
+    #home>div>div>h3{
+        font-size: 40px;
+    }
+    #home>div>h2{
+        font-size: 42px;
+    }
+
+}
+@media all and (max-width: 1024px) and (min-width: 768px){
+
+    #arrow_1 {
+        position: absolute;
+        top: 14vh;
+        left: 15vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 18vh;
+        left: 19vw;
+    }
+    #my_main_image {
+        position: absolute;
+        left: 18vw;
+        top: 80vh;
+    }
+    #arrow_2 {
+        position: absolute;
+        left: 30vw;
+        top: 80vh;
+    }
+    #home>div>h1{
+        font-size: 35px;
+    }
+    #home>div>div>h3{
+        font-size: 32px;
+    }
+    #home>div>h2{
+        font-size: 33px;
+    }
+}
+@media all and (max-width: 768px) and (min-width: 425px){
+    #arrow_1 {
+        position: absolute;
+        top: 13vh;
+        left: 8vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 18vh;
+        left: 14vw;
+    }
+    #my_main_image {
+        position: absolute;
+        left: 9vw;
+        top: 70vh;
+    }
+    #arrow_2 {
+        position: absolute;
+        left: 17vw;
+        top: 70vh;
+    }
+    #home>div>h1{
+        font-size: 25px;
+    }
+    #home>div>div>h3{
+        font-size: 23px;
+    }
+    #home>div>h2{
+        font-size: 24px;
+    }
+}
+@media all and (max-width: 425px) and (min-width: 375px){
+    #arrow_1 {
+        position: absolute;
+        top: 14vh;
+        left: 1vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 18vh;
+        left: 8vw;
+    }
+    #my_main_image {
+        position: absolute;
+        left: 2vw;
+        top: 85vh;
+    }
+    #arrow_2 {
+        position: absolute;
+        left: 18vw;
+        top: 85vh;
+    }
+    #home>div>h1{
+        font-size: 23px;
+    }
+    #home>div>div>h3{
+        font-size: 20px;
+    }
+    #home>div>h2{
+        font-size: 21px;
+    }
+}
+@media all and (max-width: 375px) and (min-width: 320px){
+    #arrow_1 {
+        position: absolute;
+        top: 14vh;
+        left: 1vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 18vh;
+        left: 6vw;
+    }
+    #my_main_image {
+        position: absolute;
+        right: 2px;
+        top: 70vh;
+    }
+    #arrow_2 {
+        position: absolute;
+        left: 18vw;
+        top: 70vh;
+    }
+    #home>div>h1{
+        font-size: 20px;
+    }
+    #home>div>div>h3{
+        font-size: 18px;
+    }
+    #home>div>h2{
+        font-size: 19px;
+    }
 }
