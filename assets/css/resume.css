@@ -118,3 +118,53 @@
         top: 7vh;
     }
 }
+@media all and (max-width: 1400px) and (min-width: 1024px){
+    #resume>h3{
+        position: absolute;
+        top: 15vh;
+        left: 45vw;
+
+    }
+    /*#resume_edu{*/
+    /*    position: absolute;*/
+    /*    top: 45vh;*/
+    /*    left: 43vw;*/
+    /*}*/
+    #degree{
+        top: 35vh;
+        left: 15vw;
+        width: 30vw;
+    }
+    #degree>img, #certificate>img{
+        position: relative;
+        left: 15vw;
+        top: 5vh;
+    }
+    #diploma{
+        top: 68vh;
+        left: 57vw;
+        width: 30vw;
+    }
+    #diploma>img{
+        position: relative;
+        right: 15vw;
+        top: 5vh;
+    }
+    #certificate{
+        top: 108vh;
+        left: 15vw;
+        width: 30vw;
+
+    }
+    #a\/l{
+        top: 145vh;
+        left: 57vw;
+        width: 30vw;
+
+    }
+    #a\/l>img{
+        position: relative;
+        right: 15vw;
+        top: 5vh;
+    }
+}
