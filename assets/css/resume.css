@@ -1,0 +1,120 @@
+#resume{
+    padding-top: 0;
+    position: relative;
+    background: #F3FFF1;
+    height: 100vh;
+    padding-bottom: 100vh;
+
+}
+#certificate, #a\/l, #diploma,#degree{
+    position: absolute;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+@media all and (max-width: 768px) and (min-width: 425px) {
+    #resume>h3{
+        position: absolute;
+        top: 10vh;
+        left: 35vw;
+
+    }
+    #degree{
+        top: 30vh;
+        left: 8vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #degree>img{
+        position: relative;
+        left: 35vw;
+        top: 0;
+    }
+
+    #certificate{
+        top: 90vh;
+        left: 8vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #certificate>img{
+        position: relative;
+        left: 35vw;
+        top: 0;
+    }
+    #diploma{;
+        top: 60vh;
+        left: 18vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #diploma>img{
+        position: relative;
+        right: 35vw;
+        top: 0;
+    }
+    #a\/l{
+        top: 120vh;
+        left: 18vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #a\/l>img{
+        position: relative;
+        right: 35vw;
+        top: 0;
+    }
+}
+@media all and (min-width: 1400px){
+
+    #resume>h3{
+        position: absolute;
+        top: 20vh;
+        left: 45vw;
+
+    }
+    /*#resume_edu{*/
+    /*    position: absolute;*/
+    /*    top: 45vh;*/
+    /*    left: 43vw;*/
+    /*}*/
+    #degree{
+        top: 35vh;
+        left: 25vw;
+        width: 20vw;
+    }
+    #degree>img, #certificate>img{
+        position: relative;
+        left: 10vw;
+        top: 7vh;
+    }
+    #diploma{
+        top: 68vh;
+        left: 60vw;
+        width: 23vw;
+    }
+    #diploma>img{
+        position: relative;
+        right: 12vw;
+        top: 7vh;
+    }
+    #certificate{
+        top: 108vh;
+        left: 25vw;
+        width: 20vw;
+
+    }
+    #a\/l{
+        top: 145vh;
+        left: 60vw;
+        width: 20vw;
+        text-align: center;
+    }
+    #a\/l>img{
+        position: relative;
+        right: 10vw;
+        top: 7vh;
+    }
+}

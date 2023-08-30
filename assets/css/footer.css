@@ -1,0 +1,92 @@
+footer{
+    position: relative;
+    background: #305456;
+    top: 0;
+    height: 15vh;
+}
+#developer{
+    position: absolute;
+    left: 45vw;
+    top: 2vh;
+}
+#address{
+    position: absolute;
+    top: 6vh;
+    left: 2vw;
+}
+#address>img{
+    position: relative;
+    right: 2vw;
+    top: 3vh;
+}
+#contact_number{
+    position: absolute;
+    top: 4vh;
+    left: 18vw;
+}
+#contact_number>img{
+    position: relative;
+    right: 3vw;
+    top: 5vh;
+}
+#email_ft{
+    position: absolute;
+    left: 36vw;
+    top: 3vh;
+}
+#email_ft>img{
+    position: relative;
+    right: 3vw;
+    top: 5.5vh;
+}
+#socials_footer{
+    position: absolute;
+    right: 10vw;
+    top: 8vh;
+}
+div>h4{
+    margin: 0;
+}
+@media all and (max-width: 768px) and (min-width: 425px) {
+    #developer{
+        position: absolute;
+        left: 31vw;
+        top: 0;
+    }
+    #address{
+        position: absolute;
+        top: 6vh;
+        left: 2vw;
+        font-size: 11px;
+    }
+    #address>img{
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    #contact_number{
+        position: absolute;
+        top: 6vh;
+        left: 27vw;
+        font-size: 11px;
+    }
+    #contact_number>img{
+        position: relative;
+        right: 2vw;
+        top: 0;
+    }
+    #email_ft{
+        position: absolute;
+        left: 51vw;
+        top: 6vh;
+        font-size: 11px;
+    }
+    #email_ft>img{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    #socials_footer{
+       display: none;
+    }
+}
