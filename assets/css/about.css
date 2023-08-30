@@ -5,6 +5,7 @@
 }
 #about_me_side_bar {
     background: #B9BC26;
+    position: absolute;
 }
 #about>h4{
     font-family: 'Arya', sans-serif;
@@ -154,8 +155,12 @@
 #download_btn:hover .button_lg::after {
     background-color: #fff;
 }
+.socials>a{
+    display: block;
+    padding: 2vh;
+}
 
-@media all and (min-width: 1400px){
+@media all and (min-width: 1440px){
     #about>h4{
         position: absolute;
         top: 5vh;
@@ -186,43 +191,39 @@
     }
     #dot_pattern{
         position: absolute;
-        top: 50vh;
+        top: 53vh;
         left: 35vw;
         z-index: 0;
     }
-
     #photo_with_socials{
         position: absolute;
-        top: 105vh;
-        left: 33vw;
+        top: 96vh;
+        left: 30vw;
         display: flex;
         justify-content: space-between;
     }
-    .socials>a{
-        display: block;
-        padding: 2vh;
-    }
+
     #download_btn{
         position: absolute;
-        top: 165vh;
+        top: 150vh;
         left: 50vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 180vh;
-        left: 20vw;
+        top: 172vh;
+        left: 25vw;
     }
     #about_me_side_bar{
         position: absolute;
         width: 2vw;
-        height: 30vh;
-        top: 176vh;
-        left: 16vw;
+        height: 20vh;
+        top: 170vh;
+        left: 22vw;
     }
 
 }
-@media all and (max-width: 1400px) and (min-width: 1024px){
+@media all and (max-width: 1440px){
 
     #about>h4{
         position: absolute;
@@ -249,14 +250,14 @@
     }
     #dot_pattern{
         position: absolute;
-        top: 50vh;
-        left: 45vw;
+        top: 53vh;
+        left: 42vw;
         z-index: 0;
     }
 
     #photo_with_socials{
         position: absolute;
-        top: 105vh;
+        top: 95vh;
         left: 38vw;
         display: flex;
         justify-content: space-between;
@@ -264,22 +265,27 @@
     .socials>a{
         display: block;
         padding: 2vh;
-
     }
     #download_btn{
         position: absolute;
-        top: 165vh;
+        top: 145vh;
         left: 60vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 180vh;
+        top: 160vh;
         left: 20vw;
+    }
+    #about_me_side_bar{
+        width: 2vw;
+        height: 20vh;
+        top: 158vh;
+        left: 16vw;
     }
 
 }
-@media all and (max-width: 1024px) and (min-width: 768px){
+@media all and (max-width: 1024px){
     #about>h4{
         position: absolute;
         top: 5vh;
@@ -306,7 +312,7 @@
     #dot_pattern{
         position: absolute;
         top: 53vh;
-        left: 58vw;
+        left: 60vw;
         z-index: 0;
     }
 
@@ -314,34 +320,43 @@
         display: block;
         padding: 2vh;
         position: relative;
-        left: 70vw;
-        top: 15vh;
-
+        left: 50vw;
+        top: 0;
+        overflow: hidden;
+        width: 50px;
     }
+
     #download_btn{
         position: absolute;
         top: 145vh;
-        left: 60vw;
+        left: 70vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 170vh;
-        left: 5vw;
+        top: 165vh;
+        left: 15vw;
+        font-size: 13px;
     }
-
+    #about_me_side_bar{
+        width: 2vw;
+        height: 16vh;
+        top: 163vh;
+        left: 11vw;
+    }
 }
-@media all and (max-width: 768px) and (min-width: 425px){
+@media all and (max-width: 768px){
+
     #about>h4{
         position: absolute;
-        top: 5vh;
-        left: 2vw;
+        top: 15vh;
+        left: 3vw;
 
     }
     #about_me{
         position: absolute;
-        top: 8vh;
-        left: 2vw;
+        top: 16vh;
+        left: 3vw;
     }
 
     #my_second_image{
@@ -358,7 +373,7 @@
     #dot_pattern{
         position: absolute;
         top: 60vh;
-        left: 43vw;
+        left: 58vw;
         z-index: 0;
     }
 
@@ -366,102 +381,112 @@
         display: block;
         padding: 2vw;
         position: relative;
-        left: 82vw;
-        top: 28vh;
-
+        left: 43vw;
+        top: 0;
     }
     .socials{
         width: 50px;
     }
     #download_btn{
         position: absolute;
-        top: 125vh;
-        left: 40vw;
+        top: 130vh;
+        left: 50vw;
 
     }
     #about_explain{
         position: absolute;
         top: 140vh;
-        left: 18vw;
-        font-size: 10px;
-        width: 300px;
+        left: 12vw;
+        font-size: 13px;
+        width: 80%;
+
+    }
+    #about_me_side_bar{
+        position: absolute;
+        width: 2vw;
+        height: 20vh;
+        top: 140vh;
+        left: 7vw;
+    }
+}
+@media all and (max-width: 425px){
+    #about>h4{
+        position: absolute;
+        top: 15vh;
+        left: 3vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 18vh;
+        left: 3vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 67vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 64vh;
+        left: 47vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        padding: 2vh;
+        position: relative;
+        left: 37vw;
+        top: -22vh;
+        width: 50px;
+
+    }
+
+
+    #download_btn{
+        position: absolute;
+        top: 100vh;
+        left: 25vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 120vh;
+        left: 12vw;
+        font-size: 12px;
     }
     #about_me_side_bar{
         position: absolute;
         width: 2vw;
         height: 30vh;
-        top: 140vh;
-        left: 12vw;
+        top: 118vh;
+        left: 7vw;
     }
+
 }
-@media all and (max-width: 425px) and (min-width: 375px){
+
+@media all and (max-width: 375px) {
     #about>h4{
         position: absolute;
-        top: 5vh;
-        left: 2vw;
-
-    }
-    #about_me{
-        position: absolute;
-        top: 8vh;
-        left: 2vw;
-    }
-
-    #my_second_image{
-        position: relative;
-        top: 60vh;
-        left: 10vw;
-        z-index: 1;
-
-    }
-    #my_third_image{
-        display: none;
-
-    }
-    #dot_pattern{
-        position: absolute;
-        top: 53vh;
-        left: 63vw;
-        z-index: 0;
-    }
-
-    .socials>a{
-        display: block;
-        padding: 2vh;
-        position: relative;
-        left: 82vw;
         top: 15vh;
-
-    }
-    #download_btn{
-        position: absolute;
-        top: 145vh;
-        left: 60vw;
-
-    }
-    #about_explain{
-        position: absolute;
-        top: 170vh;
-        left: 5vw;
-    }
-
-}
-
-@media all and (max-width: 375px) and (min-width: 320px){
-    #about>h4{
-        position: absolute;
-        top: 5vh;
-        left: 2vw;
+        left: 3vw;
 
     }
     #about_me{
         position: absolute;
-        top: 8vh;
-        left: 2vw;
+        top: 18vh;
+        left: 3vw;
     }
     #my_second_image{
         position: relative;
-        top: 60vh;
+        top: 67vh;
         left: 10vw;
         z-index: 1;
 
@@ -473,8 +498,8 @@
     }
     #dot_pattern{
         position: absolute;
-        top: 53vh;
-        left: 63vw;
+        top: 64vh;
+        left: 53vw;
         z-index: 0;
     }
 
@@ -482,19 +507,87 @@
         display: block;
         padding: 2vh;
         position: relative;
-        left: 82vw;
-        top: 15vh;
+        left: 38vw;
+        top: -23vh;
+        width: 50px;
 
     }
     #download_btn{
         position: absolute;
-        top: 145vh;
-        left: 60vw;
+        top: 100vh;
+        left: 20vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 170vh;
+        top: 120vh;
+        left: 14vw;
+        font-size: 11px;
+    }
+    #about_me_side_bar{
+
+        width: 2vw;
+        height: 30vh;
+        top: 118vh;
+        left: 7vw;
+    }
+}
+@media all and (max-width: 320px){
+    #about>h4{
+        position: absolute;
+        top: 15vh;
+        left: 3vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 18vh;
+        left: 3vw;
+    }
+    #my_second_image{
+        position: relative;
+        top: 67vh;
         left: 5vw;
+        z-index: 1;
+
+    }
+
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 64vh;
+        left: 52vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vh;
+        position: relative;
+        left: 37vw;
+        top: -23vh;
+        width: 50px;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 100vh;
+        left: 15vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 120vh;
+        left: 13vw;
+        font-size: 10px;
+    }
+    #about_me_side_bar{
+        width: 2vw;
+        height: 25vh;
+        top: 119vh;
+        left: 7vw;
     }
 }
