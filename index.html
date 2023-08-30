@@ -8,6 +8,15 @@
     <meta name="author" content="Kasun Kavinda">
     <meta name="viewPort" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico"  href="../assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/hero.css">
@@ -32,6 +41,7 @@
             <img src="../assets/images/logos/my_logo/My_Logo.svg" alt="Kaviya" width="57" title="logo - Kaviya">
         </picture>
 
+        <img src="../assets/images/icons8-menu-128.png" alt="" width="50" id="menu">
         <nav>
             <dl id="header_navigation">
                 <dd><a href="#home">Home</a></dd>
@@ -52,7 +62,7 @@
             <img src="../assets/images/patterns/arrow_heads/Arrow_head.svg" alt="" width="50" title="Arrow head" id="arrow_1">
 
         <div class="about_brief">
-            <h1>Hey! I am Kasun Kavinda</h1>
+            <h1>Hey! I am <span>Kasun Kavinda</span></h1>
 
             <div>
                 <h3>A passionate software engineer.</h3>
@@ -60,7 +70,7 @@
             </div>
 
             <h2>Please take a look  around!</h2>
-            <button>Contact Me</button>
+            <button id="contact_btn">Contact Me</button>
         </div>
 
         <div>
@@ -79,16 +89,16 @@
         </div>
 
 
-        <picture class="seperated_line">
-            <source media="(min-width: 1900px)" srcset="../assets/images/patterns/line_separator/Line2.png">
-            <source media="(min-width: 1800px)" srcset="../assets/images/patterns/line_separator/Line_1.png">
-            <source media="(min-width: 1050px)" srcset="../assets/images/patterns/line_separator/Line2_(7).png">
-            <source media="(min-width: 900px)" srcset="../assets/images/patterns/line_separator/Line_half.png">
-            <source media="(min-width: 850px)" srcset="../assets/images/patterns/line_separator/Line_2_(6).png">
-            <source media="(min-width: 700px)" srcset="../assets/images/patterns/line_separator/Line_medium.png">
-           <source media="(min-width: 400px)" srcset="../assets/images/patterns/line_separator/Line_2_(3).png">
-            <img src="../assets/images/patterns/line_separator/Line_2_(3).png" alt="" title="First Line Separator">
-        </picture>
+<!--        <picture class="seperated_line">-->
+<!--            <source media="(min-width: 1900px)" srcset="../assets/images/patterns/line_separator/Line2.png">-->
+<!--            <source media="(min-width: 1800px)" srcset="../assets/images/patterns/line_separator/Line_1.png">-->
+<!--            <source media="(min-width: 1050px)" srcset="../assets/images/patterns/line_separator/Line2_(7).png">-->
+<!--            <source media="(min-width: 900px)" srcset="../assets/images/patterns/line_separator/Line_half.png">-->
+<!--            <source media="(min-width: 850px)" srcset="../assets/images/patterns/line_separator/Line_2_(6).png">-->
+<!--            <source media="(min-width: 700px)" srcset="../assets/images/patterns/line_separator/Line_medium.png">-->
+<!--           <source media="(min-width: 400px)" srcset="../assets/images/patterns/line_separator/Line_2_(3).png">-->
+<!--            <img src="../assets/images/patterns/line_separator/Line_2_(3).png" alt="" title="First Line Separator">-->
+<!--        </picture>-->
 
     </section>
 
@@ -97,7 +107,7 @@
             <h4>ABOUT ME</h4>
 
             <div id="about_me">
-                <h1>I am Software Engineer</h1>
+                <h1>I am <span>Software Engineer</span></h1>
                 <h3>And  Tech Reviewer 👨‍💻 Video Creator 🎥 | ❤️💫.</h3>
             </div>
 
@@ -118,7 +128,8 @@
               <picture id="my_second_image">
                     <source media="(min-width: 1000px)" srcset="../assets/images/my_images/My_Pic2_large.png">
                     <source media="(min-width: 700px)" srcset="../assets/images/my_images/My_Pic2_medium.png">
-                    <source media="(min-width: 400px)" srcset="../assets/images/my_images/My_Pic2_small2.png">
+                    <source media="(min-width: 455kpx)" srcset="../assets/images/my_images/My_Pic2_small.png">
+                    <source media="(min-width: 320px)" srcset="../assets/images/my_images/My_Pic2_small2.png">
                     <img src="../assets/images/my_images/My_Pic2_small2.png" alt="Kasun Kavinda" title="Second image">
              </picture>
             <div>
@@ -148,7 +159,14 @@
 
         </div>
 
-            <button type="button" id="download_btn">Download Cv</button>
+            <button type="button" id="download_btn">
+                <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">Download Cv</span>
+                 </span>
+            </button>
+
+            <div id="about_me_side_bar"></div>
 
             <p id="about_explain">
                 As a full-stack developer,  I am driven by a deep passion for  crafting user-friendly and aesthetically pleasing<br>
@@ -195,7 +213,7 @@
                 mesmerizing pen art. Join us for an<br>
                 unforgettable artistic journey!
             </p>
-            <h5>Visit Now</h5>
+            <h5><a href="">Visit Now</a></h5>
 
         </div>
 
@@ -213,7 +231,7 @@
             <p>
                 Tech Talk: Discover the latest gadgets, reviews,<br> and tech tips to level up your digital life!
             </p>
-            <h5>Visit Now</h5>
+            <h5><a href="">Visit Now</a></h5>
 
         </div>
 
@@ -234,7 +252,7 @@
                 famous personalities to life.
             </p>
 
-            <h5>Visit Now</h5>
+            <h5><a href="">Visit Now</a></h5>
 
         </div>
 
@@ -258,7 +276,14 @@
         <div>
 
             <div id="certificate_lang">
-                <div></div>
+                <div class="card1">
+                    <img src="../assets/images/skills/certifates/java_introduction.png" alt="">
+                    <div class="card__content">
+                        <p class="card__title">Introduction to Java</p>
+                        <p class="card__description">Introduction to java certificate conducted by SoloLearn</p>
+                        <a href="https://www.sololearn.com/certificates/CC-CNBWYFLO" >view certificate</a>
+                    </div>
+                </div>
                 <div></div>
                 <div></div>
 
@@ -272,11 +297,7 @@
 <!--                </picture>-->
 
             </div>
-            <div id="skills1">
 
-
-
-            </div>
 
             <div id="skills2">
                 <img src="../assets/images/skills/html_logo.png" alt="Html" title="html" width="50">
@@ -572,8 +593,32 @@
             <h4>Assignments</h4>
             <h1>Unlock my potential</h1>
         </div>
+        <section class="product-container product-1">
+            <div class="card">
+                <div class="photo"></div>
+                <div class="content">
+                    <div class="title">Assignment 03</div>
+                    <div class="bg-title">HTML</div>
+                    <div class="feature size">
+                        <div>Case :</div>
+                        <span>01</span>
 
-        <a href="assignment.html"><button> More >></button></a>
+                    </div>
+                    <div class="feature color">
+                        <div>color :</div>
+                        <span>pink</span>
+                        <span class="tt">blue</span>
+                        <span class="ttt">green</span>
+                    </div>
+                    <button class="btn-buy">buy now</button>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container">
+            <div class="btn"><a href="#">More >></a></div>
+        </div>
 
     </section>
 
@@ -602,19 +647,46 @@
             <form action="">
             <div>
 
-                    <input type="text" id="name" placeholder="Name">
 
-                    <input type="email" id="email" placeholder="Email">
+                <div class="inputContainer1">
+                    <input required="required" id="inputField1" placeholder="Name" type="text">
+                    <label class="nameLabel" for="inputField1">Name</label>
+                </div>
 
-                    <input type="tel" id="contact_num" placeholder="Contact">
+                <div class="inputContainer2">
+                    <input required="required" id="inputField2" placeholder="Email" type="email">
+                    <label class="emailLabel" for="inputField2">Email</label>
+                </div>
 
-                    <input type="text" id="subject" placeholder="Subject">
+                <div class="inputContainer3">
+                    <input required="required" id="inputField3" placeholder="Contact" type="tel">
+                    <label class="contactLabel" for="inputField3">Email</label>
+                </div>
 
-                    <textarea name="" id="massage" cols="30" rows="10" placeholder="Massage"></textarea>
+                <div class="inputContainer4">
+                    <input required="required" id="inputField4" placeholder="Subject" type="text">
+                    <label class="subjectLabel" for="inputField4">Subject</label>
+                </div>
+
+                <div class="inputContainer5">
+                    <textarea required="required" id="inputField5" placeholder="Massage" cols="30" rows="10"></textarea>
+                    <label class="massageLabel" for="inputField5">Massage</label>
+                </div>
+
 
             </div>
 
-            <button type="submit" id="submit_btn">Submit</button>
+            <button type="submit" id="submit_btn">
+
+                <div>Submit</div>
+
+                <svg fill="none" viewBox="0 0 24 24" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="black" d="M11.6801 14.62L14.2401 12.06L11.6801 9.5"></path>
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="black" d="M4 12.0601H14.17"></path>
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="black" d="M12 4C16.42 4 20 7 20 12C20 17 16.42 20 12 20"></path>
+                </svg>
+            </button>
+
             </form>
         </div>
     </section>
