@@ -86,19 +86,14 @@
 
     #my_main_image {
         position: absolute;
-        right: 0;
-        top: 0;
+        right: 1vw;
+        top: 8vh;
     }
 
     #arrow_2 {
         position: absolute;
-        right: 40vw;
-        top: 10vh;
-    }
-
-    .seperated_line {
-        position: absolute;
-        top: 90vh;
+        right: 25vw;
+        top: 15vh;
     }
 
     #contact_btn {
@@ -122,7 +117,7 @@
     }
 
 }
-@media all and (min-width: 1024px){
+@media all and (max-width: 1440px){
 
     #arrow_1 {
         position: absolute;
@@ -138,13 +133,13 @@
 
     #my_main_image {
         position: relative;
-        left: 60vw;
+        left: 50vw;
         top: 10vh;
     }
 
     #arrow_2 {
         position: absolute;
-        right: 25vw;
+        right: 30vw;
         top: 13vh;
     }
 
@@ -167,33 +162,71 @@
 
     #arrow_1 {
         position: absolute;
-        top: 14vh;
-        left: 15vw;
+        top: 40vh;
+        left: 5vw;
     }
+
     .about_brief {
         position: absolute;
-        top: 18vh;
-        left: 19vw;
+        top: 43vh;
+        left: 8vw;
     }
+
     #my_main_image {
-        position: absolute;
-        left: 18vw;
-        top: 80vh;
+        position: relative;
+        left: 52vw;
+        top: 18vh;
     }
+
     #arrow_2 {
         position: absolute;
-        left: 30vw;
-        top: 80vh;
+        right: 28vw;
+        top: 18vh;
+    }
+
+    .seperated_line {
+        position: absolute;
+        top: 90vh;
     }
     #home>div>h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     #home>div>div>h3{
-        font-size: 32px;
+        font-size: 27px;
     }
     #home>div>h2{
-        font-size: 33px;
+        font-size: 28px;
     }
+
+    /*#arrow_1 {*/
+    /*    position: absolute;*/
+    /*    top: 14vh;*/
+    /*    left: 15vw;*/
+    /*}*/
+    /*.about_brief {*/
+    /*    position: absolute;*/
+    /*    top: 18vh;*/
+    /*    left: 19vw;*/
+    /*}*/
+    /*#my_main_image {*/
+    /*    position: absolute;*/
+    /*    left: 18vw;*/
+    /*    top: 80vh;*/
+    /*}*/
+    /*#arrow_2 {*/
+    /*    position: absolute;*/
+    /*    left: 30vw;*/
+    /*    top: 80vh;*/
+    /*}*/
+    /*#home>div>h1{*/
+    /*    font-size: 35px;*/
+    /*}*/
+    /*#home>div>div>h3{*/
+    /*    font-size: 32px;*/
+    /*}*/
+    /*#home>div>h2{*/
+    /*    font-size: 33px;*/
+    /*}*/
 }
 @media all and (max-width: 768px){
     #arrow_1 {
@@ -301,7 +334,7 @@
     }
     #my_main_image {
         position: absolute;
-        left: 3vw;
+        left: -6vw;
         top: 70vh;
         overflow: hidden;
     }
