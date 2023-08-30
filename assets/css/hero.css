@@ -125,13 +125,13 @@
 
     #my_main_image {
         position: absolute;
-        right: 5vw;
+        right: 0;
         top: 0;
     }
 
     #arrow_2 {
         position: absolute;
-        right: 40vw;
+        right: 30vw;
         top: 10vh;
     }
 
