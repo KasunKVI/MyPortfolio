@@ -1,0 +1,500 @@
+#about{
+    position: relative;
+    height: 100vh;
+    padding-bottom: 120vh;
+}
+#about_me_side_bar {
+    background: #B9BC26;
+}
+#about>h4{
+    font-family: 'Arya', sans-serif;
+    color: #6BD159;
+}
+#about>div>h1{
+    margin-top: 50px;
+    font-family: 'Alike', serif;
+    color: #302929;
+}
+#about>div>h1>span{
+    color: #A99E3A;
+}
+#about>div>h3{
+    font-family: 'Alike', serif;
+    color: #020202;
+}
+#about_explain{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: bold;
+}
+#my_second_image>img{
+    border-radius: 35px;
+}
+#my_third_image>img{
+    border-radius: 40px;
+}
+.side_pattern{
+    position: absolute;
+    top: 70vh;
+    left: 0;
+}
+#download_btn {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .15s ease;
+}
+
+#download_btn::before,
+#download_btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid #7D8082;
+    transition: all .15s ease;
+}
+
+#download_btn::before {
+    top: 0;
+    border-bottom-width: 0;
+}
+
+#download_btn::after {
+    bottom: 0;
+    border-top-width: 0;
+}
+
+#download_btn:active,
+#download_btn:focus {
+    outline: none;
+}
+
+#download_btn:active::before,
+#download_btn:active::after {
+    right: 3px;
+    left: 3px;
+}
+
+#download_btn:active::before {
+    top: 3px;
+}
+
+#download_btn:active::after {
+    bottom: 3px;
+}
+
+.button_lg {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0f1923;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+}
+
+.button_lg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+}
+
+.button_sl {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-color: #ff4655;
+    transform: skew(-15deg);
+    transition: all .2s ease;
+}
+
+.button_text {
+    position: relative;
+}
+
+#download_btn:hover {
+    color: #0f1923;
+}
+
+#download_btn:hover .button_sl {
+    width: calc(100% + 15px);
+}
+
+#download_btn:hover .button_lg::after {
+    background-color: #fff;
+}
+
+@media all and (min-width: 1400px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+        font-size: 25px;
+    }
+    #about>div>h1{
+        font-size: 50px;
+    }
+    #about>div>h3{
+        font-size: 40px;
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 7vw;
+        z-index: 1;
+    }
+    #my_third_image{
+        z-index: 2;
+        padding-right: 1vw;
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 50vh;
+        left: 35vw;
+        z-index: 0;
+    }
+
+    #photo_with_socials{
+        position: absolute;
+        top: 105vh;
+        left: 33vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .socials>a{
+        display: block;
+        padding: 2vh;
+    }
+    #download_btn{
+        position: absolute;
+        top: 165vh;
+        left: 50vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 180vh;
+        left: 20vw;
+    }
+    #about_me_side_bar{
+        position: absolute;
+        width: 2vw;
+        height: 30vh;
+        top: 176vh;
+        left: 16vw;
+    }
+
+}
+@media all and (max-width: 1400px) and (min-width: 1024px){
+
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 7vw;
+        z-index: 1;
+    }
+    #my_third_image{
+        z-index: 2;
+        padding-right: 1vw;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 50vh;
+        left: 45vw;
+        z-index: 0;
+    }
+
+    #photo_with_socials{
+        position: absolute;
+        top: 105vh;
+        left: 38vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .socials>a{
+        display: block;
+        padding: 2vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 165vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 180vh;
+        left: 20vw;
+    }
+
+}
+@media all and (max-width: 1024px) and (min-width: 768px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 15vw;
+        z-index: 1;
+
+    }
+    #my_third_image{
+       display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 53vh;
+        left: 58vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vh;
+        position: relative;
+        left: 70vw;
+        top: 15vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 145vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 170vh;
+        left: 5vw;
+    }
+
+}
+@media all and (max-width: 768px) and (min-width: 425px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 65vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 60vh;
+        left: 43vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vw;
+        position: relative;
+        left: 82vw;
+        top: 28vh;
+
+    }
+    .socials{
+        width: 50px;
+    }
+    #download_btn{
+        position: absolute;
+        top: 125vh;
+        left: 40vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 140vh;
+        left: 18vw;
+        font-size: 10px;
+        width: 300px;
+    }
+    #about_me_side_bar{
+        position: absolute;
+        width: 2vw;
+        height: 30vh;
+        top: 140vh;
+        left: 12vw;
+    }
+}
+@media all and (max-width: 425px) and (min-width: 375px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 53vh;
+        left: 63vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vh;
+        position: relative;
+        left: 82vw;
+        top: 15vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 145vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 170vh;
+        left: 5vw;
+    }
+
+}
+
+@media all and (max-width: 375px) and (min-width: 320px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 53vh;
+        left: 63vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vh;
+        position: relative;
+        left: 82vw;
+        top: 15vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 145vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 170vh;
+        left: 5vw;
+    }
+}
