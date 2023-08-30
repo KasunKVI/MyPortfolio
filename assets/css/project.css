@@ -178,9 +178,7 @@
     }
     #tea_lang>h6{
         margin-left: 2vw;
-        background: #26AABC;
         padding: 6%;
-        border-radius: 15px;
     }
     #tea_images>picture:first-child{
         position: absolute;
@@ -191,6 +189,103 @@
         position: absolute;
         top: 42vh;
         right: 6vw;
+    }
+    #tea_images>picture:nth-child(3){
+        position: absolute;
+        top: 65vh;
+        right: 30vw;
+    }
+    #tea_images>picture:last-child{
+        position: absolute;
+        top: 76vh;
+        right: 6vw;
+    }
+    #zoo_project>h2{
+        width: 20vw;
+        padding-top: 1vh;
+
+    }
+    #zoo_project>div>p{
+        right: 10vw;
+    }
+    #zoo_lang{
+        top: 130vh;
+        right: 10vw;
+    }
+
+    #zoo_images>picture:first-child{
+        position: absolute;
+        left: 27vw;
+        top: 110vh;
+    }
+    #zoo_images>picture:nth-child(2){
+        position: absolute;
+        left: 5vw;
+        top: 120vh;
+    }
+    #zoo_images>picture:nth-child(3){
+        position: absolute;
+        left: 27vw;
+        top: 140vh;
+    }
+    #zoo_images>picture:last-child{
+        position: absolute;
+        left: 5vw;
+        top: 150vh;
+    }
+    #connect4>h2{
+        width: 20vw;
+        padding-top: 1vh;
+    }
+    #connect4>div>p{
+        left: 10vw;
+    }
+    #connect4_lang{
+        top: 209vh;
+        left: 8vw;
+    }
+
+    #connect4_images>picture:first-child{
+        position: absolute;
+        bottom: 60vh;
+        right: 30vw;
+    }
+    #connect4_images>picture:last-child{
+        position: absolute;
+        bottom: 45vh;
+        right: 8vw;
+
+    }
+
+}
+@media all and (max-width: 1400px) and (min-width: 1024px){
+
+    #tea_project>h2{
+        width: 30vw;
+        padding-top: 2vh;
+    }
+    #tea_project>div>p{
+        left: 9vw;
+        top: 41vh;
+    }
+
+    #tea_lang{
+        top: 50vh;
+        left: 7vw;
+    }
+    #tea_lang>h6{
+        margin-left: 1vw;
+        padding: 5%;
+    }
+    #tea_images>picture:first-child{
+        position: absolute;
+        top: 40vh;
+        right: 23vw;
+    }
+    #tea_images>picture:nth-child(2){
+        position: absolute;
+        top: 45vh;
+        right: 0;
     }
     #tea_images>picture:nth-child(3){
         position: absolute;

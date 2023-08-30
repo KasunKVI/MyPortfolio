@@ -1,3 +1,4 @@
+
 #home{
     position: relative;
     background: #F3FFF1;
@@ -68,49 +69,9 @@
     position: relative;
     transition: .5s ease;
 }
-@media all and (max-width: 1400px) and (min-width: 1024px){
 
-    #arrow_1 {
-        position: absolute;
-        top: 40vh;
-        left: 5vw;
-    }
 
-    .about_brief {
-        position: absolute;
-        top: 43vh;
-        left: 8vw;
-    }
-
-    #my_main_image {
-        position: relative;
-        left: 50vw;
-        top: 0;
-    }
-
-    #arrow_2 {
-        position: absolute;
-        right: 40vw;
-        top: 10vh;
-    }
-
-    .seperated_line {
-        position: absolute;
-        top: 90vh;
-    }
-    #home>div>h1{
-        font-size: 36px;
-    }
-    #home>div>div>h3{
-        font-size: 33px;
-    }
-    #home>div>h2{
-        font-size: 34px;
-    }
-
-}
-
-@media all and (min-width: 1400px){
+@media all and (min-width: 1440px){
 
     #arrow_1 {
         position: absolute;
@@ -131,7 +92,7 @@
 
     #arrow_2 {
         position: absolute;
-        right: 30vw;
+        right: 40vw;
         top: 10vh;
     }
 
@@ -161,7 +122,48 @@
     }
 
 }
-@media all and (max-width: 1024px) and (min-width: 768px){
+@media all and (min-width: 1024px){
+
+    #arrow_1 {
+        position: absolute;
+        top: 40vh;
+        left: 5vw;
+    }
+
+    .about_brief {
+        position: absolute;
+        top: 43vh;
+        left: 8vw;
+    }
+
+    #my_main_image {
+        position: relative;
+        left: 60vw;
+        top: 10vh;
+    }
+
+    #arrow_2 {
+        position: absolute;
+        right: 25vw;
+        top: 13vh;
+    }
+
+    .seperated_line {
+        position: absolute;
+        top: 90vh;
+    }
+    #home>div>h1{
+        font-size: 36px;
+    }
+    #home>div>div>h3{
+        font-size: 33px;
+    }
+    #home>div>h2{
+        font-size: 34px;
+    }
+
+}
+@media all and (max-width: 1024px){
 
     #arrow_1 {
         position: absolute;
@@ -193,26 +195,26 @@
         font-size: 33px;
     }
 }
-@media all and (max-width: 768px) and (min-width: 425px){
+@media all and (max-width: 768px){
     #arrow_1 {
         position: absolute;
-        top: 13vh;
-        left: 8vw;
+        top: 20vh;
+        left: 20vw;
     }
     .about_brief {
         position: absolute;
-        top: 18vh;
-        left: 14vw;
+        top: 25vh;
+        left: 25vw;
     }
     #my_main_image {
         position: absolute;
-        left: 9vw;
-        top: 70vh;
+        left: 12vw;
+        top: 80vh;
     }
     #arrow_2 {
         position: absolute;
-        left: 17vw;
-        top: 70vh;
+        left: 32vw;
+        top: 80vh;
     }
     #home>div>h1{
         font-size: 25px;
@@ -224,25 +226,25 @@
         font-size: 24px;
     }
 }
-@media all and (max-width: 425px) and (min-width: 375px){
+@media all and (max-width: 425px){
     #arrow_1 {
         position: absolute;
-        top: 14vh;
-        left: 1vw;
+        top: 21vh;
+        left: 3vw;
     }
     .about_brief {
         position: absolute;
-        top: 18vh;
-        left: 8vw;
+        top: 25vh;
+        left: 14vw;
     }
     #my_main_image {
         position: absolute;
-        left: 2vw;
+        left: 4vw;
         top: 85vh;
     }
     #arrow_2 {
         position: absolute;
-        left: 18vw;
+        left: 20vw;
         top: 85vh;
     }
     #home>div>h1{
@@ -255,25 +257,25 @@
         font-size: 21px;
     }
 }
-@media all and (max-width: 375px) and (min-width: 320px){
+@media all and (max-width: 375px){
     #arrow_1 {
         position: absolute;
         top: 14vh;
-        left: 1vw;
+        left: 4vw;
     }
     .about_brief {
         position: absolute;
         top: 18vh;
-        left: 6vw;
+        left: 15vw;
     }
     #my_main_image {
         position: absolute;
-        right: 2px;
+        right: 4px;
         top: 70vh;
     }
     #arrow_2 {
         position: absolute;
-        left: 18vw;
+        left: 20vw;
         top: 70vh;
     }
     #home>div>h1{
@@ -284,5 +286,37 @@
     }
     #home>div>h2{
         font-size: 19px;
+    }
+}
+@media all and (max-width: 320px){
+    #arrow_1 {
+        position: absolute;
+        top: 14vh;
+        left: 1vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 18vh;
+        left: 11vw;
+    }
+    #my_main_image {
+        position: absolute;
+        left: 3vw;
+        top: 70vh;
+        overflow: hidden;
+    }
+    #arrow_2 {
+        position: absolute;
+        left: 18vw;
+        top: 70vh;
+    }
+    #home>div>h1{
+        font-size: 18px;
+    }
+    #home>div>div>h3{
+        font-size: 16px;
+    }
+    #home>div>h2{
+        font-size: 17px;
     }
 }
