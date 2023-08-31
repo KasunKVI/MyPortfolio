@@ -13,16 +13,35 @@
 
 #youtube>div>h5>a{
     text-decoration: none;
+    color: #EF9B1E;
 }
 #youtube>h3{
-    font-family: 'Aoboshi One', serif;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #302929;
+}
+#whoIs>h2,#kvTech>h2,#kvArt>h2{
+    position: absolute;
+    font-family: 'Glory', sans-serif;
+    color: #0C0C0B;
+}
+#kvArt>p, #kvTech>p, #whoIs>p{
+    position: absolute;
+    font-family: 'Abel', sans-serif;
+    color: #477045;
+    font-weight: bold;
+}
+#kvArt>h5, #kvTech>h5, #whoIs>h5 {
+    position: absolute;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
 }
 @media all and (min-width: 1440px){
 
     #youtube>h3{
-        position: absolute;
         top: 7vh;
         left: 44vw;
+        font-size: 22px;
     }
     #whoIs>picture, #kvArt>picture,  #kvTech>picture{
         position: absolute;
@@ -38,20 +57,26 @@
         width: 30vw;
         height: 18vh;
     }
-    #whoIs>h2{
-        position: absolute;
+    #whoIs>h2, #kvArt>h2, #kvTech>h2{
         top: 0;
         left: 25%;
+        font-size: 24px;
     }
-    #whoIs>p{
-        position: absolute;
+    #whoIs>p,#kvArt>p{
         top: 4vh;
         left: 25%;
+        font-size: 18px;
     }
-    #whoIs>h5{
-        position: absolute;
+    #kvTech>p{
+        top: 5vh;
+        left: 25%;
+        font-size: 18px;
+    }
+    #whoIs>h5, #kvTech>h5, #kvArt>h5{
         bottom: 0;
         left: 25%;
+        font-size: 17px;
+        padding-top: 1px;
     }
     .tangle_pattern{
         position: absolute;
@@ -65,22 +90,6 @@
         width: 30vw;
         height: 18vh;
     }
-
-    #kvArt>h2{
-        position: absolute;
-        top: 0;
-        left: 25%;
-    }
-    #kvArt>p{
-        position: absolute;
-        top: 4vh;
-        left: 25%;
-    }
-    #kvArt>h5{
-        position: absolute;
-        bottom: 0;
-        left: 25%;
-    }
     #kvTech{
         position: absolute;
         top: 28vh;
@@ -88,29 +97,15 @@
         width: 30vw;
         height: 18vh;
     }
-    #kvTech>h2{
-        position: absolute;
-        top: 0;
-        left: 25%;
-    }
-    #kvTech>p{
-        position: absolute;
-        top: 5vh;
-        left: 25%;
-    }
-    #kvTech>h5{
-        position: absolute;
-        bottom: 0;
-        left: 25%;
-    }
+
 
 }
 @media all and (max-width: 1440px){
 
     #youtube>h3{
-        position: absolute;
         top: 5vh;
         left: 44vw;
+        font-size: 22px;
     }
     #whoIs>picture, #kvArt>picture,  #kvTech>picture{
         position: absolute;
@@ -126,20 +121,20 @@
         width: 35vw;
         height: 22vh;
     }
-    #whoIs>h2{
-        position: absolute;
+    #whoIs>h2, #kvArt>h2, #kvTech>h2{
         top: 0;
         left: 25%;
+        font-size: 24px;
     }
-    #whoIs>p{
-        position: absolute;
+    #whoIs>p, #kvArt>p{
         top: 5vh;
         left: 25%;
+        font-size: 18px;
     }
-    #whoIs>h5{
-        position: absolute;
+    #whoIs>h5, #kvTech>h5, #kvArt>h5{
         bottom: 0;
         left: 25%;
+        font-size: 18px;
     }
     .tangle_pattern{
         position: absolute;
@@ -154,21 +149,6 @@
         height: 22vh;
     }
 
-    #kvArt>h2{
-        position: absolute;
-        top: 0;
-        left: 25%;
-    }
-    #kvArt>p{
-        position: absolute;
-        top: 5vh;
-        left: 25%;
-    }
-    #kvArt>h5{
-        position: absolute;
-        bottom: 0;
-        left: 25%;
-    }
     #kvTech{
         position: absolute;
         top: 30vh;
@@ -176,28 +156,17 @@
         width: 35vw;
         height: 22vh;
     }
-    #kvTech>h2{
-        position: absolute;
-        top: 0;
-        left: 25%;
-    }
     #kvTech>p{
-        position: absolute;
         top: 6vh;
         left: 25%;
+        font-size: 18px;
     }
-    #kvTech>h5{
-        position: absolute;
-        bottom: 0;
-        left: 25%;
-    }
-
 }
 @media all and  (max-width: 1024px){
     #youtube>h3{
-        position: absolute;
         top: 5vh;
         left: 42vw;
+        font-size: 20px;
     }
     #whoIs>picture, #kvArt>picture,  #kvTech>picture{
         position: absolute;
@@ -213,21 +182,21 @@
         width: 37vw;
         height: 27vh;
     }
-    #whoIs>h2{
-        position: absolute;
+    #kvArt>h2,#kvTech>h2, #whoIs>h2{
         top: 0;
         left: 29%;
-
+        font-size: 22px;
     }
-    #whoIs>p{
-        position: absolute;
+
+    #whoIs>p,#kvArt>p{
         top: 5vh;
         left: 29%;
+        font-size: 17px;
     }
-    #whoIs>h5{
-        position: absolute;
+    #whoIs>h5, #kvArt>h5, #kvTech>h5{
         bottom: 0;
         left: 29%;
+        font-size: 17px;
     }
     .tangle_pattern{
         position: absolute;
@@ -242,21 +211,6 @@
         height: 27vh;
     }
 
-    #kvArt>h2{
-        position: absolute;
-        top: 0;
-        left: 29%;
-    }
-    #kvArt>p{
-        position: absolute;
-        top: 5vh;
-        left: 29%;
-    }
-    #kvArt>h5{
-        position: absolute;
-        bottom: 0;
-        left: 29%;
-    }
     #kvTech{
         position: absolute;
         top: 30vh;
@@ -264,29 +218,20 @@
         width: 37vw;
         height: 27vh;
     }
-    #kvTech>h2{
-        position: absolute;
-        top: 0;
-        left: 29%;
-    }
+
     #kvTech>p{
-        position: absolute;
         top: 6vh;
         left: 29%;
-    }
-    #kvTech>h5{
-        position: absolute;
-        bottom: 0;
-        left: 29%;
+        font-size: 17px;
     }
 
 }
 @media all and (max-width: 768px){
 
     #youtube>h3{
-        position: absolute;
         top: 10vh;
         left: 40vw;
+        font-size: 18px;
     }
 
     #whoIs>picture, #kvArt>picture,  #kvTech>picture{
@@ -294,8 +239,6 @@
         left: 1vw;
         margin: auto;
         top: 35%;
-
-
     }
     #whoIs{
         position: absolute;
@@ -320,22 +263,25 @@
     }
 
     #kvArt>h2,#kvTech>h2, #whoIs>h2{
-        position: absolute;
         top: 0;
         left: 25%;
-        font-size: 18px;
+        font-size: 20px;
     }
-    #kvArt>p, #kvTech>p, #whoIs>p{
-        position: absolute;
-        top: 6vh;
+    #kvArt>p, #kvTech>p{
+        top: 5vh;
         left: 25%;
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    #whoIs>p{
+        top: 4vh;
+        left: 25%;
+        font-size: 16px;
     }
     #kvArt>h5, #kvTech>h5, #whoIs>h5{
-        position: absolute;
         bottom: 0;
         left: 25%;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     #kvTech{
@@ -350,9 +296,9 @@
 @media all and (max-width: 425px){
 
     #youtube>h3{
-        position: absolute;
         top: 8vh;
         left: 27vw;
+        font-size: 17px;
     }
 
     #whoIs>picture, #kvArt>picture,  #kvTech>picture{
@@ -386,19 +332,16 @@
     }
 
     #kvArt>h2,#kvTech>h2, #whoIs>h2{
-        position: absolute;
         top: 0;
         left: 20%;
-        font-size: 18px;
+        font-size: 20px;
     }
     #kvArt>p, #kvTech>p, #whoIs>p{
-        position: absolute;
-        top: 5vh;
+        top: 4vh;
         left: 20%;
-        font-size: 10px;
+        font-size: 12px;
     }
     #kvArt>h5, #kvTech>h5, #whoIs>h5{
-        position: absolute;
         bottom: 0;
         left: 20%;
         font-size: 13px;
@@ -416,9 +359,9 @@
 @media all and (max-width: 375px){
 
     #youtube>h3{
-        position: absolute;
         top: 8vh;
         left: 25vw;
+        font-size: 16px;
     }
 
     #whoIs>picture, #kvArt>picture,  #kvTech>picture{
@@ -452,19 +395,16 @@
     }
 
     #kvArt>h2,#kvTech>h2, #whoIs>h2{
-        position: absolute;
         top: 0;
         left: 20%;
         font-size: 18px;
     }
     #kvArt>p, #kvTech>p, #whoIs>p{
-        position: absolute;
         top: 6vh;
         left: 20%;
-        font-size: 10px;
+        font-size: 11px;
     }
     #kvArt>h5, #kvTech>h5, #whoIs>h5{
-        position: absolute;
         bottom: 0;
         left: 20%;
         font-size: 13px;
@@ -481,9 +421,9 @@
 }
 @media all and (max-width: 320px){
     #youtube>h3{
-        position: absolute;
         top: 8vh;
         left: 20vw;
+        font-size: 15px;
     }
 
     #whoIs>picture, #kvArt>picture,  #kvTech>picture{
@@ -517,19 +457,16 @@
     }
 
     #kvArt>h2,#kvTech>h2, #whoIs>h2{
-        position: absolute;
         top: 0;
         left: 20%;
-        font-size: 15px;
+        font-size: 18px;
     }
     #kvArt>p, #kvTech>p, #whoIs>p{
-        position: absolute;
         top: 7vh;
         left: 20%;
-        font-size: 9px;
+        font-size: 10px;
     }
     #kvArt>h5, #kvTech>h5, #whoIs>h5{
-        position: absolute;
         bottom: 0;
         left: 20%;
         font-size: 13px;
