@@ -257,7 +257,7 @@
 
     #photo_with_socials{
         position: absolute;
-        top: 95vh;
+        top: 105vh;
         left: 38vw;
         display: flex;
         justify-content: space-between;
@@ -268,19 +268,19 @@
     }
     #download_btn{
         position: absolute;
-        top: 145vh;
+        top: 158vh;
         left: 60vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 160vh;
+        top: 170vh;
         left: 20vw;
     }
     #about_me_side_bar{
         width: 2vw;
         height: 20vh;
-        top: 158vh;
+        top: 172vh;
         left: 16vw;
     }
 
@@ -328,20 +328,20 @@
 
     #download_btn{
         position: absolute;
-        top: 145vh;
+        top: 175vh;
         left: 70vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 165vh;
+        top: 185vh;
         left: 15vw;
         font-size: 13px;
     }
     #about_me_side_bar{
         width: 2vw;
-        height: 16vh;
-        top: 163vh;
+        height: 20vh;
+        top: 185vh;
         left: 11vw;
     }
 }
@@ -373,7 +373,7 @@
     #dot_pattern{
         position: absolute;
         top: 60vh;
-        left: 58vw;
+        left: 60vw;
         z-index: 0;
     }
 
@@ -382,20 +382,20 @@
         padding: 2vw;
         position: relative;
         left: 43vw;
-        top: 0;
+        top: -20vh;
     }
     .socials{
         width: 50px;
     }
     #download_btn{
         position: absolute;
-        top: 130vh;
+        top: 135vh;
         left: 50vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 140vh;
+        top: 150vh;
         left: 12vw;
         font-size: 13px;
         width: 80%;
@@ -404,8 +404,8 @@
     #about_me_side_bar{
         position: absolute;
         width: 2vw;
-        height: 20vh;
-        top: 140vh;
+        height: 25vh;
+        top: 150vh;
         left: 7vw;
     }
 }
@@ -444,7 +444,7 @@
         padding: 2vh;
         position: relative;
         left: 37vw;
-        top: -22vh;
+        top: -26vh;
         width: 50px;
 
     }
@@ -452,21 +452,21 @@
 
     #download_btn{
         position: absolute;
-        top: 100vh;
+        top: 110vh;
         left: 25vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 120vh;
+        top: 130vh;
         left: 12vw;
         font-size: 12px;
     }
     #about_me_side_bar{
         position: absolute;
         width: 2vw;
-        height: 30vh;
-        top: 118vh;
+        height: 40vh;
+        top: 128vh;
         left: 7vw;
     }
 
@@ -514,21 +514,21 @@
     }
     #download_btn{
         position: absolute;
-        top: 100vh;
+        top: 120vh;
         left: 20vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 120vh;
+        top: 145vh;
         left: 14vw;
         font-size: 11px;
     }
     #about_me_side_bar{
 
         width: 2vw;
-        height: 30vh;
-        top: 118vh;
+        height: 42vh;
+        top: 144vh;
         left: 7vw;
     }
 }
@@ -567,27 +567,27 @@
         display: block;
         padding: 2vh;
         position: relative;
-        left: 37vw;
+        left: 40vw;
         top: -23vh;
         width: 50px;
 
     }
     #download_btn{
         position: absolute;
-        top: 100vh;
+        top: 130vh;
         left: 15vw;
 
     }
     #about_explain{
         position: absolute;
-        top: 120vh;
+        top: 155vh;
         left: 13vw;
-        font-size: 10px;
+        font-size: 8px;
     }
     #about_me_side_bar{
         width: 2vw;
-        height: 25vh;
-        top: 119vh;
+        height: 40vh;
+        top: 150vh;
         left: 7vw;
     }
 }
