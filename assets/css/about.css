@@ -39,6 +39,7 @@
     left: 0;
 }
 #download_btn {
+    position: absolute;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -155,16 +156,32 @@
 #download_btn:hover .button_lg::after {
     background-color: #fff;
 }
+
 .socials>a{
     display: block;
     padding: 2vh;
 }
-
+#about>h4{
+    position: absolute;
+    top: 15vh;
+    left: 3vw;
+}
+#about_me{
+    position: absolute;
+    top: 18vh;
+    left: 3vw;
+}
+#my_second_image{
+    position: relative;
+    z-index: 1;
+}
+#dot_pattern{
+    position: absolute;
+    z-index: 0;
+}
 @media all and (min-width: 1440px){
     #about>h4{
-        position: absolute;
         top: 5vh;
-        left: 2vw;
         font-size: 25px;
     }
     #about>div>h1{
@@ -174,26 +191,20 @@
         font-size: 40px;
     }
     #about_me{
-        position: absolute;
         top: 8vh;
-        left: 2vw;
     }
 
     #my_second_image{
-        position: relative;
         top: 60vh;
         left: 7vw;
-        z-index: 1;
     }
     #my_third_image{
         z-index: 2;
         padding-right: 1vw;
     }
     #dot_pattern{
-        position: absolute;
         top: 53vh;
         left: 35vw;
-        z-index: 0;
     }
     #photo_with_socials{
         position: absolute;
@@ -204,10 +215,8 @@
     }
 
     #download_btn{
-        position: absolute;
         top: 150vh;
         left: 50vw;
-
     }
     #about_explain{
         position: absolute;
@@ -226,22 +235,22 @@
 @media all and (max-width: 1440px){
 
     #about>h4{
-        position: absolute;
         top: 5vh;
-        left: 2vw;
-
+        font-size: 23px;
+    }
+    #about>div>h1{
+        font-size: 35px;
+    }
+    #about>div>h3{
+        font-size: 26px;
     }
     #about_me{
-        position: absolute;
         top: 8vh;
-        left: 2vw;
     }
 
     #my_second_image{
-        position: relative;
         top: 60vh;
         left: 7vw;
-        z-index: 1;
     }
     #my_third_image{
         z-index: 2;
@@ -249,10 +258,8 @@
 
     }
     #dot_pattern{
-        position: absolute;
         top: 53vh;
         left: 42vw;
-        z-index: 0;
     }
 
     #photo_with_socials{
@@ -262,15 +269,9 @@
         display: flex;
         justify-content: space-between;
     }
-    .socials>a{
-        display: block;
-        padding: 2vh;
-    }
     #download_btn{
-        position: absolute;
         top: 158vh;
         left: 60vw;
-
     }
     #about_explain{
         position: absolute;
@@ -287,22 +288,22 @@
 }
 @media all and (max-width: 1024px){
     #about>h4{
-        position: absolute;
         top: 5vh;
-        left: 2vw;
-
+        font-size: 20px;
     }
     #about_me{
-        position: absolute;
         top: 8vh;
-        left: 2vw;
+    }
+    #about>div>h1{
+        font-size: 33px;
+    }
+    #about>div>h3{
+        font-size: 25px;
     }
 
     #my_second_image{
-        position: relative;
         top: 60vh;
         left: 15vw;
-        z-index: 1;
 
     }
     #my_third_image{
@@ -310,15 +311,11 @@
 
     }
     #dot_pattern{
-        position: absolute;
         top: 53vh;
         left: 60vw;
-        z-index: 0;
     }
 
     .socials>a{
-        display: block;
-        padding: 2vh;
         position: relative;
         left: 50vw;
         top: 0;
@@ -327,7 +324,6 @@
     }
 
     #download_btn{
-        position: absolute;
         top: 175vh;
         left: 70vw;
 
@@ -348,38 +344,31 @@
 @media all and (max-width: 768px){
 
     #about>h4{
-        position: absolute;
-        top: 15vh;
-        left: 3vw;
-
+        font-size: 21px;
     }
     #about_me{
-        position: absolute;
-        top: 16vh;
-        left: 3vw;
+        top:8vh;
     }
-
+    #about>div>h1{
+        font-size: 32px;
+    }
+    #about>div>h3{
+        font-size: 25px;
+    }
     #my_second_image{
-        position: relative;
         top: 65vh;
         left: 10vw;
-        z-index: 1;
-
     }
     #my_third_image{
         display: none;
 
     }
     #dot_pattern{
-        position: absolute;
         top: 60vh;
         left: 60vw;
-        z-index: 0;
     }
 
     .socials>a{
-        display: block;
-        padding: 2vw;
         position: relative;
         left: 43vw;
         top: -20vh;
@@ -388,10 +377,8 @@
         width: 50px;
     }
     #download_btn{
-        position: absolute;
         top: 135vh;
         left: 50vw;
-
     }
     #about_explain{
         position: absolute;
@@ -411,50 +398,37 @@
 }
 @media all and (max-width: 425px){
     #about>h4{
-        position: absolute;
-        top: 15vh;
-        left: 3vw;
-
+        font-size: 20px;
     }
-    #about_me{
-        position: absolute;
-        top: 18vh;
-        left: 3vw;
+    #about>div>h1{
+        font-size: 27px;
     }
-
+    #about>div>h3{
+        font-size: 18px;
+    }
     #my_second_image{
-        position: relative;
         top: 67vh;
         left: 10vw;
-        z-index: 1;
-
     }
     #my_third_image{
         display: none;
 
     }
     #dot_pattern{
-        position: absolute;
         top: 64vh;
         left: 47vw;
-        z-index: 0;
     }
 
     .socials>a{
-        padding: 2vh;
         position: relative;
         left: 37vw;
         top: -26vh;
         width: 50px;
 
     }
-
-
     #download_btn{
-        position: absolute;
         top: 110vh;
         left: 25vw;
-
     }
     #about_explain{
         position: absolute;
@@ -474,22 +448,17 @@
 
 @media all and (max-width: 375px) {
     #about>h4{
-        position: absolute;
-        top: 15vh;
-        left: 3vw;
-
+        font-size: 18px;
     }
-    #about_me{
-        position: absolute;
-        top: 18vh;
-        left: 3vw;
+    #about>div>h1{
+        font-size: 30px;
+    }
+    #about>div>h3{
+        font-size: 20px;
     }
     #my_second_image{
-        position: relative;
         top: 67vh;
         left: 10vw;
-        z-index: 1;
-
     }
 
     #my_third_image{
@@ -497,15 +466,11 @@
 
     }
     #dot_pattern{
-        position: absolute;
         top: 64vh;
         left: 53vw;
-        z-index: 0;
     }
 
     .socials>a{
-        display: block;
-        padding: 2vh;
         position: relative;
         left: 38vw;
         top: -23vh;
@@ -513,10 +478,8 @@
 
     }
     #download_btn{
-        position: absolute;
         top: 120vh;
         left: 20vw;
-
     }
     #about_explain{
         position: absolute;
@@ -534,22 +497,18 @@
 }
 @media all and (max-width: 320px){
     #about>h4{
-        position: absolute;
-        top: 15vh;
-        left: 3vw;
+        font-size: 15px;
 
     }
-    #about_me{
-        position: absolute;
-        top: 18vh;
-        left: 3vw;
+    #about>div>h1{
+        font-size: 20px;
+    }
+    #about>div>h3{
+        font-size: 15px;
     }
     #my_second_image{
-        position: relative;
         top: 67vh;
         left: 5vw;
-        z-index: 1;
-
     }
 
     #my_third_image{
@@ -557,15 +516,11 @@
 
     }
     #dot_pattern{
-        position: absolute;
         top: 64vh;
         left: 52vw;
-        z-index: 0;
     }
 
     .socials>a{
-        display: block;
-        padding: 2vh;
         position: relative;
         left: 40vw;
         top: -23vh;
@@ -573,7 +528,6 @@
 
     }
     #download_btn{
-        position: absolute;
         top: 130vh;
         left: 15vw;
 

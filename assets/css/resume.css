@@ -14,7 +14,159 @@
 }
 
 
-@media all and (max-width: 768px) and (min-width: 425px) {
+
+@media all and (min-width: 1400px){
+
+    #resume>h3{
+        position: absolute;
+        top: 20vh;
+        left: 45vw;
+
+    }
+    /*#resume_edu{*/
+    /*    position: absolute;*/
+    /*    top: 45vh;*/
+    /*    left: 43vw;*/
+    /*}*/
+    #degree{
+        top: 35vh;
+        left: 25vw;
+        width: 20vw;
+    }
+    #degree>img, #certificate>img{
+        position: relative;
+        left: 10vw;
+        top: 7vh;
+    }
+    #diploma{
+        top: 68vh;
+        left: 60vw;
+        width: 23vw;
+    }
+    #diploma>img{
+        position: relative;
+        right: 12vw;
+        top: 7vh;
+    }
+    #certificate{
+        top: 108vh;
+        left: 25vw;
+        width: 20vw;
+
+    }
+    #a\/l{
+        top: 145vh;
+        left: 60vw;
+        width: 20vw;
+        text-align: center;
+    }
+    #a\/l>img{
+        position: relative;
+        right: 10vw;
+        top: 7vh;
+    }
+}
+@media all and (max-width: 1400px){
+    #resume>h3{
+        position: absolute;
+        top: 15vh;
+        left: 45vw;
+
+    }
+    /*#resume_edu{*/
+    /*    position: absolute;*/
+    /*    top: 45vh;*/
+    /*    left: 43vw;*/
+    /*}*/
+    #degree{
+        top: 35vh;
+        left: 15vw;
+        width: 30vw;
+    }
+    #degree>img, #certificate>img{
+        position: relative;
+        left: 15vw;
+        top: 5vh;
+    }
+    #diploma{
+        top: 68vh;
+        left: 57vw;
+        width: 30vw;
+    }
+    #diploma>img{
+        position: relative;
+        right: 15vw;
+        top: 5vh;
+    }
+    #certificate{
+        top: 108vh;
+        left: 15vw;
+        width: 30vw;
+
+    }
+    #a\/l{
+        top: 145vh;
+        left: 57vw;
+        width: 30vw;
+
+    }
+    #a\/l>img{
+        position: relative;
+        right: 15vw;
+        top: 5vh;
+    }
+}
+@media all and (max-width: 1024px){
+    #resume>h3{
+        position: absolute;
+        top: 15vh;
+        left: 45vw;
+
+    }
+    /*#resume_edu{*/
+    /*    position: absolute;*/
+    /*    top: 45vh;*/
+    /*    left: 43vw;*/
+    /*}*/
+    #degree{
+        top: 35vh;
+        left: 15vw;
+        width: 30vw;
+    }
+    #degree>img, #certificate>img{
+        position: relative;
+        left: 15vw;
+        top: 5vh;
+    }
+    #diploma{
+        top: 68vh;
+        left: 57vw;
+        width: 30vw;
+    }
+    #diploma>img{
+        position: relative;
+        right: 15vw;
+        top: 5vh;
+    }
+    #certificate{
+        top: 108vh;
+        left: 15vw;
+        width: 30vw;
+
+    }
+    #a\/l{
+        top: 145vh;
+        left: 57vw;
+        width: 30vw;
+
+    }
+    #a\/l>img{
+        position: relative;
+        right: 15vw;
+        top: 5vh;
+    }
+}
+@media all and (max-width: 768px) {
     #resume>h3{
         position: absolute;
         top: 10vh;
@@ -67,104 +219,162 @@
         top: 0;
     }
 }
-@media all and (min-width: 1400px){
-
+@media all and (max-width: 425px) {
     #resume>h3{
         position: absolute;
-        top: 20vh;
-        left: 45vw;
+        top: 10vh;
+        left: 35vw;
 
     }
-    /*#resume_edu{*/
-    /*    position: absolute;*/
-    /*    top: 45vh;*/
-    /*    left: 43vw;*/
-    /*}*/
     #degree{
-        top: 35vh;
-        left: 25vw;
-        width: 20vw;
+        top: 30vh;
+        left: 8vw;
+        width: 73vw;
+        height: 20vh;
     }
-    #degree>img, #certificate>img{
+    #degree>img{
         position: relative;
-        left: 10vw;
-        top: 7vh;
+        left: 35vw;
+        top: 0;
     }
-    #diploma{
-        top: 68vh;
-        left: 60vw;
-        width: 23vw;
+
+    #certificate{
+        top: 90vh;
+        left: 8vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #certificate>img{
+        position: relative;
+        left: 35vw;
+        top: 0;
+    }
+    #diploma{;
+        top: 60vh;
+        left: 18vw;
+        width: 73vw;
+        height: 20vh;
     }
     #diploma>img{
         position: relative;
-        right: 12vw;
-        top: 7vh;
-    }
-    #certificate{
-        top: 108vh;
-        left: 25vw;
-        width: 20vw;
-
+        right: 35vw;
+        top: 0;
     }
     #a\/l{
-        top: 145vh;
-        left: 60vw;
-        width: 20vw;
-        text-align: center;
+        top: 120vh;
+        left: 18vw;
+        width: 73vw;
+        height: 20vh;
     }
     #a\/l>img{
         position: relative;
-        right: 10vw;
-        top: 7vh;
+        right: 35vw;
+        top: 0;
     }
 }
-@media all and (max-width: 1400px) and (min-width: 1024px){
+@media all and (max-width: 375px) {
     #resume>h3{
         position: absolute;
-        top: 15vh;
-        left: 45vw;
+        top: 10vh;
+        left: 35vw;
 
     }
-    /*#resume_edu{*/
-    /*    position: absolute;*/
-    /*    top: 45vh;*/
-    /*    left: 43vw;*/
-    /*}*/
     #degree{
-        top: 35vh;
-        left: 15vw;
-        width: 30vw;
+        top: 30vh;
+        left: 8vw;
+        width: 73vw;
+        height: 20vh;
     }
-    #degree>img, #certificate>img{
+    #degree>img{
         position: relative;
-        left: 15vw;
-        top: 5vh;
+        left: 35vw;
+        top: 0;
     }
-    #diploma{
-        top: 68vh;
-        left: 57vw;
-        width: 30vw;
+
+    #certificate{
+        top: 90vh;
+        left: 8vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #certificate>img{
+        position: relative;
+        left: 35vw;
+        top: 0;
+    }
+    #diploma{;
+        top: 60vh;
+        left: 18vw;
+        width: 73vw;
+        height: 20vh;
     }
     #diploma>img{
         position: relative;
-        right: 15vw;
-        top: 5vh;
-    }
-    #certificate{
-        top: 108vh;
-        left: 15vw;
-        width: 30vw;
-
+        right: 35vw;
+        top: 0;
     }
     #a\/l{
-        top: 145vh;
-        left: 57vw;
-        width: 30vw;
-
+        top: 120vh;
+        left: 18vw;
+        width: 73vw;
+        height: 20vh;
     }
     #a\/l>img{
         position: relative;
-        right: 15vw;
-        top: 5vh;
+        right: 35vw;
+        top: 0;
+    }
+}
+@media all and (max-width: 320px){
+    #resume>h3{
+        position: absolute;
+        top: 10vh;
+        left: 35vw;
+
+    }
+    #degree{
+        top: 30vh;
+        left: 8vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #degree>img{
+        position: relative;
+        left: 35vw;
+        top: 0;
+    }
+
+    #certificate{
+        top: 90vh;
+        left: 8vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #certificate>img{
+        position: relative;
+        left: 35vw;
+        top: 0;
+    }
+    #diploma{;
+        top: 60vh;
+        left: 18vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #diploma>img{
+        position: relative;
+        right: 35vw;
+        top: 0;
+    }
+    #a\/l{
+        top: 120vh;
+        left: 18vw;
+        width: 73vw;
+        height: 20vh;
+    }
+    #a\/l>img{
+        position: relative;
+        right: 35vw;
+        top: 0;
     }
 }
