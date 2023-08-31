@@ -8,6 +8,12 @@ footer{
     position: absolute;
     left: 45vw;
     top: 2vh;
+    font-family: 'Kotta One', serif;
+    color: white;
+}
+address, #contact_number>h4, #email_ft>h4{
+    font-family: 'KoHo', sans-serif;
+    color: white;
 }
 #address{
     position: absolute;
@@ -47,11 +53,163 @@ footer{
 div>h4{
     margin: 0;
 }
-@media all and (max-width: 768px) and (min-width: 425px) {
+@media all and (min-width: 1440px){
     #developer{
         position: absolute;
-        left: 31vw;
+        left: 45vw;
         top: 0;
+        font-size: 26px;
+    }
+    #address{
+        position: absolute;
+        top: 6vh;
+        left: 2vw;
+    }
+    #address>img{
+        position: relative;
+        right: 2vw;
+        top: 3vh;
+    }
+    #contact_number{
+        position: absolute;
+        top: 6vh;
+        left: 18vw;
+    }
+    #contact_number>img{
+        position: relative;
+        right: 3vw;
+        top: 3.5vh;
+    }
+    #email_ft{
+        position: absolute;
+        left: 36vw;
+        top: 6vh;
+    }
+    #email_ft>img{
+        position: relative;
+        right: 3vw;
+        top: 3.5vh;
+    }
+    #socials_footer{
+        position: absolute;
+        right: 10vw;
+        top: 8vh;
+
+    }
+    #socials_footer>a{
+        display: inline;
+        margin-right: 25px;
+    }
+    address, #contact_number>h4, #email_ft>h4{
+        font-size: 18px;
+    }
+}
+@media all and (max-width: 1440px){
+    #developer{
+        position: absolute;
+        left: 45vw;
+        top: 0;
+        font-size: 24px;
+    }
+    #address{
+        position: absolute;
+        top: 6vh;
+        left: 5vw;
+    }
+    #address>img{
+        position: relative;
+        right: 3vw;
+        top: 3vh;
+    }
+    #contact_number{
+        position: absolute;
+        top: 6vh;
+        left: 20vw;
+    }
+    #contact_number>img{
+        position: relative;
+        right: 3vw;
+        top: 3vh;
+    }
+    #email_ft{
+        position: absolute;
+        left: 36vw;
+        top: 6vh;
+    }
+    #email_ft>img{
+        position: relative;
+        right: 4vw;
+        top: 3.5vh;
+    }
+    #socials_footer{
+        position: absolute;
+        right: 10vw;
+        top: 8vh;
+    }
+    #socials_footer>a{
+        display: inline;
+        margin-right: 25px;
+    }
+    address, #contact_number>h4, #email_ft>h4{
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 1024px){
+    #developer{
+        position: absolute;
+        left: 45vw;
+        top: 0;
+        font-size: 21px;
+    }
+    #address{
+        position: absolute;
+        top: 6vh;
+        left: 5vw;
+    }
+    #address>img{
+        position: relative;
+        right: 4vw;
+        top: 3vh;
+    }
+    #contact_number{
+        position: absolute;
+        top: 6vh;
+        left: 20vw;
+    }
+    #contact_number>img{
+        position: relative;
+        right: 3vw;
+        top: 3vh;
+    }
+    #email_ft{
+        position: absolute;
+        left: 36vw;
+        top: 6vh;
+    }
+    #email_ft>img{
+        position: relative;
+        right: 5vw;
+        top: 3.5vh;
+    }
+    #socials_footer{
+        position: absolute;
+        right: 10vw;
+        top: 8vh;
+    }
+    #socials_footer>a{
+        display: inline;
+        margin-right: 10px;
+    }
+    address, #contact_number>h4, #email_ft>h4{
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 768px){
+    #developer{
+        position: absolute;
+        left: 38vw;
+        top: 0;
+        font-size: 18px;
     }
     #address{
         position: absolute;
@@ -67,7 +225,7 @@ div>h4{
     #contact_number{
         position: absolute;
         top: 6vh;
-        left: 27vw;
+        left: 35vw;
         font-size: 11px;
     }
     #contact_number>img{
@@ -77,7 +235,7 @@ div>h4{
     }
     #email_ft{
         position: absolute;
-        left: 51vw;
+        left: 65vw;
         top: 6vh;
         font-size: 11px;
     }
@@ -87,6 +245,47 @@ div>h4{
         top: 0;
     }
     #socials_footer{
+       display: none;
+    }
+    address, #contact_number>h4, #email_ft>h4{
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 425px){
+    #developer{
+        position: absolute;
+        left: 38vw;
+        top: 0;
+        font-size: 16px;
+    }
+
+    address, #contact_number>h4, #email_ft>h4{
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 375px){
+
+    #developer{
+        position: absolute;
+        left: 38vw;
+        top: 0;
+        font-size: 14px;
+    }
+
+    address, #contact_number>h4, #email_ft>h4{
+        font-size: 9px;
+    }
+}
+@media all and (max-width: 320px){
+
+    #developer{
+        position: absolute;
+        left: 38vw;
+        top: 0;
+        font-size: 15px;
+    }
+
+    address, #contact_number>h4, #email_ft>h4{
        display: none;
     }
 }
