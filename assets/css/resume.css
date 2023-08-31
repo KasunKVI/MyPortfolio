@@ -12,38 +12,47 @@
     text-align: center;
     border-radius: 20px;
 }
-
-
-
-@media all and (min-width: 1400px){
+#resume>h3{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #302929;
+}
+#degree>div>h5, #diploma>div>h5, #certificate>div>h5, #a\/l>div>h5{
+    font-family: 'Glory', sans-serif;
+    font-weight: bold;
+    color: #0C0C0B;
+}
+#degree>div>#where1, #diploma>div>#where2, #certificate>div>#where3, #a\/l>div>#where4{
+    font-family: 'Amarante', cursive;
+    color: #686B68;
+}
+#degree>div>#time1, #diploma>div>#time2, #certificate>div>#time3, #a\/l>div>#time4{
+    font-family: 'Abhaya Libre', serif;
+    color: #882100;
+}
+@media all and (min-width: 1440px){
 
     #resume>h3{
-        position: absolute;
         top: 20vh;
         left: 45vw;
-
+        font-size: 22px;
     }
-    /*#resume_edu{*/
-    /*    position: absolute;*/
-    /*    top: 45vh;*/
-    /*    left: 43vw;*/
-    /*}*/
     #degree{
         top: 35vh;
         left: 25vw;
-        width: 20vw;
+        width: 25vw;
     }
     #degree>img, #certificate>img{
         position: relative;
-        left: 10vw;
+        left: 12vw;
         top: 7vh;
     }
     #diploma{
         top: 68vh;
         left: 60vw;
-        width: 23vw;
+        width: 25vw;
     }
-    #diploma>img{
+    #diploma>img,#a\/l>img{
         position: relative;
         right: 12vw;
         top: 7vh;
@@ -51,33 +60,31 @@
     #certificate{
         top: 108vh;
         left: 25vw;
-        width: 20vw;
-
+        width: 25vw;
     }
     #a\/l{
         top: 145vh;
         left: 60vw;
-        width: 20vw;
-        text-align: center;
+        width: 25vw;
     }
-    #a\/l>img{
-        position: relative;
-        right: 10vw;
-        top: 7vh;
+
+    #degree>div>h5, #diploma>div>h5, #certificate>div>h5, #a\/l>div>h5{
+        font-size: 20px;
+    }
+    #degree>div>#where1, #diploma>div>#where2, #certificate>div>#where3, #a\/l>div>#where4{
+        font-size: 18px;
+    }
+    #degree>div>#time1, #diploma>div>#time2, #certificate>div>#time3, #a\/l>div>#time4{
+        font-size: 15px;
     }
 }
-@media all and (max-width: 1400px){
+@media all and (max-width: 1440px){
+
     #resume>h3{
-        position: absolute;
         top: 15vh;
         left: 45vw;
-
+        font-size: 22px;
     }
-    /*#resume_edu{*/
-    /*    position: absolute;*/
-    /*    top: 45vh;*/
-    /*    left: 43vw;*/
-    /*}*/
     #degree{
         top: 35vh;
         left: 15vw;
@@ -114,117 +121,123 @@
         position: relative;
         right: 15vw;
         top: 5vh;
+    }
+    #degree>div>h5, #diploma>div>h5, #certificate>div>h5, #a\/l>div>h5{
+        font-size: 18px;
+    }
+    #degree>div>#where1, #diploma>div>#where2, #certificate>div>#where3, #a\/l>div>#where4{
+        font-size: 16px;
+    }
+    #degree>div>#time1, #diploma>div>#time2, #certificate>div>#time3, #a\/l>div>#time4{
+        font-size: 15px;
     }
 }
 @media all and (max-width: 1024px){
     #resume>h3{
-        position: absolute;
         top: 15vh;
         left: 45vw;
-
+        font-size: 20px;
     }
-    /*#resume_edu{*/
-    /*    position: absolute;*/
-    /*    top: 45vh;*/
-    /*    left: 43vw;*/
-    /*}*/
     #degree{
         top: 35vh;
-        left: 15vw;
-        width: 30vw;
+        left: 10vw;
+        width: 35vw;
     }
     #degree>img, #certificate>img{
         position: relative;
-        left: 15vw;
-        top: 5vh;
+        left: 17vw;
+        top: 7vh;
     }
     #diploma{
         top: 68vh;
         left: 57vw;
-        width: 30vw;
+        width: 35vw;
     }
-    #diploma>img{
+    #diploma>img, #a\/l>img{
         position: relative;
-        right: 15vw;
-        top: 5vh;
+        right: 17vw;
+        top: 7vh;
     }
     #certificate{
         top: 108vh;
-        left: 15vw;
-        width: 30vw;
+        left: 10vw;
+        width: 35vw;
 
     }
     #a\/l{
         top: 145vh;
         left: 57vw;
-        width: 30vw;
-
+        width: 35vw;
     }
-    #a\/l>img{
-        position: relative;
-        right: 15vw;
-        top: 5vh;
+    #degree>div>h5, #diploma>div>h5, #certificate>div>h5, #a\/l>div>h5{
+        margin: 0;
+        font-size: 15px;
+    }
+    #degree>div>#where1, #diploma>div>#where2, #certificate>div>#where3, #a\/l>div>#where4{
+        font-size: 14px;
+    }
+    #degree>div>#time1, #diploma>div>#time2, #certificate>div>#time3, #a\/l>div>#time4{
+        font-size: 15px;
     }
 }
 @media all and (max-width: 768px) {
     #resume>h3{
-        position: absolute;
         top: 10vh;
         left: 35vw;
-
+        font-size: 18px;
     }
     #degree{
         top: 30vh;
         left: 8vw;
-        width: 73vw;
+        width: 63vw;
         height: 20vh;
     }
-    #degree>img{
+    #degree>img, #certificate>img{
         position: relative;
-        left: 35vw;
+        left: 30vw;
         top: 0;
     }
 
     #certificate{
         top: 90vh;
         left: 8vw;
-        width: 73vw;
+        width: 63vw;
         height: 20vh;
-    }
-    #certificate>img{
-        position: relative;
-        left: 35vw;
-        top: 0;
     }
     #diploma{;
         top: 60vh;
         left: 18vw;
-        width: 73vw;
+        width: 63vw;
         height: 20vh;
     }
-    #diploma>img{
+    #diploma>img,  #a\/l>img{
         position: relative;
-        right: 35vw;
+        right: 30vw;
         top: 0;
     }
     #a\/l{
         top: 120vh;
         left: 18vw;
-        width: 73vw;
+        width: 63vw;
         height: 20vh;
     }
-    #a\/l>img{
-        position: relative;
-        right: 35vw;
-        top: 0;
+    #degree>div>h5, #diploma>div>h5, #certificate>div>h5, #a\/l>div>h5{
+        font-size: 18px;
+        margin: 0;
     }
+    #degree>div>#where1, #diploma>div>#where2, #certificate>div>#where3, #a\/l>div>#where4{
+        font-size: 16px;
+    }
+    #degree>div>#time1, #diploma>div>#time2, #certificate>div>#time3, #a\/l>div>#time4{
+        font-size: 15px;
+    }
+
 }
 @media all and (max-width: 425px) {
     #resume>h3{
-        position: absolute;
         top: 10vh;
         left: 35vw;
-
+        font-size: 17px;
     }
     #degree{
         top: 30vh;
@@ -232,7 +245,7 @@
         width: 73vw;
         height: 20vh;
     }
-    #degree>img{
+    #degree>img, #certificate>img{
         position: relative;
         left: 35vw;
         top: 0;
@@ -244,48 +257,49 @@
         width: 73vw;
         height: 20vh;
     }
-    #certificate>img{
-        position: relative;
-        left: 35vw;
-        top: 0;
-    }
     #diploma{;
         top: 60vh;
         left: 18vw;
         width: 73vw;
         height: 20vh;
     }
-    #diploma>img{
+    #diploma>img, #a\/l>img{
         position: relative;
         right: 35vw;
         top: 0;
     }
-    #a\/l{
+    #a\/l {
         top: 120vh;
         left: 18vw;
         width: 73vw;
         height: 20vh;
     }
-    #a\/l>img{
-        position: relative;
-        right: 35vw;
-        top: 0;
+    #degree>div>h5, #diploma>div>h5, #certificate>div>h5, #a\/l>div>h5{
+        font-size: 15px;
+
+    }
+    #degree>div>#where1, #diploma>div>#where2, #certificate>div>#where3, #a\/l>div>#where4{
+        margin: 0;
+        padding-top: 15px;
+        font-size: 16px;
+    }
+    #degree>div>#time1, #diploma>div>#time2, #certificate>div>#time3, #a\/l>div>#time4{
+        font-size: 13px;
     }
 }
 @media all and (max-width: 375px) {
     #resume>h3{
-        position: absolute;
         top: 10vh;
         left: 35vw;
-
+        font-size: 16px;
     }
     #degree{
         top: 30vh;
         left: 8vw;
         width: 73vw;
-        height: 20vh;
+        height: 23vh;
     }
-    #degree>img{
+    #degree>img, #certificate>img{
         position: relative;
         left: 35vw;
         top: 0;
@@ -295,20 +309,15 @@
         top: 90vh;
         left: 8vw;
         width: 73vw;
-        height: 20vh;
-    }
-    #certificate>img{
-        position: relative;
-        left: 35vw;
-        top: 0;
+        height: 23vh;
     }
     #diploma{;
         top: 60vh;
         left: 18vw;
         width: 73vw;
-        height: 20vh;
+        height: 23vh;
     }
-    #diploma>img{
+    #diploma>img, #a\/l>img{
         position: relative;
         right: 35vw;
         top: 0;
@@ -317,28 +326,37 @@
         top: 120vh;
         left: 18vw;
         width: 73vw;
-        height: 20vh;
+        height: 23vh;
     }
-    #a\/l>img{
-        position: relative;
-        right: 35vw;
-        top: 0;
+
+    #degree>div>h5, #diploma>div>h5, #certificate>div>h5, #a\/l>div>h5{
+        font-size: 13px;
+        margin: 0;
+
+    }
+    #degree>div>#where1, #diploma>div>#where2, #certificate>div>#where3, #a\/l>div>#where4{
+        margin: 0;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    #degree>div>#time1, #diploma>div>#time2, #certificate>div>#time3, #a\/l>div>#time4{
+        font-size: 12px;
+
     }
 }
 @media all and (max-width: 320px){
     #resume>h3{
-        position: absolute;
         top: 10vh;
         left: 35vw;
-
+        font-size: 15px;
     }
     #degree{
         top: 30vh;
         left: 8vw;
         width: 73vw;
-        height: 20vh;
+        height: 25vh;
     }
-    #degree>img{
+    #degree>img, #certificate>img{
         position: relative;
         left: 35vw;
         top: 0;
@@ -348,20 +366,15 @@
         top: 90vh;
         left: 8vw;
         width: 73vw;
-        height: 20vh;
-    }
-    #certificate>img{
-        position: relative;
-        left: 35vw;
-        top: 0;
+        height: 25vh;
     }
     #diploma{;
         top: 60vh;
         left: 18vw;
         width: 73vw;
-        height: 20vh;
+        height: 25vh;
     }
-    #diploma>img{
+    #diploma>img, #a\/l>img{
         position: relative;
         right: 35vw;
         top: 0;
@@ -370,11 +383,19 @@
         top: 120vh;
         left: 18vw;
         width: 73vw;
-        height: 20vh;
+        height: 25vh;
     }
-    #a\/l>img{
-        position: relative;
-        right: 35vw;
-        top: 0;
+    #degree>div>h5, #diploma>div>h5, #certificate>div>h5, #a\/l>div>h5{
+        font-size: 11px;
+        margin: 0;
+
+    }
+    #degree>div>#where1, #diploma>div>#where2, #certificate>div>#where3, #a\/l>div>#where4{
+        margin: 0;
+        font-size: 9px;
+    }
+    #degree>div>#time1, #diploma>div>#time2, #certificate>div>#time3, #a\/l>div>#time4{
+        font-size: 10px;
+
     }
 }
