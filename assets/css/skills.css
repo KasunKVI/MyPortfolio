@@ -5,18 +5,6 @@
     height: 100vh;
     padding-bottom: 20vh;
 }
-
-/*#blue_dot{*/
-/*    position: absolute;*/
-/*    left: 48vw;*/
-/*    top: 28vh;*/
-/*}*/
-/*#languages{*/
-/*    position: absolute;*/
-/*    left: 26.5vw;*/
-/*    top: 33vh;*/
-/*}*/
-
 #certificate_lang>div:nth-child(2){
     top: 35vh;
     left: 30vw;
@@ -83,37 +71,26 @@
 }
 .card1>div>a{
     text-decoration: none;
-    color: darkolivegreen;
+    color: dimgray;
     font-size: 12px;
 }
-
-/*#skills1>img:first-child{*/
-/*    position: absolute;*/
-/*    top: 60vh;*/
-/*    left: 25.5vw;*/
-/*}*/
-/*#skills1>img:nth-child(2){*/
-/*    position: absolute;*/
-/*    top: 60vh;*/
-/*    left: 69.8vw;*/
-/*}*/
-/*#skills1>img:nth-child(3){*/
-/*    position: absolute;*/
-/*    top: 80vh;*/
-/*    left: 40vw;*/
-/*}*/
-/*#skills1>img:last-child{*/
-/*    position: absolute;*/
-/*    top: 80vh;*/
-/*    left: 57vw;*/
-/*}*/
-
+#skills2>img:hover{
+    width: 80px;
+    transition: 0.5s ease;
+}
+#skills2{
+    background:#ECFFDD;
+    position: absolute;
+}
+#skills>h3{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #302929;
+}
 @media all and (min-width: 1440px){
 
     #skills2{
-        position: absolute;
         top: 90vh;
-        background:#ECFFDD;
         width: 100vw;
         height: 10%;
         display: flex;
@@ -129,9 +106,9 @@
         transition: 0.5s ease;
     }
     #skills>h3{
-        position: absolute;
         top: 18vh;
         left: 45vw;
+        font-size: 22px;
     }
     #square_pattern{
         position: absolute;
@@ -150,9 +127,7 @@
 @media all and (max-width: 1440px){
 
     #skills2{
-        position: absolute;
         top: 90vh;
-        background:#ECFFDD;
         width: 100vw;
         height: 10%;
         display: flex;
@@ -163,14 +138,11 @@
     #skills2>img{
         margin: 2vw;
     }
-    #skills2>img:hover{
-        width: 80px;
-        transition: 0.5s ease;
-    }
+
     #skills>h3{
-        position: absolute;
         top: 18vh;
         left: 45vw;
+        font-size: 22px;
     }
     #square_pattern{
         position: absolute;
@@ -188,9 +160,7 @@
 }
 @media all and (max-width: 1024px){
     #skills2{
-        position: absolute;
         top: 90vh;
-        background:#ECFFDD;
         width: 100vw;
         height: 8%;
         display: flex;
@@ -200,14 +170,10 @@
     #skills2>img{
         margin: 1vw;
     }
-    #skills2>img:hover{
-        width: 80px;
-        transition: 0.5s ease;
-    }
     #skills>h3{
-        position: absolute;
         top: 18vh;
         left: 42vw;
+        font-size: 20px;
     }
     #square_pattern{
         position: absolute;
@@ -232,9 +198,9 @@
         left: 3vw;
     }
     #skills>h3{
-        position: absolute;
         top: 10vh;
         left: 35vw;
+        font-size: 18px;
     }
     .card1 {
         position: absolute;
@@ -244,14 +210,12 @@
         height: 180px;
     }
     #skills2{
-        position: absolute;
         top: 90vh;
         display: block;
         height: 550px;
         margin: 20px;
         width: 400px;
         border-radius: 50px;
-        background:#ECFFDD;
         left: 20vw;
     }
     #skills{
@@ -261,10 +225,7 @@
         padding-top: 95px;
         margin: 10px;
     }
-    #skills2>img:hover{
-        width: 80px;
-        transition: 0.5s ease;
-    }
+
 }
 @media all and (max-width: 425px){
 
@@ -274,9 +235,9 @@
         left: 6vw;
     }
     #skills>h3{
-        position: absolute;
         top: 10vh;
         left: 31vw;
+        font-size: 17px;
     }
     .card1 {
         position: absolute;
@@ -286,9 +247,7 @@
         height: 180px;
     }
     #skills2{
-        position: absolute;
         top: 100vh;
-        background:#ECFFDD;
         display: block;
         height: 600px;
         margin: 10px;
@@ -304,10 +263,7 @@
         padding-top: 95px;
         margin: 10px;
     }
-    #skills2>img:hover{
-        width: 80px;
-        transition: 0.5s ease;
-    }
+
 }
 @media all and (max-width: 375px){
 
@@ -317,9 +273,9 @@
         left: -2vw;
     }
     #skills>h3{
-        position: absolute;
         top: 10vh;
         left: 30vw;
+        font-size: 16px;
     }
     .card1 {
         position: absolute;
@@ -329,9 +285,7 @@
         height: 180px;
     }
     #skills2{
-        position: absolute;
         top: 90vh;
-        background:#ECFFDD;
         display: block;
         height: 600px;
         margin: 10px;
@@ -346,10 +300,7 @@
         padding-top: 95px;
         margin: 10px;
     }
-    #skills2>img:hover{
-        width: 80px;
-        transition: 0.5s ease;
-    }
+
 }
 @media all and (max-width: 320px){
 
@@ -359,9 +310,9 @@
         left: -18vw;
     }
     #skills>h3{
-        position: absolute;
         top: 10vh;
         left: 27vw;
+        font-size: 15px;
     }
     .card1 {
         position: absolute;
@@ -371,11 +322,9 @@
         height: 175px;
     }
     #skills2{
-        position: absolute;
         top: 90vh;
-        background:#ECFFDD;
         display: block;
-        height: 800px;
+        height: 700px;
         margin: 50px;
         border-radius: 50px;
         width: 250px;
@@ -388,8 +337,7 @@
         padding-top: 70px;
         margin: 10px;
     }
-    #skills2>img:hover{
-        width: 80px;
-        transition: 0.5s ease;
+    #skills{
+        padding-bottom: 150vh;
     }
 }
