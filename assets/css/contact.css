@@ -1,26 +1,33 @@
 #contact{
     position: relative;
-    /*background: rgb(222,240,212);*/
-    /*background: linear-gradient(90deg, rgba(222,240,212,1) 0%, rgba(152,255,166,1) 51%, rgba(225,255,209,1) 100%);*/
-    background: #FEFBF5;
+    background: #ecf0f1;
     height: 100vh;
     padding-bottom: 30vh;
 }
 #contact_header{
     position: absolute;
-    top: 8vh;
+    top: 10vh;
     left: 2vw;
 }
-#contact_instruction{
-    position: absolute;
-
-    background: #f6e58d;
-
-    text-align: center;
-
-    border-radius: 30px;
+#contact_header>h4{
+    font-family: 'Arya', sans-serif;
+    color: #3BC325;
+}
+#contact_header>h1{
+    font-family: 'Aoboshi One', serif;
+    color: #302929;
 }
 
+#contact_instruction{
+    position: absolute;
+    background: #f6e58d;
+    text-align: center;
+    border-radius: 30px;
+}
+#contact_instruction>p{
+    color: #003C11;
+    font-family: 'Alike Angular', serif;
+}
 #submit_btn{
     position: absolute;
     top: 115vh;
@@ -89,12 +96,10 @@
     flex-direction: column;
     gap: 10px;
     position: absolute;
-
     border-radius: 20px;
 }
 .inputContainer2 {
     position: absolute;
-
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -103,7 +108,6 @@
 }
 .inputContainer3{
     position: absolute;
-
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -111,7 +115,6 @@
 }
 .inputContainer4{
     position: absolute;
-
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -127,16 +130,17 @@
 }
 #inputField1,#inputField2, #inputField3, #inputField4, #inputField5{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-    border: 2px solid white;
-    background-color: #dff9fb;
+    border: 1px solid #F3FFF1;
+    background-color: #FFF9F9;
     border-radius: 10px;
     padding: 12px 15px;
-    color: black;
+    color: #7f8c8d;
     font-weight: 500;
     outline: none;
     caret-color: rgb(155, 78, 255);
     transition-duration: .3s;
-    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    /*font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;*/
+    font-family: 'Jomolhari', serif;
 }
 
 
@@ -144,13 +148,14 @@
     position: absolute;
     top: -25px;
     left: 5px;
-    color: black;
+    color: #B0A8A8;
     font-size: 14px;
     font-weight: 400;
-    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    /*font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;*/
     overflow: hidden;
     transition: .2s linear;
     opacity: 0;
+    font-family: 'Jomolhari', serif;
 }
 
 #inputField1:focus ~ .nameLabel,
@@ -181,13 +186,222 @@
     background-color: #ddd;
     transition-duration: .3s;
 }
-@media all and (max-width: 768px) and (min-width: 425px) {
+
+
+@media all and (min-width: 1440px){
+
+    #contact_header>h4{
+        font-size: 25px;
+    }
+    #contact_header>h1{
+        font-size: 40px;
+    }
     #contact_instruction{
-        top: 22vh;
-        left: 18vw;
-        width: 60vw;
+        top: 60vh;
+        left: 10vw;
+        width: 20vw;
         height: 25vh;
         padding-top: 5vh;
+    }
+    #contact_instruction>p{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .inputContainer1 {
+        top: 50vh;
+        left: 40vw;
+        width: 18vw;
+        height: 9vh;
+    }
+    .inputContainer2 {
+        top: 50vh;
+        right: 20vw;
+        width: 18vw;
+        height: 9vh;
+
+    }
+    .inputContainer3{
+        top: 65vh;
+        left: 40vw;
+        width: 18vw;
+        height: 9vh;
+
+    }
+    .inputContainer4{
+        top: 65vh;
+        right: 20vw;
+        width: 18vw;
+        height: 9vh;
+
+    }
+    .inputContainer5{
+        top: 80vh;
+        left: 40vw;
+        width: 40vw;
+        height: 20vh;
+
+    }
+    #inputField1,#inputField2, #inputField3, #inputField4, #inputField5{
+        font-size: 18px;
+    }
+    .nameLabel, .emailLabel,.contactLabel, .subjectLabel, .massageLabel{
+        font-size: 35px;
+    }
+    #submit_btn{
+        top: 115vh;
+        right: 19vw;
+        font-size: 26px;
+    }
+
+}
+@media all and (max-width: 1440px){
+
+    #contact_header>h4{
+        font-size: 23px;
+    }
+    #contact_header>h1{
+        font-size: 35px;
+    }
+    #contact_instruction{
+        top: 60vh;
+        left: 10vw;
+        width: 20vw;
+        height: 25vh;
+        padding-top: 5vh;
+    }
+    #contact_instruction>p{
+        font-size: 18px;
+        margin: 10px;
+    }
+    .inputContainer1 {
+        top: 50vh;
+        left: 40vw;
+        width: 20vw;
+        height: 9vh;
+    }
+    .inputContainer2 {
+        top: 50vh;
+        right: 18vw;
+        width: 20vw;
+        height: 9vh;
+
+    }
+    .inputContainer3{
+        top: 65vh;
+        left: 40vw;
+        width: 20vw;
+        height: 9vh;
+
+    }
+    .inputContainer4{
+        top: 65vh;
+        right: 18vw;
+        width: 20vw;
+        height: 9vh;
+
+    }
+    .inputContainer5{
+        top: 80vh;
+        left: 40vw;
+        width: 42vw;
+        height: 20vh;
+
+    }
+    #inputField1,#inputField2, #inputField3, #inputField4, #inputField5{
+        font-size: 16px;
+    }
+    .nameLabel, .emailLabel,.contactLabel, .subjectLabel, .massageLabel{
+        font-size: 32px;
+    }
+    #submit_btn{
+        top: 115vh;
+        right: 19vw;
+        font-size: 23px;
+    }
+}
+@media all and (max-width: 1024px){
+
+    #contact_header>h4{
+        font-size: 22px;
+    }
+    #contact_header>h1{
+        font-size: 33px;
+    }
+    #contact_instruction{
+        top: 60vh;
+        left: 10vw;
+        width: 20vw;
+        height: 28vh;
+        padding-top: 5vh;
+    }
+    #contact_instruction>p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .inputContainer1 {
+        top: 50vh;
+        left: 40vw;
+        width: 20vw;
+        height: 8vh;
+    }
+    .inputContainer2 {
+        top: 50vh;
+        right: 18vw;
+        width: 20vw;
+        height: 8vh;
+
+    }
+    .inputContainer3{
+        top: 65vh;
+        left: 40vw;
+        width: 20vw;
+        height: 8vh;
+
+    }
+    .inputContainer4{
+        top: 65vh;
+        right: 18vw;
+        width: 20vw;
+        height: 8vh;
+
+    }
+    .inputContainer5{
+        top: 80vh;
+        left: 40vw;
+        width: 42vw;
+        height: 20vh;
+
+    }
+    #inputField1,#inputField2, #inputField3, #inputField4, #inputField5{
+        font-size: 14px;
+    }
+    .nameLabel, .emailLabel,.contactLabel, .subjectLabel, .massageLabel{
+        font-size: 30px;
+    }
+    #submit_btn{
+        top: 115vh;
+        right: 16vw;
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 768px){
+
+    #contact_header>h4{
+        font-size: 21px;
+    }
+    #contact_header>h1{
+        font-size: 32px;
+    }
+    #contact_instruction{
+        top: 25vh;
+        left: 28vw;
+        width: 40vw;
+        height: 20vh;
+        padding-top: 5vh;
+    }
+    #contact_instruction>p{
+        font-size: 14px;
+        margin-bottom: 22px;
     }
     .inputContainer1 {
         top: 58vh;
@@ -223,59 +437,218 @@
         height: 20vh;
 
     }
+    #inputField1,#inputField2, #inputField3, #inputField4, #inputField5{
+        font-size: 15px;
+    }
+    .nameLabel, .emailLabel,.contactLabel, .subjectLabel, .massageLabel{
+        font-size: 28px;
+    }
     #submit_btn{
         top: 121vh;
-        right: 19vw;
+        right: 17vw;
+        font-size: 16px;
     }
 }
-@media all and (min-width: 1400px){
+@media all and (max-width: 425px){
+
+    #contact_header>h4{
+        font-size: 20px;
+    }
+    #contact_header>h1{
+        font-size: 26px;
+    }
     #contact_instruction{
-        top: 60vh;
-        left: 10vw;
-        width: 20vw;
-        height: 25vh;
+        top: 25vh;
+        left: 26vw;
+        width: 45vw;
+        height: 23vh;
         padding-top: 5vh;
     }
+    #contact_instruction>p{
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
     .inputContainer1 {
-        top: 50vh;
-        left: 40vw;
-        width: 18vw;
-        height: 7vh;
+        top: 58vh;
+        left: 15vw;
+        width: 67vw;
+        height: 6vh;
     }
     .inputContainer2 {
-        top: 50vh;
-        right: 20vw;
-        width: 18vw;
-        height: 7vh;
+        top: 68vh;
+        right: 18vw;
+        width: 67vw;
+        height: 6vh;
 
     }
     .inputContainer3{
-        top: 65vh;
-        left: 40vw;
-        width: 18vw;
-        height: 7vh;
+        top: 78vh;
+        left: 15vw;
+        width: 67vw;
+        height: 6vh;
 
     }
     .inputContainer4{
-        top: 65vh;
-        right: 20vw;
-        width: 18vw;
-        height: 7vh;
+        top: 88vh;
+        right: 18vw;
+        width: 67vw;
+        height: 6vh;
 
     }
     .inputContainer5{
-        top: 80vh;
-        left: 40vw;
-        width: 40vw;
+        top: 98vh;
+        left: 15vw;
+        width: 67vw;
         height: 20vh;
 
     }
+    #inputField1,#inputField2, #inputField3, #inputField4, #inputField5{
+        font-size: 13px;
+    }
+    .nameLabel, .emailLabel,.contactLabel, .subjectLabel, .massageLabel{
+        font-size: 26px;
+    }
     #submit_btn{
-        top: 115vh;
-        right: 19vw;
+        top: 121vh;
+        right: 17vw;
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 375px){
 
+    #contact{
+        padding-bottom: 50vh;
     }
 
+    #contact_header>h4{
+        font-size: 19px;
+    }
+    #contact_header>h1{
+        font-size: 23px;
+    }
+    #contact_instruction{
+        top: 30vh;
+        left: 26vw;
+        width: 45vw;
+        height: 26vh;
+        padding-top: 5vh;
+    }
+    #contact_instruction>p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .inputContainer1 {
+        top: 67vh;
+        left: 15vw;
+        width: 67vw;
+        height: 6vh;
+    }
+    .inputContainer2 {
+        top: 78vh;
+        right: 18vw;
+        width: 67vw;
+        height: 6vh;
+
+    }
+    .inputContainer3{
+        top: 89vh;
+        left: 15vw;
+        width: 67vw;
+        height: 6vh;
+
+    }
+    .inputContainer4{
+        top: 100vh;
+        right: 18vw;
+        width: 67vw;
+        height: 6vh;
+
+    }
+    .inputContainer5{
+        top: 112vh;
+        left: 15vw;
+        width: 67vw;
+        height: 20vh;
+
+    }
+    #inputField1,#inputField2, #inputField3, #inputField4, #inputField5{
+        font-size: 12px;
+    }
+    .nameLabel, .emailLabel,.contactLabel, .subjectLabel, .massageLabel{
+        font-size: 18px;
+    }
+    #submit_btn{
+        top: 135vh;
+        right: 16vw;
+        font-size: 13px;
+    }
 }
+@media all and (max-width: 320px){
 
+    #contact{
+        padding-bottom: 50vh;
+    }
 
+    #contact_header>h4{
+        font-size: 18px;
+    }
+    #contact_header>h1{
+        font-size: 21px;
+    }
+    #contact_instruction{
+        top: 30vh;
+        left: 24vw;
+        width: 50vw;
+        height: 26vh;
+        padding-top: 5vh;
+    }
+    #contact_instruction>p{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .inputContainer1 {
+        top: 67vh;
+        left: 15vw;
+        width: 67vw;
+        height: 6vh;
+    }
+    .inputContainer2 {
+        top: 78vh;
+        right: 18vw;
+        width: 67vw;
+        height: 6vh;
+
+    }
+    .inputContainer3{
+        top: 89vh;
+        left: 15vw;
+        width: 67vw;
+        height: 6vh;
+
+    }
+    .inputContainer4{
+        top: 100vh;
+        right: 18vw;
+        width: 67vw;
+        height: 6vh;
+
+    }
+    .inputContainer5{
+        top: 112vh;
+        left: 15vw;
+        width: 67vw;
+        height: 20vh;
+
+    }
+    #inputField1,#inputField2, #inputField3, #inputField4, #inputField5{
+        font-size: 11px;
+    }
+    .nameLabel, .emailLabel,.contactLabel, .subjectLabel, .massageLabel{
+        font-size: 18px;
+    }
+    #submit_btn{
+        top: 135vh;
+        right: 16vw;
+        font-size: 11px;
+    }
+}
