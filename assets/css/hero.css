@@ -62,12 +62,13 @@
 #contact_btn {
     font-size: 17px;
     background: transparent;
-    border: none;
     padding: 1em 1.5em;
-    color: #ffedd3;
+    color: burlywood;
     text-transform: uppercase;
     position: relative;
     transition: .5s ease;
+    border: 1px solid sandybrown ;
+    border-radius: 15px;
 }
 
 
@@ -98,13 +99,7 @@
 
     #contact_btn {
         font-size: 17px;
-        background: transparent;
-        border: none;
-        padding: 1em 1.5em;
-        color: #ffedd3;
-        text-transform: uppercase;
-        position: relative;
-        transition: .5s ease;
+
     }
     #home>div>h1{
         font-size: 43px;
@@ -197,36 +192,6 @@
     #home>div>h2{
         font-size: 28px;
     }
-
-    /*#arrow_1 {*/
-    /*    position: absolute;*/
-    /*    top: 14vh;*/
-    /*    left: 15vw;*/
-    /*}*/
-    /*.about_brief {*/
-    /*    position: absolute;*/
-    /*    top: 18vh;*/
-    /*    left: 19vw;*/
-    /*}*/
-    /*#my_main_image {*/
-    /*    position: absolute;*/
-    /*    left: 18vw;*/
-    /*    top: 80vh;*/
-    /*}*/
-    /*#arrow_2 {*/
-    /*    position: absolute;*/
-    /*    left: 30vw;*/
-    /*    top: 80vh;*/
-    /*}*/
-    /*#home>div>h1{*/
-    /*    font-size: 35px;*/
-    /*}*/
-    /*#home>div>div>h3{*/
-    /*    font-size: 32px;*/
-    /*}*/
-    /*#home>div>h2{*/
-    /*    font-size: 33px;*/
-    /*}*/
 }
 @media all and (max-width: 768px){
     #arrow_1 {
@@ -238,6 +203,10 @@
         position: absolute;
         top: 25vh;
         left: 25vw;
+    }
+
+    #contact_btn {
+        font-size: 13px;
     }
     #my_main_image {
         position: absolute;
@@ -280,6 +249,9 @@
         left: 20vw;
         top: 85vh;
     }
+    #contact_btn {
+        font-size: 11px;
+    }
     #home>div>h1{
         font-size: 23px;
     }
@@ -310,6 +282,9 @@
         position: absolute;
         left: 20vw;
         top: 70vh;
+    }
+    #contact_btn {
+        font-size: 10px;
     }
     #home>div>h1{
         font-size: 20px;
@@ -342,6 +317,9 @@
         position: absolute;
         left: 18vw;
         top: 70vh;
+    }
+    #contact_btn {
+        font-size: 9px;
     }
     #home>div>h1{
         font-size: 18px;
