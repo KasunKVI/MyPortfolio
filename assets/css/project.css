@@ -10,23 +10,30 @@
     top: 8vh;
     left: 2vw;
 }
+#project_header>h4{
+    font-family: 'Arya', sans-serif;
+    color: #3BC325;
+}
+#project_header>h1{
+    font-family: 'Aoboshi One', serif;
+    color: #302929;
+}
 #tea_project>h2{
     position: absolute;
-    top: 30vh;
     left: 0;
     background: #B4E5AC;
     text-align: center;
-    height: 4vh;
     border-radius: 0 10px 10px 0 ;
+    font-family: 'Aclonica', sans-serif;
+    color: #2B9819;
 }
 #tea_project>div>p{
     position: absolute;
-    top: 40vh;
+    font-family: 'Amarante', cursive;
+    color: #686B68;
 }
 #tea_project>div>a{
     position: absolute;
-    top: 44vh;
-    left: 3vw;
 }
 #tea_lang, #zoo_lang, #connect4_lang{
     position: absolute;
@@ -35,150 +42,78 @@
 
 #zoo_project>h2{
     position: absolute;
-    top: 105vh;
     right: 0;
     background: #B4E5AC;
     text-align: center;
-    height: 4vh;
     border-radius: 10px 0 0 10px ;
+    font-family: 'Aclonica', sans-serif;
+    color: #2B9819;
 }
 #zoo_project>div>p{
     position: absolute;
-    top: 115vh;
     text-align: right;
+    font-family: 'Amarante', cursive;
+    color: #686B68;
 }
 #zoo_project>div>a{
     position: absolute;
-    right: 3vw;
-    top: 118vh;
 }
 
 #zoo_lang>h6, #connect4_lang>h6, #tea_lang>h6{
-    margin-right: 2vw;
     background: #26AABC;
-    padding: 6%;
     border-radius: 15px;
+    font-family: 'Almendra', serif;
+    color: #FEFBF5;
 }
 
 #connect4>h2{
     position: absolute;
-    top: 180vh;
-    left: 0;
     background: #B4E5AC;
     text-align: center;
-    height: 4vh;
     border-radius: 0 10px 10px 0 ;
+    font-family: 'Aclonica', sans-serif;
+    color: #2B9819;
 }
 #connect4>div>p{
     position: absolute;
-    top: 195vh;
+    font-family: 'Amarante', cursive;
+    color: #686B68;
 }
 #connect4>div>a{
     position: absolute;
-    top: 197vh;
-    left: 3vw;
 }
+@media all and (min-width: 1440px){
 
-
-@media all and (max-width: 768px) and (min-width: 425px) {
-    #tea_project>h2, #zoo_project>h2, #connect4>h2{
-        width: 55vw;
-        font-size: 18px;
-        padding-top: 2vh;
+    #project_header>h4{
+        font-size: 25px;
     }
-    #tea_project>div>p{
-        font-size: 12px;
-        left: 12vw;
+    #project_header>h1{
+        font-size: 40px;
     }
-    #tea_lang{
-        top: 50vh;
-        left: 9vw;
-    }
-    #tea_images>picture:first-child{
-        position: absolute;
-        top: 63vh;
-        right: 50vw;
-    }
-    #tea_images>picture:nth-child(2){
-        position: absolute;
-        top: 66vh;
-        right: 6vw;
-    }
-    #tea_images>picture:nth-child(3){
-        position: absolute;
-        top: 80vh;
-        right: 50vw;
-    }
-    #tea_images>picture:last-child{
-        position: absolute;
-        top: 83vh;
-        right: 6vw;
-    }
-    #zoo_project>div>p{
-        right: 12vw;
-        font-size: 12px;
-    }
-    #zoo_lang{
-        top: 125vh;
-        right: 18vw;
-
-    }
-    #zoo_images>picture:first-child{
-        position: absolute;
-        left: 45vw;
-        top: 137vh;
-    }
-    #zoo_images>picture:nth-child(2){
-        position: absolute;
-        left: 6vw;
-        top: 140vh;
-    }
-    #zoo_images>picture:nth-child(3){
-        position: absolute;
-        left: 6vw;
-        top: 156vh;
-    }
-    #zoo_images>picture:last-child{
-        position: absolute;
-        left: 45vw;
-        top: 153vh;
-    }
-    #connect4>div>p{
-        left: 12vw;
-        font-size: 12px;
-    }
-    #connect4_lang{
-        top: 205vh;
-        left: 9vw;
-    }
-    #connect4_images>picture:first-child{
-        position: absolute;
-        bottom: 50vh;
-        left: 10vw;
-    }
-    #connect4_images>picture:last-child{
-        position: absolute;
-        bottom: 45vh;
-        right: 8vw;
-
-    }
-}
-@media all and (min-width: 1400px){
     #tea_project>h2{
+        top: 30vh;
         width: 20vw;
-        padding-top: 1vh;
+        padding-top: 2vh;
+        height: 4vh;
+        font-size: 25px;
     }
     #tea_project>div>p{
+        top: 40vh;
         left: 10vw;
+        font-size: 18px;
     }
-
+    #tea_project>div>a{
+        top: 44vh;
+        left: 3vw;
+    }
     #tea_lang{
-        top: 55vh;
-        left: 8vw;
+        top: 52vh;
+        left: 9vw;
     }
-    #tea_lang>h6{
-        margin-left: 2vw;
-        padding: 6%;
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+        margin: 20px;
+        padding: 5%;
+        font-size: 15px;
     }
     #tea_images>picture:first-child{
         position: absolute;
@@ -202,15 +137,23 @@
     }
     #zoo_project>h2{
         width: 20vw;
-        padding-top: 1vh;
-
+        padding-top: 2vh;
+        top: 105vh;
+        height: 4vh;
+        font-size: 25px;
     }
     #zoo_project>div>p{
         right: 10vw;
+        top: 115vh;
+        font-size: 18px;
+    }
+    #zoo_project>div>a{
+        right: 3vw;
+        top: 118vh;
     }
     #zoo_lang{
-        top: 130vh;
-        right: 10vw;
+        top: 128vh;
+        right: 12vw;
     }
 
     #zoo_images>picture:first-child{
@@ -234,17 +177,27 @@
         top: 150vh;
     }
     #connect4>h2{
+        top: 180vh;
+        left: 0;
         width: 20vw;
-        padding-top: 1vh;
+        height: 4vh;
+        padding-top: 2vh;
+        font-size: 25px;
     }
     #connect4>div>p{
         left: 10vw;
+        top: 195vh;
+        font-size: 18px;
     }
     #connect4_lang{
-        top: 209vh;
-        left: 8vw;
+        top: 206vh;
+        left: 9vw;
     }
-
+    #connect4>div>a{
+        position: absolute;
+        top: 197vh;
+        left: 3vw;
+    }
     #connect4_images>picture:first-child{
         position: absolute;
         bottom: 60vh;
@@ -254,38 +207,51 @@
         position: absolute;
         bottom: 45vh;
         right: 8vw;
-
     }
 
 }
-@media all and (max-width: 1400px) and (min-width: 1024px){
+@media all and (max-width: 1440px){
 
+    #project_header>h4{
+        font-size: 23px;
+    }
+    #project_header>h1{
+        font-size: 35px;
+    }
     #tea_project>h2{
-        width: 30vw;
+        top: 35vh;
+        width: 20vw;
         padding-top: 2vh;
+        height: 4vh;
+        font-size: 23px;
     }
     #tea_project>div>p{
-        left: 9vw;
-        top: 41vh;
+        top: 45vh;
+        left: 10vw;
+        font-size: 16px;
     }
-
+    #tea_project>div>a{
+        top: 49vh;
+        left: 3vw;
+    }
     #tea_lang{
-        top: 50vh;
-        left: 7vw;
+        top: 60vh;
+        left: 8vw;
     }
-    #tea_lang>h6{
-        margin-left: 1vw;
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+        margin: 20px;
         padding: 5%;
+        font-size: 14px;
     }
     #tea_images>picture:first-child{
         position: absolute;
-        top: 40vh;
-        right: 23vw;
+        top: 33vh;
+        right: 30vw;
     }
     #tea_images>picture:nth-child(2){
         position: absolute;
-        top: 45vh;
-        right: 0;
+        top: 42vh;
+        right: 6vw;
     }
     #tea_images>picture:nth-child(3){
         position: absolute;
@@ -299,15 +265,23 @@
     }
     #zoo_project>h2{
         width: 20vw;
-        padding-top: 1vh;
-
+        padding-top: 2vh;
+        top: 110vh;
+        height: 4vh;
+        font-size: 23px;
     }
     #zoo_project>div>p{
         right: 10vw;
+        top: 120vh;
+        font-size: 16px;
+    }
+    #zoo_project>div>a{
+        right: 3vw;
+        top: 123vh;
     }
     #zoo_lang{
-        top: 130vh;
-        right: 10vw;
+        top: 135vh;
+        right: 13vw;
     }
 
     #zoo_images>picture:first-child{
@@ -331,17 +305,27 @@
         top: 150vh;
     }
     #connect4>h2{
+        top: 185vh;
+        left: 0;
         width: 20vw;
-        padding-top: 1vh;
+        height: 4vh;
+        padding-top: 2vh;
+        font-size: 23px;
     }
     #connect4>div>p{
         left: 10vw;
+        top: 198vh;
+        font-size: 16px;
     }
     #connect4_lang{
-        top: 209vh;
+        top: 210vh;
         left: 8vw;
     }
-
+    #connect4>div>a{
+        position: absolute;
+        top: 202vh;
+        left: 3vw;
+    }
     #connect4_images>picture:first-child{
         position: absolute;
         bottom: 60vh;
@@ -351,7 +335,644 @@
         position: absolute;
         bottom: 45vh;
         right: 8vw;
+    }
+}
+@media all and (max-width: 1024px){
+
+    #project_header>h4{
+        font-size: 22px;
+    }
+    #project_header>h1{
+        font-size: 33px;
+    }
+    #tea_project>h2{
+        top: 35vh;
+        width: 25vw;
+        padding-top: 2vh;
+        height: 4vh;
+        font-size: 18px;
+    }
+    #tea_project>div>p{
+        top: 47vh;
+        left: 10vw;
+        font-size: 13px;
+    }
+    #tea_project>div>a{
+        top: 49vh;
+        left: 2vw;
+    }
+    #tea_lang{
+        top: 60vh;
+        left: 8vw;
+    }
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+        margin: 20px;
+        padding: 5%;
+        font-size: 11px;
+    }
+    #tea_images>picture:first-child{
+        position: absolute;
+        top: 33vh;
+        right: 3vw;
+    }
+    #tea_images>picture:nth-child(2){
+        position: absolute;
+        top: 63vh;
+        right: 3vw;
+    }
+    #tea_images>picture:nth-child(3){
+        position: absolute;
+        top: 72vh;
+        right: 33vw;
+    }
+    #tea_images>picture:last-child{
+        position: absolute;
+        top: 72vh;
+        left: 2vw;
+    }
+    #zoo_project>h2{
+        width: 25vw;
+        padding-top: 2vh;
+        top: 115vh;
+        height: 4vh;
+        font-size: 18px;
+    }
+    #zoo_project>div>p{
+        right: 10vw;
+        top: 127vh;
+        font-size: 13px;
+    }
+    #zoo_project>div>a{
+        right: 2vw;
+        top: 128vh;
+    }
+    #zoo_lang{
+        top: 140vh;
+        right: 13vw;
+    }
+
+    #zoo_images>picture:first-child{
+        position: absolute;
+        left: 3vw;
+        top: 115vh;
+    }
+    #zoo_images>picture:nth-child(2){
+        position: absolute;
+        left: 3vw;
+        top: 148vh;
+    }
+    #zoo_images>picture:nth-child(3){
+        position: absolute;
+        left: 33vw;
+        top: 155vh;
+    }
+    #zoo_images>picture:last-child{
+        position: absolute;
+        left: 65vw;
+        top: 155vh;
+    }
+
+    #connect4>h2{
+        top: 190vh;
+        left: 0;
+        width: 25vw;
+        height: 4vh;
+        padding-top: 2vh;
+        font-size: 18px;
+    }
+    #connect4>div>p{
+        left: 10vw;
+        top: 203vh;
+        font-size: 13px;
+    }
+    #connect4_lang{
+        top: 215vh;
+        left: 8vw;
+    }
+    #connect4>div>a{
+        position: absolute;
+        top: 205vh;
+        left: 2vw;
+    }
+    #connect4_images>picture:first-child{
+        position: absolute;
+        bottom: 55vh;
+        right: 20vw;
+    }
+    #connect4_images>picture:last-child{
+        position: absolute;
+        bottom: 25vh;
+        right: 2vw;
+    }
+}
+@media all and (max-width: 768px){
+
+    #project_header>h4{
+        font-size: 21px;
+    }
+    #project_header>h1{
+        font-size: 31px;
+    }
+    #tea_project>h2{
+        top: 35vh;
+        width: 45vw;
+        padding-top: 2vh;
+        height: 4vh;
+        font-size: 18px;
+    }
+
+    #connect4>h2{
+        top: 190vh;
+        left: 0;
+        width: 45vw;
+        height: 4vh;
+        padding-top: 2vh;
+        font-size: 18px;
+    }
+    #zoo_project>h2{
+        width: 45vw;
+        padding-top: 2vh;
+        top: 115vh;
+        height: 4vh;
+        font-size: 18px;
+    }
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+        margin: 20px;
+        padding: 5%;
+        font-size: 10px;
+    }
+    #tea_project>div>a{
+        top: 48vh;
+        left: 10vw;
+    }
+    #tea_project>div>p{
+        top: 45vh;
+        font-size: 14px;
+        left: 20vw;
+    }
+    #tea_lang{
+        top: 56vh;
+        left: 16vw;
+    }
+    #tea_images>picture:first-child{
+        position: absolute;
+        top: 66vh;
+        right: 55vw;
+    }
+    #tea_images>picture:nth-child(2){
+        position: absolute;
+        top: 70vh;
+        right: 11vw;
+    }
+    #tea_images>picture:nth-child(3){
+        position: absolute;
+        top: 85vh;
+        right: 55vw;
+    }
+    #tea_images>picture:last-child{
+        position: absolute;
+        top: 88vh;
+        left: 55vw;
+    }
+    #zoo_project>div>p{
+        top: 125vh;
+        right: 23vw;
+        font-size: 14px;
+    }
+    #zoo_lang{
+        top: 135vh;
+        right: 26vw;
+
+    }
+    #zoo_project>div>a{
+        right: 10vw;
+        top: 128vh;
+    }
+    #zoo_images>picture:first-child{
+        position: absolute;
+        left: 45vw;
+        top: 145vh;
+    }
+    #zoo_images>picture:nth-child(2){
+        position: absolute;
+        left: 6vw;
+        top: 140vh;
+    }
+    #zoo_images>picture:nth-child(3){
+        position: absolute;
+        left: 6vw;
+        top: 160vh;
+    }
+    #zoo_images>picture:last-child{
+        position: absolute;
+        left: 45vw;
+        top: 165vh;
+    }
+    #connect4>div>p{
+        top: 200vh;
+        left: 20vw;
+        font-size: 14px;
+    }
+    #connect4_lang{
+        top: 209vh;
+        left: 20vw;
+    }
+    #connect4>div>a{
+        position: absolute;
+        top: 202vh;
+        left: 10vw;
+    }
+    #connect4_images>picture:first-child{
+        position: absolute;
+        bottom: 40vh;
+        left: 15vw;
+    }
+    #connect4_images>picture:last-child{
+        position: absolute;
+        bottom: 35vh;
+        right: 8vw;
+
+    }
+}
+@media all and (max-width: 425px){
+
+    #project_header>h4{
+        font-size: 20px;
+    }
+    #project_header>h1{
+        font-size: 29px;
+    }
+    #tea_project>h2{
+        top: 35vh;
+        width: 57vw;
+        padding-top: 2vh;
+        height: 4vh;
+        font-size: 17px;
+    }
+
+    #connect4>h2{
+        top: 190vh;
+        left: 0;
+        width: 57vw;
+        height: 4vh;
+        padding-top: 2vh;
+        font-size: 17px;
+    }
+    #zoo_project>h2{
+        width: 57vw;
+        padding-top: 2vh;
+        top: 115vh;
+        height: 4vh;
+        font-size: 17px;
+    }
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+        margin: 16px;
+        padding: 6%;
+        font-size: 9px;
+    }
+    #tea_project>div>a{
+        top: 48vh;
+        left: 8vw;
+    }
+    #tea_project>div>p{
+        top: 45vh;
+        font-size: 11px;
+        left: 20vw;
+    }
+    #tea_lang{
+        top: 56vh;
+        left: 16vw;
+    }
+    #tea_images>picture:first-child{
+        position: absolute;
+        top: 66vh;
+        right: 55vw;
+    }
+    #tea_images>picture:nth-child(2){
+        position: absolute;
+        top: 70vh;
+        right: 11vw;
+    }
+    #tea_images>picture:nth-child(3){
+        position: absolute;
+        top: 85vh;
+        right: 55vw;
+    }
+    #tea_images>picture:last-child{
+        position: absolute;
+        top: 88vh;
+        left: 46vw;
+    }
+    #zoo_project>div>p{
+        top: 125vh;
+        right: 23vw;
+        font-size: 11px;
+    }
+    #zoo_lang{
+        top: 135vh;
+        right: 29vw;
+
+    }
+    #zoo_project>div>a{
+        right: 10vw;
+        top: 128vh;
+    }
+    #zoo_images>picture:first-child{
+        position: absolute;
+        left: 45vw;
+        top: 150vh;
+    }
+    #zoo_images>picture:nth-child(2){
+        position: absolute;
+        left: 6vw;
+        top: 145vh;
+    }
+    #zoo_images>picture:nth-child(3){
+        position: absolute;
+        left: 6vw;
+        top: 163vh;
+    }
+    #zoo_images>picture:last-child{
+        position: absolute;
+        left: 45vw;
+        top: 168vh;
+    }
+    #connect4>div>p{
+        top: 200vh;
+        left: 20vw;
+        font-size: 11px;
+    }
+    #connect4_lang{
+        top: 209vh;
+        left: 17vw;
+    }
+    #connect4>div>a{
+        position: absolute;
+        top: 202vh;
+        left: 8vw;
+    }
+    #connect4_images>picture:first-child{
+        position: absolute;
+        bottom: 40vh;
+        left: 10vw;
+    }
+    #connect4_images>picture:last-child{
+        position: absolute;
+        bottom: 32vh;
+        right: 8vw;
 
     }
 
 }
+@media all and (max-width: 375px){
+
+    #project_header>h4{
+        font-size: 19px;
+    }
+    #project_header>h1{
+        font-size: 28px;
+    }
+    #tea_project>h2{
+        top: 35vh;
+        width: 57vw;
+        padding-top: 2vh;
+        height: 4vh;
+        font-size: 16px;
+    }
+
+    #connect4>h2{
+        top: 190vh;
+        left: 0;
+        width: 57vw;
+        height: 4vh;
+        padding-top: 2vh;
+        font-size: 16px;
+    }
+    #zoo_project>h2{
+        width: 57vw;
+        padding-top: 2vh;
+        top: 115vh;
+        height: 4vh;
+        font-size: 16px;
+    }
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+        margin: 16px;
+        padding: 6%;
+        font-size: 8px;
+    }
+    #tea_project>div>a{
+        top: 48vh;
+        left: 8vw;
+    }
+    #tea_project>div>p{
+        top: 45vh;
+        font-size: 10px;
+        left: 20vw;
+    }
+    #tea_lang{
+        top: 56vh;
+        left: 16vw;
+    }
+    #tea_images>picture:first-child{
+        position: absolute;
+        top: 66vh;
+        right: 50vw;
+    }
+    #tea_images>picture:nth-child(2){
+        position: absolute;
+        top: 70vh;
+        right: 7vw;
+    }
+    #tea_images>picture:nth-child(3){
+        position: absolute;
+        top: 85vh;
+        right: 50vw;
+    }
+    #tea_images>picture:last-child{
+        position: absolute;
+        top: 88vh;
+        left: 48vw;
+    }
+    #zoo_project>div>p{
+        top: 125vh;
+        right: 23vw;
+        font-size: 10px;
+    }
+    #zoo_lang{
+        top: 135vh;
+        right: 29vw;
+
+    }
+    #zoo_project>div>a{
+        right: 10vw;
+        top: 128vh;
+    }
+    #zoo_images>picture:first-child{
+        position: absolute;
+        left: 47vw;
+        top: 150vh;
+    }
+    #zoo_images>picture:nth-child(2){
+        position: absolute;
+        left: 6vw;
+        top: 145vh;
+    }
+    #zoo_images>picture:nth-child(3){
+        position: absolute;
+        left: 6vw;
+        top: 163vh;
+    }
+    #zoo_images>picture:last-child{
+        position: absolute;
+        left: 47vw;
+        top: 168vh;
+    }
+    #connect4>div>p{
+        top: 200vh;
+        left: 20vw;
+        font-size: 10px;
+    }
+    #connect4_lang{
+        top: 209vh;
+        left: 17vw;
+    }
+    #connect4>div>a{
+        position: absolute;
+        top: 202vh;
+        left: 8vw;
+    }
+    #connect4_images>picture:first-child{
+        position: absolute;
+        bottom: 40vh;
+        left: 10vw;
+    }
+    #connect4_images>picture:last-child{
+        position: absolute;
+        bottom: 22vh;
+        right: 8vw;
+
+    }
+
+}
+@media all and (max-width: 320px){
+
+    #project_header>h4{
+        font-size: 18px;
+    }
+    #project_header>h1{
+        font-size: 26px;
+    }
+    #tea_project>h2{
+        top: 35vh;
+        width: 57vw;
+        padding-top: 2vh;
+        height: 4vh;
+        font-size: 14px;
+    }
+
+    #connect4>h2{
+        top: 190vh;
+        left: 0;
+        width: 57vw;
+        height: 4vh;
+        padding-top: 2vh;
+        font-size: 14px;
+    }
+    #zoo_project>h2{
+        width: 57vw;
+        padding-top: 2vh;
+        top: 115vh;
+        height: 4vh;
+        font-size: 14px;
+    }
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+        margin: 16px;
+        padding: 6%;
+        font-size: 8px;
+    }
+    #tea_project>div>a{
+        top: 48vh;
+        left: 5vw;
+    }
+    #tea_project>div>p{
+        top: 45vh;
+        font-size: 9px;
+        left: 18vw;
+    }
+    #tea_lang{
+        top: 56vh;
+        left: 14vw;
+    }
+    #tea_images>picture:first-child{
+        position: absolute;
+        top: 70vh;
+        right: 45vw;
+    }
+    #tea_images>picture:nth-child(2){
+        display: none;
+    }
+    #tea_images>picture:nth-child(3){
+        display: none;
+    }
+    #tea_images>picture:last-child{
+        position: absolute;
+        top: 88vh;
+        left: 45vw;
+    }
+    #zoo_project>div>p{
+        top: 125vh;
+        right: 20vw;
+        font-size: 9px;
+    }
+    #zoo_lang{
+        top: 138vh;
+        right: 32vw;
+    }
+    #zoo_project>div>a{
+        right: 7vw;
+        top: 128vh;
+    }
+    #zoo_images>picture:first-child{
+        display: none;
+    }
+    #zoo_images>picture:nth-child(2){
+        position: absolute;
+        left: 6vw;
+        top: 147vh;
+    }
+    #zoo_images>picture:nth-child(3){
+        display: none;
+    }
+    #zoo_images>picture:last-child{
+        position: absolute;
+        left: 45vw;
+        top: 166vh;
+    }
+    #connect4>div>p{
+        top: 200vh;
+        left: 19vw;
+        font-size: 9px;
+    }
+    #connect4_lang{
+        top: 209vh;
+        left: 15vw;
+    }
+    #connect4>div>a{
+        position: absolute;
+        top: 202vh;
+        left: 6vw;
+    }
+    #connect4_images>picture:first-child{
+        position: absolute;
+        bottom: 40vh;
+        left: 10vw;
+    }
+    #connect4_images>picture:last-child{
+        position: absolute;
+        bottom: 16vh;
+        right: 5vw;
+
+    }
+}
+
+
