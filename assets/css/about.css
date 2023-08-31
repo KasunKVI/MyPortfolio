@@ -180,6 +180,10 @@
     z-index: 0;
 }
 @media all and (min-width: 1440px){
+    #about{
+
+        padding-bottom: 160vh;
+    }
     #about>h4{
         top: 5vh;
         font-size: 25px;
@@ -215,19 +219,19 @@
     }
 
     #download_btn{
-        top: 150vh;
+        top: 170vh;
         left: 50vw;
     }
     #about_explain{
         position: absolute;
-        top: 172vh;
+        top: 190vh;
         left: 25vw;
     }
     #about_me_side_bar{
         position: absolute;
-        width: 2vw;
-        height: 20vh;
-        top: 170vh;
+        width: 1vw;
+        height: 30vh;
+        top: 182vh;
         left: 22vw;
     }
 
@@ -287,6 +291,7 @@
 
 }
 @media all and (max-width: 1024px){
+
     #about>h4{
         top: 5vh;
         font-size: 20px;
