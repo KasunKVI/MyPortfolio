@@ -162,13 +162,13 @@
 
     #arrow_1 {
         position: absolute;
-        top: 40vh;
+        top: 60vh;
         left: 5vw;
     }
 
     .about_brief {
         position: absolute;
-        top: 43vh;
+        top: 63vh;
         left: 8vw;
     }
 
@@ -329,7 +329,7 @@
     }
     .about_brief {
         position: absolute;
-        top: 18vh;
+        top: 20vh;
         left: 11vw;
     }
     #my_main_image {
