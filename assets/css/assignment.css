@@ -5,8 +5,16 @@
 }
 #assignment_header{
     position: absolute;
-    top: 8vh;
+    top: 10vh;
     left: 2vw;
+}
+#assignment_header>h4{
+    font-family: 'Arya', sans-serif;
+    color: #3BC325;
+}
+#assignment_header>h1{
+    font-family: 'Aoboshi One', serif;
+    color: #302929;
 }
 .container{
     position: absolute;
@@ -47,6 +55,7 @@
     z-index: 1;
     transition: 0.3s;
     border-color: #0f1923;
+    font-family: 'Arsenal', sans-serif;
 }
 
 .container .btn:hover a {
@@ -174,20 +183,8 @@
     font-weight: bold;
 }
 
-
-
-.textBox > .price {
-    background: lightseagreen;
-    padding: 8px;
-    border-radius: 15px;
-}
 .textBox > .price:hover{
     background: #f89b29;
-}
-.textBox > span {
-
-    color: black;
-    font-weight: bold;
 }
 
 .card:hover > .textBox {
@@ -217,36 +214,31 @@
 .card:hover {
     transform: scale(1.04) rotate(-1deg);
 }
-
-
-
-@media all and (max-width: 768px) and (min-width: 425px){
-    .container{
-        right: 5vh;
-        width: 150px;
-        font-size: 15px;
-    }
-    .card {
-        position: absolute;
-        left: 10vw;
-        top: 30vh;
-        width: 195px;
-        height: 285px;
-    }
-    .textBox > .head {
-        font-size: 16px;
-    }
-    .textBox > .price {
-        font-size: 15px;
-    }
-    .textBox > span {
-        font-size: 10px;
-    }
-
+.textBox > .head {
+    font-family: 'Arya', sans-serif;
+    color: black;
 }
-@media all and (min-width: 1400px){
+.textBox > span {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
+    color: #837C7C;
+}
+.textBox > .price {
+    font-family: 'Baloo Thambi 2', cursive;
+    color: #1584EB;
+    background: lightseagreen;
+    padding: 8px;
+    border-radius: 15px;
+}
+@media all and (min-width: 1440px){
+    #assignment_header>h4{
+        font-size: 25px;
+    }
+    #assignment_header>h1{
+        font-size: 40px;
+    }
     .container{
-        right: 8vh;
+        right: 8vw;
         width: 200px;
         font-size: 18px;
     }
@@ -258,13 +250,210 @@
         height: 285px;
     }
     .textBox > .head {
-        font-size: 20px;
+        font-size: 21px;
     }
     .textBox > .price {
         font-size: 17px;
     }
     .textBox > span {
-        font-size: 12px;
+        font-size: 15px;
     }
 
+}
+@media all and (max-width: 1440px){
+    #assignment_header>h4{
+        font-size: 23px;
+    }
+    #assignment_header>h1{
+        font-size: 35px;
+    }
+    .container{
+        right: 8vh;
+        width: 180px;
+
+    }
+    .container>div>a{
+        font-size: 17px;
+    }
+    .card {
+        position: absolute;
+        left: 10vw;
+        top: 35vh;
+        width: 195px;
+        height: 285px;
+    }
+    .textBox > .head {
+        font-size: 20px;
+    }
+    .textBox > .price {
+        font-size: 16px;
+    }
+    .textBox > span {
+        font-size: 14px;
+    }
+
+}
+@media all and (max-width: 1024px){
+    #assignment_header>h4{
+        font-size: 22px;
+    }
+    #assignment_header>h1{
+        font-size: 33px;
+    }
+    .container{
+        right: 8vh;
+        width: 180px;
+
+    }
+    .container>div>a{
+        font-size: 15px;
+    }
+    .card {
+        position: absolute;
+        left: 10vw;
+        top: 33vh;
+        width: 180px;
+        height: 260px;
+    }
+    .textBox > .head {
+        font-size: 19px;
+    }
+    .textBox > .price {
+        font-size: 15px;
+    }
+    .textBox > span {
+        font-size: 13px;
+    }
+
+}
+@media all and (max-width: 768px){
+    #assignment_header>h4{
+        font-size: 21px;
+    }
+    #assignment_header>h1{
+        font-size: 31px;
+    }
+    .container{
+        right: 7vh;
+        width: 150px;
+    }
+    .container>div>a{
+        font-size: 17px;
+    }
+    .card {
+        position: absolute;
+        left: 15vw;
+        top: 30vh;
+        width: 195px;
+        height: 275px;
+    }
+    .textBox > .head {
+        font-size: 19px;
+    }
+    .textBox > .price {
+        font-size: 17px;
+    }
+    .textBox > span {
+        font-size: 15px;
+    }
+
+}
+@media all and (max-width: 425px){
+    #assignment_header>h4{
+        font-size: 20px;
+    }
+    #assignment_header>h1{
+        font-size: 29px;
+    }
+    .container{
+        right: 6vh;
+        width: 140px;
+    }
+    .container>div>a{
+        font-size: 15px;
+    }
+    .card {
+        position: absolute;
+        left: 25vw;
+        top: 30vh;
+        width: 200px;
+        height: 280px;
+    }
+    .textBox > .head {
+        font-size: 18px;
+    }
+    .textBox > .price {
+        font-size: 16px;
+    }
+    .textBox > span {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 375px){
+    #assignment_header>h4{
+        font-size: 19px;
+    }
+    #assignment_header>h1{
+        font-size: 28px;
+    }
+    .container>.btn{
+        right: 1vh;
+        width: 140px;
+        bottom: 0;
+    }
+    .container>div>a{
+        font-size: 15px;
+    }
+    .card {
+        position: absolute;
+        left: 23vw;
+        top: 30vh;
+        width: 200px;
+        height: 270px;
+    }
+    .textBox > .head {
+        font-size: 17px;
+    }
+    .textBox > .price {
+        font-size: 15px;
+    }
+    .textBox > span {
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 320px){
+
+    #assignment{
+        padding-bottom: 50vh;
+    }
+    #assignment_header>h4{
+        font-size: 18px;
+    }
+    #assignment_header>h1{
+        font-size: 24px;
+    }
+    .container>.btn{
+        right: 1vh;
+        width: 140px;
+        bottom: 0;
+    }
+    .container>div>a{
+        font-size: 15px;
+    }
+    .card {
+        position: absolute;
+        left: 20vw;
+        top: 35vh;
+        width: 180px;
+        height: 250px;
+    }
+    .textBox > .head {
+        font-size: 17px;
+    }
+    .textBox > .price {
+        font-size: 15px;
+    }
+    .textBox > span {
+        font-size: 13px;
+    }
 }
