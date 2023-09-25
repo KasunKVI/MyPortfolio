@@ -152,7 +152,8 @@
 }
 
 .img {
-    background-image: url("/assets/images/assignment/ezgif.com-video-to-gif.gif");
+
+    background-image: url("assets/images/assignment/ezgif.com-video-to-gif.gif");
     background-size: cover;
     background-position: center;
     width: 100%;

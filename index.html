@@ -31,6 +31,11 @@
 </head>
 <body>
 
+<!-- pre-loader -->
+<div id="loading-screen">
+    <img src="assets/images/Welcome.gif" alt="logo">
+</div>
+
 <header>
 
     <section>
@@ -690,7 +695,7 @@
         <img src="../assets/images/contacts/Rectangle_66.png" alt=>
         <h4>+94716991789</h4>
     </div>
-
+     
     <div id="email_ft">
         <img src="../assets/images/contacts/Rectangle_65.png" alt="">
         <h4>kkhettiarachchi10@gmail.com</h4>
@@ -704,5 +709,16 @@
         <a href="https://wa.me/+94716991789"><img src="../assets/images/contacts/whatsApp.png" alt=""></a>
     </div>
 </footer>
+
+<script>
+    // preloader
+    window.addEventListener('load', () => {
+        // Add a time delay of 5000 milliseconds (5 seconds) before hiding the preloader
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            loadingScreen.style.display = 'none';
+        }, 5000); // Adjust the delay time as needed
+    });
+</script>
 </body>
 </html>
