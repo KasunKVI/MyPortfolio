@@ -15,6 +15,7 @@
     family=Aoboshi+One&family=Arsenal:ital@1&family=Arya&family=Baloo+Thambi+2:wght@500&family=Bellefair&family=
     Black+Han+Sans&family=Glory:wght@500&family=Jomolhari&family=KoHo:wght@600&family=Kotta+One&family=Oswald&display=swap"
           rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/hero.css">
@@ -27,6 +28,7 @@
     <link rel="stylesheet" href="/assets/css/assignment.css">
     <link rel="stylesheet" href="/assets/css/contact.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
+
 
 </head>
 <body>
@@ -46,7 +48,7 @@
 
         <img src="../assets/images/icons8-menu-128.png" alt="" width="50" id="menu">
         <nav>
-            <dl id="header_navigation">
+            <dl id="header_navigation" >
                 <dd><a href="#home">Home</a></dd>
                 <dd><a href="#about">About</a></dd>
                 <dd><a href="#project">Project</a></dd>
@@ -62,7 +64,7 @@
     <section id="home">
 
 
-            <img src="../assets/images/patterns/arrow_heads/Arrow_head.svg" alt="" width="50" title="Arrow head" id="arrow_1">
+            <img src="../assets/images/patterns/arrow_heads/Arrow_head.svg" alt="" width="50" title="Arrow head" id="arrow_1" class="animate__swing">
 
         <div class="about_brief">
             <h1>Hey! I am <span>Kasun Kavinda</span></h1>
@@ -111,7 +113,7 @@
 
             <div id="about_me">
                 <h1>I am <span>Software Engineer</span></h1>
-                <h3>And  Tech Reviewer 👨‍💻 Video Creator 🎥 | ❤️💫.</h3>
+                <h3 id="hb"></h3>
             </div>
 
 
@@ -171,7 +173,7 @@
 
             <div id="about_me_side_bar"></div>
 
-            <p id="about_explain">
+            <p id="about_explain"  data-aos="fade-up">
                 As a full-stack developer,  I am driven by a deep passion for  crafting user-friendly and aesthetically pleasing<br>
                 UI designs that seamlessly integrate with  robust back-end functionality.<br>
                 I believe that great software goes beyond functionality;   it should also provide an exceptional user experience.<br>
@@ -200,7 +202,7 @@
         </picture>
 
 
-        <div id="kvArt">
+        <div id="kvArt" data-aos="fade-right">
 
             <picture>
                 <source media="(min-width: 1000px)" srcset="../assets/images/logos/kaviArt/kaviArt_logo_large.png">
@@ -217,7 +219,6 @@
                 unforgettable artistic journey!
             </p>
             <h5><a href="">Visit Now</a></h5>
-
         </div>
 
         <div id="kvTech">
@@ -719,6 +720,11 @@
             loadingScreen.style.display = 'none';
         }, 5000); // Adjust the delay time as needed
     });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/style.js"></script>
+<script>
+    AOS.init();
 </script>
 </body>
 </html>
