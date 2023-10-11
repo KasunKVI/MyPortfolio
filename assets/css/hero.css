@@ -71,6 +71,18 @@
     border-radius: 15px;
 }
 
+#arrow_1, #arrow_2 {
+    animation: my-animation 1s alternate infinite;
+}
+
+@keyframes my-animation  {
+
+    from {
+        transform: rotate(15deg);
+    } to{
+          transform: rotate(-15deg);
+      }
+}
 
 @media all and (min-width: 1440px){
 
@@ -193,6 +205,7 @@
         font-size: 28px;
     }
 }
+
 @media all and (max-width: 768px){
     #arrow_1 {
         position: absolute;
