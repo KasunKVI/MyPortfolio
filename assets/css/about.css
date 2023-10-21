@@ -173,11 +173,17 @@
 }
 #my_second_image{
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 #dot_pattern{
     position: absolute;
+    z-index: -1;
+}
+#my_third_image{
     z-index: 0;
+}
+body{
+    overflow-x: hidden !important;
 }
 @media all and (min-width: 1440px){
     #about{
@@ -203,7 +209,6 @@
         left: 7vw;
     }
     #my_third_image{
-        z-index: 2;
         padding-right: 1vw;
     }
     #dot_pattern{
@@ -257,7 +262,6 @@
         left: 7vw;
     }
     #my_third_image{
-        z-index: 2;
         padding-right: 1vw;
 
     }
@@ -450,7 +454,6 @@
     }
 
 }
-
 @media all and (max-width: 375px) {
     #about>h4{
         font-size: 18px;
