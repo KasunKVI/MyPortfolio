@@ -17,3 +17,15 @@
 header{
     z-index: 1;
 }
+
+body{
+    overflow-x: hidden !important;
+}
+@media all {
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+}
+
