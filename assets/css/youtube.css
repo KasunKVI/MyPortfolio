@@ -14,6 +14,7 @@
 #youtube>div>h5>a{
     text-decoration: none;
     color: #EF9B1E;
+    padding-top: 2vh;
 }
 #youtube>h3{
     position: absolute;
@@ -293,6 +294,33 @@
     }
 
 }
+@media all and (min-width: 425px) and (max-width: 768px){
+
+    #youtube>h3{
+        top: 8vh;
+        left: 25vw;
+        font-size: 17px;
+    }
+    .tangle_pattern{
+        position: absolute;
+        top: 5vh;
+        left: 6vw;
+    }
+    #whoIs>picture, #kvArt>picture,  #kvTech>picture{
+        position: absolute;
+        left: 1vw;
+        margin: auto;
+        top: 50%;
+
+    }
+    #whoIs, #kvArt, #kvTech{
+        width: 70vw;
+        left: 15vw;
+        height: 19vh;
+    }
+
+}
+
 @media all and (max-width: 425px){
 
     #youtube>h3{
