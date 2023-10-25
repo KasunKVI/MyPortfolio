@@ -205,6 +205,28 @@
         font-size: 28px;
     }
 }
+@media all and (min-width: 768px) and (max-width: 1024px){
+    #arrow_1 {
+        position: absolute;
+        top: 25vh;
+        left: 20vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 28vh;
+        left: 25vw;
+    }
+    #arrow_2 {
+        position: absolute;
+        left: 32vw;
+        top: 80vh;
+    }
+    #my_main_image {
+        position: absolute;
+        left: 15vw;
+        top: 80vh;
+    }
+}
 
 @media all and (max-width: 768px){
     #arrow_1 {
@@ -239,6 +261,18 @@
     }
     #home>div>h2{
         font-size: 24px;
+    }
+}
+@media all and (min-width: 425px) and (max-width: 768px){
+    #arrow_1 {
+        position: absolute;
+        top: 21vh;
+        left: 3vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 25vh;
+        left: 10vw;
     }
 }
 @media all and (max-width: 425px){
