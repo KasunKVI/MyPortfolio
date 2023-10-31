@@ -151,14 +151,11 @@
 
 }
 
-.img {
-
-    background-image: url("assets/images/assignment/ezgif.com-video-to-gif.gif");
+.img>iframe {
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100%;
-    position: absolute;
     transition: 0.2s ease-in-out;
     z-index: 1;
     border-radius: 20px;
@@ -166,21 +163,23 @@
 }
 
 .textBox {
-    opacity: 0;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 5px;
     transition: 0.2s ease-in-out;
     z-index: 2;
 }
 .textBox > .price>a{
     text-decoration: none;
     color: black;
+
 }
 
 .textBox > .text {
+    opacity: 1;
     font-weight: bold;
 }
 
@@ -188,10 +187,12 @@
     background: #f89b29;
 }
 
-.card:hover > .textBox {
+.card:hover > .textBox > .span, .card:hover > .textBox > .price{
     opacity: 1;
 }
-
+.card:hover > .textBox>.case{
+    display: none;
+}
 .card:hover > .img {
     height: 100%;
     filter: blur(7px);
@@ -219,7 +220,17 @@
     font-family: 'Arya', sans-serif;
     color: black;
 }
-.textBox > span {
+.textBox > .span >a{
+    text-decoration: none;
+    color: orangered;
+}
+.textBox > .span {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
+    color: #837C7C;
+    opacity: 0;
+}
+.textBox> .case{
     font-family: 'Black Han Sans', sans-serif;
     font-weight: bold;
     color: #837C7C;
@@ -230,6 +241,18 @@
     background: lightseagreen;
     padding: 8px;
     border-radius: 15px;
+    opacity: 0;
+}
+
+.assignments{
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+}
+.assignments>.card{
+    display: inline-grid;
+    margin-left: 7vw;
+    margin-top: 4vh;
 }
 @media all and (min-width: 1440px){
     #assignment_header>h4{
@@ -243,10 +266,7 @@
         width: 200px;
         font-size: 18px;
     }
-    .card {
-        position: absolute;
-        left: 10vw;
-        top: 30vh;
+    .card{
         width: 195px;
         height: 285px;
     }
@@ -256,7 +276,7 @@
     .textBox > .price {
         font-size: 17px;
     }
-    .textBox > span {
+    .textBox > .span {
         font-size: 15px;
     }
 
@@ -277,9 +297,7 @@
         font-size: 17px;
     }
     .card {
-        position: absolute;
-        left: 10vw;
-        top: 35vh;
+
         width: 195px;
         height: 285px;
     }
@@ -289,7 +307,7 @@
     .textBox > .price {
         font-size: 16px;
     }
-    .textBox > span {
+    .textBox > .span {
         font-size: 14px;
     }
 
@@ -310,9 +328,7 @@
         font-size: 15px;
     }
     .card {
-        position: absolute;
-        left: 10vw;
-        top: 33vh;
+
         width: 180px;
         height: 260px;
     }
@@ -322,7 +338,7 @@
     .textBox > .price {
         font-size: 15px;
     }
-    .textBox > span {
+    .textBox > .span {
         font-size: 13px;
     }
 
@@ -342,11 +358,12 @@
         font-size: 17px;
     }
     .card {
-        position: absolute;
-        left: 15vw;
-        top: 30vh;
+        margin-top: 8vh;
         width: 195px;
         height: 275px;
+    }
+    .assignments{
+        left: 9vw;
     }
     .textBox > .head {
         font-size: 19px;
@@ -354,10 +371,21 @@
     .textBox > .price {
         font-size: 17px;
     }
-    .textBox > span {
+    .textBox > .span {
         font-size: 15px;
     }
+    #assignment{
+        height: 150vh;
+    }
 
+}
+@media all and (min-width: 425px) and (max-width: 768px){
+
+
+    .card {
+        left: 27vw;
+        top: 30vh;
+    }
 }
 @media all and (max-width: 425px){
     #assignment_header>h4{
@@ -374,11 +402,12 @@
         font-size: 15px;
     }
     .card {
-        position: absolute;
-        left: 25vw;
-        top: 30vh;
+       margin-top: 8vh!important;
         width: 200px;
         height: 280px;
+    }
+    .assignments{
+        left: 14vw;
     }
     .textBox > .head {
         font-size: 18px;
@@ -386,8 +415,11 @@
     .textBox > .price {
         font-size: 16px;
     }
-    .textBox > span {
+    .textBox > .span {
         font-size: 14px;
+    }
+    #assignment{
+        height: 250vh;
     }
 }
 @media all and (max-width: 375px){
@@ -406,9 +438,7 @@
         font-size: 15px;
     }
     .card {
-        position: absolute;
-        left: 23vw;
-        top: 30vh;
+
         width: 200px;
         height: 270px;
     }
@@ -418,7 +448,7 @@
     .textBox > .price {
         font-size: 15px;
     }
-    .textBox > span {
+    .textBox > .span {
         font-size: 13px;
     }
 }
@@ -442,9 +472,7 @@
         font-size: 15px;
     }
     .card {
-        position: absolute;
-        left: 20vw;
-        top: 35vh;
+
         width: 180px;
         height: 250px;
     }
@@ -454,7 +482,10 @@
     .textBox > .price {
         font-size: 15px;
     }
-    .textBox > span {
+    .textBox > .span {
         font-size: 13px;
+    }
+    #assignment{
+        height: 200vh;
     }
 }

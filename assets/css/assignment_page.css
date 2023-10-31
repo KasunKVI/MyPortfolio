@@ -1,5 +1,8 @@
 body{
     background: #F1FCFF;
+    width: 100%;
+    overflow-x: hidden !important;
+
 }
 #header{
     position: absolute;
@@ -36,4 +39,209 @@ h2{
     position: relative;
     top: 50vh;
     left: 5vw;
+}
+.container{
+    position: absolute;
+    bottom: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container .btn {
+    height: 50px;
+    margin: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 155px;
+}
+
+.container .btn a {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.2);
+    color: #000000;
+    display: flex;
+    font-weight: 700;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
+    z-index: 1;
+    transition: 0.3s;
+    border-color: #0f1923;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.container .btn:hover a {
+    letter-spacing: 2px;
+}
+
+.container .btn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left,
+    rgba(255,255,255,0.15),
+    transparent);
+    transform: skewX(45deg) translateX(0);
+    transition: 0.5s;
+}
+
+.container .btn:hover a::before {
+    transform: skewX(45deg) translateX(200%);
+}
+
+.container .btn::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    height: 10px;
+    width: 30px;
+    background: rgb(8, 107, 183);
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.container .btn:hover::before {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+}
+
+.container .btn::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5px;
+    height: 10px;
+    width: 30px;
+    background: rgb(7, 95, 189);
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.container .btn:hover::after {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+}
+
+.container .btn:nth-child(1):before,
+.container .btn:nth-child(1)::after {
+    background: #2bd2ff;
+    box-shadow: 0 0 5px #2bd2ff,
+    0 0 15px #2bd2ff,
+    0 0 30px #2bd2ff,
+    0 0 60px #2bd2ff;
+}
+
+.container .btn:active a {
+    color: #000;
+}
+.card {
+
+    /*background: #313131;*/
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    transition: 0.2s ease-in-out;
+    box-shadow:  5px 5px 30px #50af8f,
+    5px 5px 30px #80ffe5;
+
+}
+
+.img {
+
+    background-image: url("assets/images/assignment/ezgif.com-video-to-gif.gif");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+
+.textBox {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+.textBox > .price>a{
+    text-decoration: none;
+    color: black;
+}
+
+.textBox > .text {
+    font-weight: bold;
+}
+
+.textBox > .price:hover{
+    background: #f89b29;
+}
+
+.card:hover > .textBox {
+    opacity: 1;
+}
+
+.card:hover > .img {
+    height: 100%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+}
+
+.card:hover {
+    transform: scale(1.04) rotate(-1deg);
+}
+.textBox > .head {
+    font-family: 'Arya', sans-serif;
+    color: black;
+}
+.textBox > span {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
+    color: #837C7C;
+}
+.textBox > .price {
+    font-family: 'Baloo Thambi 2', cursive;
+    color: #1584EB;
+    background: lightseagreen;
+    padding: 8px;
+    border-radius: 15px;
+}
+.card {
+    width: 200px;
+    height: 300px;
 }
