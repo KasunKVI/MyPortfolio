@@ -20,7 +20,10 @@ footer{
 footer>div>h3{
     position: relative;
 }
-
+body{
+    width: 100%;
+    overflow-x: hidden !important;
+}
 @media all and (min-width: 1440px) {
     #header1 {
         bottom: 80vh;
@@ -39,7 +42,7 @@ footer>div>h3{
 
     #events > picture:nth-child(2) {
         position: absolute;
-        right: 3vw;
+        right: 2vw;
         top: 35vh;
     }
 
@@ -171,7 +174,7 @@ footer>div>h3{
 
     #events > picture:nth-child(7) {
         position: absolute;
-        left: 51vw;
+        left: 55vw;
         top: 90vh;
     }
 
