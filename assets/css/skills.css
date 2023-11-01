@@ -5,19 +5,16 @@
     height: 100vh;
     padding-bottom: 20vh;
 }
-#certificate_lang>div:nth-child(2){
+.certificate_lang>div:nth-child(2){
     top: 35vh;
     left: 30vw;
 }
-#certificate_lang>div:last-child{
+.certificate_lang>div:last-child{
     top: 35vh;
     left: 50vw;
 }
 .card1 {
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
@@ -44,6 +41,7 @@
     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
     opacity: 0;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+
 }
 
 .card1:hover .card__content {
@@ -74,18 +72,31 @@
     color: dimgray;
     font-size: 12px;
 }
-#skills2>img:hover{
-    width: 80px;
-    transition: 0.5s ease;
-}
+/*#skills2>img:hover{*/
+/*    width: 80px;*/
+/*    transition: 0.5s ease;*/
+/*}*/
+
 #skills2{
     background:#ECFFDD;
     position: absolute;
+    overflow: hidden;
 }
 #skills>h3{
     position: absolute;
     font-family: 'Poppins', sans-serif;
     color: #302929;
+}
+.certificate_cards>.certificate_lang{
+    display: inline-grid ;
+    margin-left: 5vw;
+    margin-top: 4vh;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.certificate_cards{
+    position: absolute;
+    top: 39vh;
+    left: 10vw;
 }
 @media all and (min-width: 1440px){
 
@@ -117,9 +128,7 @@
         left: 25vw;
     }
     .card1 {
-        position: absolute;
-        top: 39vh;
-        left: 10vw;
+
         width: 300px;
         height: 200px;
     }
@@ -152,9 +161,6 @@
         left: 20vw;
     }
     .card1 {
-        position: absolute;
-        top: 39vh;
-        left: 10vw;
         width: 300px;
         height: 200px;
     }
@@ -183,9 +189,7 @@
         left: 4vw;
     }
     .card1 {
-        position: absolute;
-        top: 39vh;
-        left: 10vw;
+
         width: 300px;
         height: 200px;
     }
@@ -205,9 +209,6 @@
         font-size: 18px;
     }
     .card1 {
-        position: absolute;
-        top: 35vh;
-        left: 19vw;
         width: 270px;
         height: 180px;
     }
@@ -229,6 +230,13 @@
     }
 
 }
+@media all and (min-width: 425px) and (max-width: 768px){
+    #skills2{
+        height: 700px;
+        width: 280px;
+        left: 60px;
+    }
+}
 @media all and (max-width: 425px){
 
     #square_pattern{
@@ -242,9 +250,6 @@
         font-size: 17px;
     }
     .card1 {
-        position: absolute;
-        top: 35vh;
-        left: 19vw;
         width: 270px;
         height: 180px;
     }
@@ -280,9 +285,7 @@
         font-size: 16px;
     }
     .card1 {
-        position: absolute;
-        top: 35vh;
-        left: 15vw;
+
         width: 270px;
         height: 180px;
     }
@@ -317,9 +320,7 @@
         font-size: 15px;
     }
     .card1 {
-        position: absolute;
-        top: 35vh;
-        left: 8vw;
+
         width: 260px;
         height: 175px;
     }
