@@ -8,7 +8,14 @@
   <meta name="viewPort" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/css/header.css">
   <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="/assets/css/cursor.css">
   <link rel="stylesheet" href="/assets/css/gallery.css">
+  <link rel="stylesheet" href="/assets/css/jquery.flipster.min.css"> <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap&family=Carter+One&family=Kaushan+Script&display=swap&family=Agbalumo&family=Baskervville&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/gl.css">
+
 </head>
 <body>
 <header>
@@ -19,9 +26,16 @@
       <img src="../assets/images/logos/my_logo/My_Logo.svg" alt="Kaviya" width="57" title="logo - Kaviya">
     </picture>
 
-    <img src="../assets/images/icons8-menu-128.png" alt="" width="50" id="menu">
+    <div class="navIcon">
+      <img src="../assets/images/icons8-menu-128.png" alt="" width="50" id="menu">
+    </div>
+    <div class="navIcon">
+      <img src="../assets/images/icons8-close-64.png" alt="" width="50" id="menu_close">
+    </div>
+
+
     <nav>
-      <dl id="header_navigation">
+      <dl id="header_navigation" >
         <dd><a href="index.html#home">Home</a></dd>
         <dd><a href="index.html#about">About</a></dd>
         <dd><a href="index.html#project">Project</a></dd>
@@ -29,10 +43,27 @@
         <dd><a href="gallery.html">Gallery</a></dd>
         <dd><a href="index.html#contact">Contact</a></dd>
       </dl>
+
+      <div id="mobile_navigation">
+
+        <dl id="header_navigation_mobile" >
+          <dd><a href="index.html#home">Home</a></dd>
+          <dd><a href="index.html#about">About</a></dd>
+          <dd><a href="index.html#project">Project</a></dd>
+          <dd><a href="assignment.html">Assignment</a></dd>
+          <dd><a href="assignment.html">Gallery</a></dd>
+          <dd><a href="index.html#contact">Contact</a></dd>
+        </dl>
+
+      </div>
+
+
     </nav>
   </section>
+
 </header>
 
+<div class="cursor"></div>
 <main>
 
   <section>
@@ -42,54 +73,33 @@
       <h2>“Stepping into the Spotlight : A Collection of Memorable Eventful Moments”</h2>
 
     </section>
+    <div class="main">
 
-
-    <div id="events">
-      <picture>
-        <source media="(min-width: 1000px)" srcset="../assets/images/gallery/events/img1.png">
-        <source media="(min-width: 700px)" srcset="../assets/images/gallery/events/img1_(1).png">
-        <source media="(min-width: 400px)" srcset="../assets/images/gallery/events/img1_(2).png">
-        <img src="../assets/images/gallery/events/img1_(2).png" alt="" title="Innovesta image 1">
-      </picture>
-      <picture>
-        <source media="(min-width: 1000px)" srcset="../assets/images/gallery/events/img2.png">
-        <source media="(min-width: 700px)" srcset="../assets/images/gallery/events/img2_(1).png">
-        <source media="(min-width: 400px)" srcset="../assets/images/gallery/events/img2_(2).png">
-        <img src="../assets/images/gallery/events/img2_(2).png" alt="" title="Innovesta image 2">
-      </picture>
-      <picture>
-        <source media="(min-width: 1000px)" srcset="../assets/images/gallery/events/img3.png">
-        <source media="(min-width: 700px)" srcset="../assets/images/gallery/events/img3_(1).png">
-        <source media="(min-width: 400px)" srcset="../assets/images/gallery/events/img3_(2).png">
-        <img src="../assets/images/gallery/events/img3_(2).png" alt="" title="Innovesta image 3">
-      </picture>
-      <picture>
-      <source media="(min-width: 1000px)" srcset="../assets/images/gallery/events/img4.png">
-      <source media="(min-width: 700px)" srcset="../assets/images/gallery/events/img4_(1).png">
-      <source media="(min-width: 400px)" srcset="../assets/images/gallery/events/img4_(2).png">
-      <img src="../assets/images/gallery/events/img2_(4).png" alt="" title="Google I/O event - 2023 image 1">
-    </picture>
-      <picture>
-        <source media="(min-width: 1000px)" srcset="../assets/images/gallery/events/img5.png">
-        <source media="(min-width: 700px)" srcset="../assets/images/gallery/events/img5_(1).png">
-        <source media="(min-width: 400px)" srcset="../assets/images/gallery/events/img5_(2).png">
-        <img src="../assets/images/gallery/events/img2_(5).png" alt="" title="Google I/O event - 2023 image 2">
-      </picture>
-      <picture>
-      <source media="(min-width: 1000px)" srcset="../assets/images/gallery/events/img6.png">
-      <source media="(min-width: 700px)" srcset="../assets/images/gallery/events/img6_(1).png">
-      <source media="(min-width: 400px)" srcset="../assets/images/gallery/events/img6_(2).png">
-      <img src="../assets/images/gallery/events/img6_(2).png" alt="" title="Innovesta image 4">
-    </picture>
-      <picture>
-        <source media="(min-width: 1000px)" srcset="../assets/images/gallery/events/img7.png">
-        <source media="(min-width: 700px)" srcset="../assets/images/gallery/events/img7_(1).png">
-        <source media="(min-width: 400px)" srcset="../assets/images/gallery/events/img7_(2).png">
-        <img src="../assets/images/gallery/events/img7_(2).png" alt="" title="Google I/O event - 2023 image 3">
-      </picture>
-
-
+    <div class="gallery">
+      <div class="img">
+        <img  src="../assets/images/gallery/events/img1.png" alt="" title="Innovesta image 1" />
+      </div>
+      <div class="img">
+        <img src="../assets/images/gallery/events/img2.png" alt="" title="Innovesta image 2" />
+      </div>
+      <div class="img">
+        <img src="../assets/images/gallery/events/img3.png" alt="" title="Innovesta image 3" />
+      </div>
+      <div class="img">
+        <img src="../assets/images/gallery/events/img4.png" alt="" title="Google I/O event - 2023 image 1" />
+      </div>
+      <div class="img">
+        <img src="../assets/images/gallery/events/img5.png" alt="" title="Google I/O event - 2023 image 2" />
+      </div>
+      <div class="img">
+        <img src="../assets/images/gallery/events/img6.png" alt="" title="Innovesta image 4" />
+      </div>
+      <div class="img">
+        <img src="../assets/images/gallery/events/img7.png" alt="" title="Google I/O event - 2023 image 3" />
+      </div>
     </div>
+    </div>
+
   </section>
 
   <hr>
@@ -100,27 +110,33 @@
       <h2>“Embracing Life's Everyday Beauty: A Kaleidoscope of Moments in My Ordinary Journey”</h2>
     </section>
 
-    <div id="day">
-      <picture>
-        <source media="(min-width: 1000px)" srcset="../assets/images/gallery/general/img2_(3).png">
-        <source media="(min-width: 700px)" srcset="../assets/images/gallery/general/img2_(4).png">
-        <source media="(min-width: 400px)" srcset="../assets/images/gallery/general/img2_(5).png">
-        <img src="../assets/images/gallery/general/img2_(5).png" alt="" title="General image 3">
-      </picture>
+    <div class="hero">
+      <div class="carousel">
+        <ul>
 
-      <picture>
-        <source media="(min-width: 1000px)" srcset="../assets/images/gallery/general/img3_(3).png">
-        <source media="(min-width: 700px)" srcset="../assets/images/gallery/general/img3_(4).png">
-        <source media="(min-width: 400px)" srcset="../assets/images/gallery/general/img3_(5).png">
-        <img src="../assets/images/gallery/general/img3_(5).png" alt="" title="General image 2">
-      </picture>
+          <li><picture>
+            <source media="(min-width: 1000px)" srcset="../assets/images/gallery/general/img2_(3).png">
+            <source media="(min-width: 700px)" srcset="../assets/images/gallery/general/img2_(4).png">
+            <source media="(min-width: 400px)" srcset="../assets/images/gallery/general/img2_(5).png">
+            <img src="../assets/images/gallery/general/img2_(5).png" alt="" title="General image 3">
+          </picture></li>
+          <li><picture>
+            <source media="(min-width: 1000px)" srcset="../assets/images/gallery/general/img3_(3).png">
+            <source media="(min-width: 700px)" srcset="../assets/images/gallery/general/img3_(4).png">
+            <source media="(min-width: 400px)" srcset="../assets/images/gallery/general/img3_(5).png">
+            <img src="../assets/images/gallery/general/img3_(5).png" alt="" title="General image 2">
+          </picture></li>
+          <li>      <picture>
+            <source media="(min-width: 1000px)" srcset="../assets/images/gallery/general/img1_(3).png">
+            <source media="(min-width: 700px)" srcset="../assets/images/gallery/general/img1_(4).png">
+            <source media="(min-width: 400px)" srcset="../assets/images/gallery/general/img1_(5).png">
+            <img src="../assets/images/gallery/general/img1_(5).png" alt="" title="General image 3">
+          </picture></li>
 
-      <picture>
-        <source media="(min-width: 1000px)" srcset="../assets/images/gallery/general/img1_(3).png">
-        <source media="(min-width: 700px)" srcset="../assets/images/gallery/general/img1_(4).png">
-        <source media="(min-width: 400px)" srcset="../assets/images/gallery/general/img1_(5).png">
-        <img src="../assets/images/gallery/general/img1_(5).png" alt="" title="General image 3">
-      </picture>
+        </ul>
+
+
+      </div>
     </div>
 
   </section>
@@ -128,11 +144,25 @@
 </main>
 <footer>
 
+
   <div>
     <h3>"Connecting the Dots: Reach Out and Let's Craft Digital Solutions Together!"</h3>
    <a href="index.html#contact"><button type="button">Contact Me</button></a>
   </div>
 
 </footer>
+<script src="../assets/js/lib/jquery.min.js"></script>
+<script src="../assets/js/header_navigation.js"></script>
+<script src="../assets/js/cursor.js"></script>
+<script src="/assets/js/lib/jquery.flipster.min.js"></script>
+<script>
+  $('.carousel').flipster();
+</script>
+<script>
+  $('.carousel').flipster({
+    style:'carousel',
+  });
+
+</script>
 </body>
 </html>

@@ -1,0 +1,123 @@
+
+.main{
+    margin-top: 30vh;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.main .gallery{
+    position: relative;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto; /*i write auto four time because we want four rows*/
+    grid-gap: 2vh;
+    grid-auto-flow: dense;
+}
+.main .gallery .img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2px;
+}
+.main .gallery .img:first-child{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+.main .gallery .img:nth-child(2){
+    grid-row-start: span 2;
+    grid-column-start: span 2
+}
+.main .gallery .img:nth-child(3){
+     grid-row-start: span 2;
+     grid-column-start: span 2
+ }
+
+.main .gallery .img:nth-child(5){
+    grid-row-start: span 2;
+    grid-column-start: span 2
+}
+.main .gallery .img:nth-child(4){
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+.main .gallery .img:nth-child(6){
+    grid-row-start: span 1;
+    grid-column-start: span 2;
+}
+.main .gallery .img:nth-child(7){
+    grid-row-start: span 3;
+    grid-column-start: span 2;
+}
+.main .gallery .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) grayscale(100);
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+}
+.main .gallery .img:hover img{
+    filter: brightness(1) grayscale(0);
+}
+@media only screen and (min-width: 1024px){
+    .main .gallery .img:first-child{
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+    .main .gallery .img:nth-child(2){
+        grid-row-start: span 1;
+        grid-column-start: span 1
+    }
+    .main .gallery .img:nth-child(3){
+        grid-row-start: span 1;
+        grid-column-start: span 2;
+    }
+
+    .main .gallery .img:nth-child(5){
+        grid-row-start: span 1;
+        grid-column-start: span 2;
+    }
+    .main .gallery .img:nth-child(4){
+        grid-column-start: span 2;
+        grid-row-start: span 1;
+    }
+    .main .gallery .img:nth-child(6){
+        grid-row-start: span 1;
+        grid-column-start: span 2;
+    }
+    .main .gallery .img:nth-child(7){
+        grid-row-start: span 2;
+        grid-column-start: span 2;
+    }
+}
+@media only screen and (max-width: 768px){
+
+    .main .gallery{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .main{
+        height: 300vh;
+    }
+}
+@media only screen and (max-width: 430px){
+
+    .main .gallery{
+        display: block;
+    }
+
+    .main .gallery .img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin:2% 0;
+    }
+    .main .gallery .img img{
+        display: block;
+        filter: brightness(1) grayscale(0);
+    }
+}
