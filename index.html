@@ -18,7 +18,10 @@
     Black+Han+Sans&family=Glory:wght@500&family=Jomolhari&family=KoHo:wght@600&family=Kotta+One&family=Oswald&display=swap"
           rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../assets/css/bct.css">
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/cursor.css">
@@ -740,39 +743,39 @@
                 </p>
             </div>
 
-            <form action="">
+            <form action="https://script.google.com/macros/s/AKfycby2Au1e-CWcBpjxxq4grXBT0C8bqyv6mVpa-apNR5tS7uyzmptJ0n7cIILwvAPjww-Wng/exec" id="contactForm">
             <div>
 
 
                 <div class="inputContainer1"   data-aos="zoom-in-up" data-aos-duration="800">
-                    <input required="required" id="inputField1" placeholder="Name" type="text">
+                    <input required="required" id="inputField1" placeholder="Name" name="name" type="text">
                     <label class="nameLabel" for="inputField1">Name</label>
                 </div>
 
                 <div class="inputContainer2"  data-aos="zoom-in-up" data-aos-duration="800">
-                    <input required="required" id="inputField2" placeholder="Email" type="email">
+                    <input required="required" id="inputField2" placeholder="Email" name="email" type="email">
                     <label class="emailLabel" for="inputField2">Email</label>
                 </div>
 
                 <div class="inputContainer3"  data-aos="zoom-in-up" data-aos-duration="800">
-                    <input required="required" id="inputField3" placeholder="Contact" type="tel">
+                    <input required="required" id="inputField3" placeholder="Contact" name="contact" type="tel">
                     <label class="contactLabel" for="inputField3">Contact</label>
                 </div>
 
                 <div class="inputContainer4"  data-aos="zoom-in-up" data-aos-duration="800">
-                    <input required="required" id="inputField4" placeholder="Subject" type="text">
+                    <input required="required" id="inputField4" placeholder="Subject" name="subject" type="text">
                     <label class="subjectLabel" for="inputField4">Subject</label>
                 </div>
 
-                <div class="inputContainer5"  data-aos="zoom-in-up"data-aos-duration="800">
-                    <textarea required="required" id="inputField5" placeholder="Massage" cols="30" rows="10"></textarea>
+                <div class="inputContainer5"  data-aos="zoom-in-up" data-aos-duration="800">
+                    <textarea required="required" id="inputField5" placeholder="Massage" cols="30" rows="10" name="message"></textarea>
                     <label class="massageLabel" for="inputField5">Massage</label>
                 </div>
 
 
             </div>
 
-            <button type="submit" id="submit_btn" data-aos="zoom-in-down" data-aos-duration="1000">
+            <button type="submit" id="submit_btn" data-aos="zoom-in-down" value="Submit"  data-aos-duration="1000">
 
                 <div>Submit</div>
 
@@ -785,7 +788,13 @@
 
             </form>
         </div>
+
+
     </section>
+
+    <a id="button"></a>
+
+
 </main>
 
 <footer>
@@ -816,6 +825,7 @@
     </div>
 </footer>
 
+
 <script src="../assets/js/lib/jquery.min.js"></script>
 <script src="../assets/js/cursor.js"></script>
 <script src="../assets/js/header_navigation.js"></script>
@@ -835,6 +845,8 @@
 <script>
     AOS.init();
 </script>
+<script src="../assets/js/backToTop.js"></script>
+
 
 </body>
 </html>

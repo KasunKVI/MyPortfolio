@@ -22,3 +22,6 @@ myFunction = ()=> {
     }
 }
 setInterval(myFunction, 100);
+
+
+
