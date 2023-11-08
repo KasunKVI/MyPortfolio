@@ -252,7 +252,7 @@ button:hover::after {
     animation-timing-function: steps(2, end);
     text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
     background-color: transparent;
-    border: 3px solid rgb(0, 255, 213);
+    border: 3px solid #A7422D;
 }
 
 button:hover {
@@ -261,7 +261,7 @@ button:hover {
 
 button:hover {
     background-color: transparent;
-    border: 1px solid rgb(0, 255, 213);
+    border: 1px solid #A7422D;
     box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
 }
 
