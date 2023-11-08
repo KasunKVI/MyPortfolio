@@ -151,7 +151,7 @@
 
 }
 
-.img>iframe {
+.img>img {
     background-size: cover;
     background-position: center;
     width: 100%;

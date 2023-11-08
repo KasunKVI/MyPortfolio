@@ -19,17 +19,19 @@
           rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/hero.css">
-    <link rel="stylesheet" href="/assets/css/about.css">
-    <link rel="stylesheet" href="/assets/css/youtube.css">
-    <link rel="stylesheet" href="/assets/css/skills.css">
-    <link rel="stylesheet" href="/assets/css/resume.css">
-    <link rel="stylesheet" href="/assets/css/project.css">
-    <link rel="stylesheet" href="/assets/css/assignment.css">
-    <link rel="stylesheet" href="/assets/css/contact.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/cursor.css">
+    <link rel="stylesheet" href="../assets/css/hero.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/youtube.css">
+    <link rel="stylesheet" href="../assets/css/skills.css">
+    <link rel="stylesheet" href="../assets/css/resume.css">
+    <link rel="stylesheet" href="../assets/css/project.css">
+    <link rel="stylesheet" href="../assets/css/assignment.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+
 
 
 </head>
@@ -40,6 +42,7 @@
     <img src="assets/images/Welcome.gif" alt="logo">
 </div>
 
+
 <header>
 
     <section>
@@ -48,7 +51,14 @@
             <img src="../assets/images/logos/my_logo/My_Logo.svg" alt="Kaviya" width="57" title="logo - Kaviya">
         </picture>
 
-        <img src="../assets/images/icons8-menu-128.png" alt="" width="50" id="menu">
+        <div class="navIcon">
+            <img src="../assets/images/icons8-menu-128.png" alt="" width="50" id="menu">
+        </div>
+        <div class="navIcon">
+            <img src="../assets/images/icons8-close-64.png" alt="" width="50" id="menu_close">
+        </div>
+
+
         <nav>
             <dl id="header_navigation" >
                 <dd><a href="#home">Home</a></dd>
@@ -58,11 +68,28 @@
                 <dd><a href="gallery.html">Gallery</a></dd>
                 <dd><a href="#contact">Contact</a></dd>
             </dl>
+
+            <div id="mobile_navigation">
+
+                <dl id="header_navigation_mobile" >
+                    <dd><a href="#home">Home</a></dd>
+                    <dd><a href="#about">About</a></dd>
+                    <dd><a href="#project">Project</a></dd>
+                    <dd><a href="#assignment">Assignment</a></dd>
+                    <dd><a href="gallery.html">Gallery</a></dd>
+                    <dd><a href="#contact">Contact</a></dd>
+                </dl>
+
+            </div>
+
+
         </nav>
     </section>
 </header>
 
 <main>
+    <div class="cursor"></div>
+
     <section id="home">
 
 
@@ -567,17 +594,17 @@
                 <div id="connect4_images">
 
                     <picture data-aos="zoom-out-left">
-                        <source media="(min-width: 1000px)" srcset="/assets/images/projects/connect_4_game/cn_pic_1.png">
-                        <source media="(min-width: 700px)" srcset="/assets/images/projects/connect_4_game/cn_pic_1_(1).png">
-                        <source media="(min-width: 400px)" srcset="/assets/images/projects/connect_4_game/cn_pic_1_(2).png">
-                        <img src="/assets/images/projects/connect_4_game/cn_pic_1_(2).png" alt="" title="project image 1">
+                        <source media="(min-width: 1000px)" srcset="../assets/images/projects/connect_4_game/cn_pic_1.png">
+                        <source media="(min-width: 700px)" srcset="../assets/images/projects/connect_4_game/cn_pic_1_(1).png">
+                        <source media="(min-width: 400px)" srcset="../assets/images/projects/connect_4_game/cn_pic_1_(2).png">
+                        <img src="../assets/images/projects/connect_4_game/cn_pic_1_(2).png" alt="" title="project image 1">
                     </picture>
 
                     <picture data-aos="zoom-out-left">
-                        <source media="(min-width: 1000px)" srcset="/assets/images/projects/connect_4_game/cn_pic_2.png">
-                        <source media="(min-width: 700px)" srcset="/assets/images/projects/connect_4_game/cn_pic_2_(1).png">
-                        <source media="(min-width: 400px)" srcset="/assets/images/projects/connect_4_game/cn_pic_2_(2).png">
-                        <img src="/assets/images/projects/connect_4_game/cn_pic_2_(2).png" alt="" title="project image 2">
+                        <source media="(min-width: 1000px)" srcset=.."/assets/images/projects/connect_4_game/cn_pic_2.png">
+                        <source media="(min-width: 700px)" srcset="../assets/images/projects/connect_4_game/cn_pic_2_(1).png">
+                        <source media="(min-width: 400px)" srcset="../assets/images/projects/connect_4_game/cn_pic_2_(2).png">
+                        <img src="../assets/images/projects/connect_4_game/cn_pic_2_(2).png" alt="" title="project image 2">
                     </picture>
 
                 </div>
@@ -599,8 +626,7 @@
           <div class="card"  data-aos="flip-right" data-aos-duration="1000">
                <div class="img">
 
-                   <iframe src="https://kasunkvi.github.io/assignment_03_html_css/case_01/index.html" frameborder="0" scrolling="no">
-                   </iframe>
+                   <img src="/assets/images/skills/assignment_03_case_01.png" alt="">
 
                </div>
 
@@ -610,7 +636,7 @@
                     <p class="text head">Assignment 03</p>
                     <span class="case">Case 01</span>
                     <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_01/index.html" target="_blank">Full View</a></span>
-                    <p class="text price"><a href="" target="_blank">GitHub</a></p>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_01" target="_blank">GitHub</a></p>
                 </div>
 
             </div>
@@ -618,8 +644,7 @@
             <div class="card"  data-aos="flip-right" data-aos-duration="1000">
                 <div class="img">
 
-                    <iframe src="https://kasunkvi.github.io/assignment_03_html_css/case_02/index.html" frameborder="0" scrolling="no">
-                    </iframe>
+                    <img src="/assets/images/skills/assignment_03_case_02.png" alt="">
 
                 </div>
 
@@ -629,15 +654,15 @@
                     <p class="text head">Assignment 03</p>
                     <span class="case">Case 02</span>
                     <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_02/index.html" target="_blank">Full View</a></span>
-                    <p class="text price"><a href="" target="_blank">GitHub</a></p>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_02" target="_blank">GitHub</a></p>
+
                 </div>
 
             </div>
             <div class="card"  data-aos="flip-right" data-aos-duration="1000">
                 <div class="img">
 
-                    <iframe src="https://kasunkvi.github.io/assignment_03_html_css/case_03/index.html" frameborder="0" scrolling="no">
-                    </iframe>
+                    <img src="/assets/images/skills/assignment_03_case_03.png" alt="">
 
                 </div>
 
@@ -647,15 +672,14 @@
                     <p class="text head">Assignment 03</p>
                     <span class="case">Case 03</span>
                     <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_03/index.html" target="_blank">Full View</a></span>
-                    <p class="text price"><a href="" target="_blank">GitHub</a></p>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_03" target="_blank">GitHub</a></p>
                 </div>
 
             </div>
             <div class="card"  data-aos="flip-right" data-aos-duration="1000">
                 <div class="img">
 
-                    <iframe src="https://kasunkvi.github.io/assignment_03_html_css/case_04/index.html" frameborder="0" scrolling="no">
-                    </iframe>
+                    <img src="/assets/images/skills/assignment_03_case_04.png" alt="">
 
                 </div>
 
@@ -665,15 +689,14 @@
                     <p class="text head">Assignment 03</p>
                     <span class="case">Case 04</span>
                     <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_04/index.html" target="_blank">Full View</a></span>
-                    <p class="text price"><a href="" target="_blank">GitHub</a></p>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_04" target="_blank">GitHub</a></p>
                 </div>
 
             </div>
             <div class="card"  data-aos="flip-right" data-aos-duration="1000">
                 <div class="img">
 
-                    <iframe src="https://kasunkvi.github.io/assignment_03_html_css/case_05/index.html" frameborder="0" scrolling="no">
-                    </iframe>
+                    <img src="/assets/images/skills/assignment_03_case_05.png" alt="">
 
                 </div>
 
@@ -683,14 +706,14 @@
                     <p class="text head">Assignment 03</p>
                     <span class="case">Case 05</span>
                     <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_05/index.html" target="_blank">Full View</a></span>
-                    <p class="text price"><a href="" target="_blank">GitHub</a></p>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_05" target="_blank">GitHub</a></p>
                 </div>
 
             </div>
 
         </div>
         <div class="container" data-aos="zoom-in">
-            <div class="btn"><a href="assignment.html">More >></a></div>
+            <div class="btn"><a href="maintain/assignment_maintain.html">More >></a></div>
         </div>
 
     </section>
@@ -706,9 +729,9 @@
 
             <div id="contact_instruction"   data-aos="flip-up" data-aos-duration="800">
                 <picture>
-                    <source media="(min-width: 1000px)" srcset="/assets/images/Rectangle_124.png">
-                    <source media="(min-width: 600px)" srcset="/assets/images/Rectangle_124_(1).png">
-                    <img src="/assets/images/Rectangle_124_(1).png" alt="" title="project image 1">
+                    <source media="(min-width: 1000px)" srcset="../assets/images/Rectangle_124.png">
+                    <source media="(min-width: 600px)" srcset="../assets/images/Rectangle_124_(1).png">
+                    <img src="../assets/images/Rectangle_124_(1).png" alt="" title="project image 1">
                 </picture>
 
                 <p>
@@ -793,6 +816,9 @@
     </div>
 </footer>
 
+<script src="../assets/js/lib/jquery.min.js"></script>
+<script src="../assets/js/cursor.js"></script>
+<script src="../assets/js/header_navigation.js"></script>
 <script src="../assets/style.js"></script>
 <script>
 
@@ -809,5 +835,6 @@
 <script>
     AOS.init();
 </script>
+
 </body>
 </html>
