@@ -386,6 +386,9 @@
         left: 27vw;
         top: 30vh;
     }
+    #assignment{
+        height: 230vh;
+    }
 }
 @media all and (max-width: 425px){
     #assignment_header>h4{
@@ -419,7 +422,7 @@
         font-size: 14px;
     }
     #assignment{
-        height: 250vh;
+        height: 270vh;
     }
 }
 @media all and (max-width: 375px){
@@ -486,6 +489,6 @@
         font-size: 13px;
     }
     #assignment{
-        height: 200vh;
+        height: 250vh;
     }
 }

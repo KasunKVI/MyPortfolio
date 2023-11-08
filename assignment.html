@@ -8,63 +8,275 @@
     <meta name="viewPort" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/cursor.css">
     <link rel="stylesheet" href="/assets/css/assignment_page.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap&family=Andika&display=swap&family=Kaushan+Script&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <header>
-<section>
-    <picture>
-        <source srcset="../assets/images/logos/my_logo/My_Logo1.png" type="image/png+xml" title="logo - Kaviya">
-        <img src="../assets/images/logos/my_logo/My_Logo.svg" alt="Kaviya" width="57" title="logo - Kaviya">
-    </picture>
 
-    <img src="../assets/images/icons8-menu-128.png" alt="" width="50" id="menu">
-    <nav>
-        <dl id="header_navigation">
-            <dd><a href="index.html#home">Home</a></dd>
-            <dd><a href="index.html#about">About</a></dd>
-            <dd><a href="index.html#project">Project</a></dd>
-            <dd><a href="assignment.html">Assignment</a></dd>
-            <dd><a href="gallery.html">Gallery</a></dd>
-            <dd><a href="index.html#contact">Contact</a></dd>
-        </dl>
-    </nav>
-</section>
+    <section>
+        <picture>
+            <source srcset="../assets/images/logos/my_logo/My_Logo1.png" type="image/png+xml" title="logo - Kaviya">
+            <img src="../assets/images/logos/my_logo/My_Logo.svg" alt="Kaviya" width="57" title="logo - Kaviya">
+        </picture>
+
+        <div class="navIcon">
+            <img src="../assets/images/icons8-menu-128.png" alt="" width="50" id="menu">
+        </div>
+        <div class="navIcon">
+            <img src="../assets/images/icons8-close-64.png" alt="" width="50" id="menu_close">
+        </div>
+
+
+        <nav>
+            <dl id="header_navigation" >
+                <dd><a href="index.html#home">Home</a></dd>
+                <dd><a href="index.html#about">About</a></dd>
+                <dd><a href="index.html#project">Project</a></dd>
+                <dd><a href="assignment.html">Assignment</a></dd>
+                <dd><a href="gallery.html">Gallery</a></dd>
+                <dd><a href="index.html#contact">Contact</a></dd>
+            </dl>
+
+            <div id="mobile_navigation">
+
+                <dl id="header_navigation_mobile" >
+                    <dd><a href="index.html#home">Home</a></dd>
+                    <dd><a href="index.html#about">About</a></dd>
+                    <dd><a href="index.html#project">Project</a></dd>
+                    <dd><a href="assignment.html">Assignment</a></dd>
+                    <dd><a href="gallery.html">Gallery</a></dd>
+                    <dd><a href="index.html#contact">Contact</a></dd>
+                </dl>
+
+            </div>
+
+
+        </nav>
+    </section>
 
 </header>
-
+<div class="cursor"></div>
 <main>
     <section id="header">
         <h3>Taking a leap forward in my academic journey</h3>
     </section>
 
-    <section>
+    <section id="assignment">
 
-        <div>
+        <div class="assignments">
             <div class="card"  data-aos="flip-right" data-aos-duration="1000">
-                <div class="img"></div>
-                <div class="textBox">
-                    <p class="text head">Assignment 03</p>
-                    <span>Case 02</span>
-                    <p class="text price"><a href="">GitHub</a></p>
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_03_case_01.png" alt="">
+<!--                    <iframe src="https://kasunkvi.github.io/assignment_03_html_css/case_01/index.html" frameborder="0" scrolling="no">-->
+<!--                    </iframe>-->
+
                 </div>
+
+                <div class="textBox">
+
+                    <p class="text head">Assignment 03</p>
+                    <span class="case">Case 01</span>
+                    <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_01/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_01" target="_blank">GitHub</a></p>
+
+                </div>
+
             </div>
 
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_03_case_02.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+
+                    <p class="text head">Assignment 03</p>
+                    <span class="case">Case 02</span>
+                    <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_02/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_02" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_03_case_03.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+
+                    <p class="text head">Assignment 03</p>
+                    <span class="case">Case 03</span>
+                    <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_03/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_03" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_03_case_04.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+
+                    <p class="text head">Assignment 03</p>
+                    <span class="case">Case 04</span>
+                    <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_04/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_04" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_03_case_05.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+                    <p class="text head">Assignment 03</p>
+                    <span class="case">Case 05</span>
+                    <span class="span"><a href="https://kasunkvi.github.io/assignment_03_html_css/case_05/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_03_html_css/tree/master/case_05" target="_blank">GitHub</a></p>
+
+                </div>
+
+            </div>
+
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_04_case_01.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+
+                    <p class="text head">Assignment 04</p>
+                    <span class="case">Case 01</span>
+                    <span class="span"><a href="http://assignment04.great-site.net/case_01/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_04_html_css/tree/master/case_01" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_04_case_02.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+                    <p class="text head">Assignment 04</p>
+                    <span class="case">Case 02</span>
+                    <span class="span"><a href="http://assignment04.great-site.net/case_02/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_04_html_css/tree/master/case_02" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_04_case_03.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+
+                    <p class="text head">Assignment 04</p>
+                    <span class="case">Case 03</span>
+                    <span class="span"><a href="http://assignment04.great-site.net/case_03/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_04_html_css/tree/master/case_03" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_04_case_04.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+
+                    <p class="text head">Assignment 04</p>
+                    <span class="case">Case 04</span>
+                    <span class="span"><a href="http://assignment04.great-site.net/case_04/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_04_html_css/tree/master/case_04" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_04_case_05.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+
+                    <p class="text head">Assignment 04</p>
+                    <span class="case">Case 05</span>
+                    <span class="span"><a href="http://assignment04.great-site.net/case_05/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_04_html_css/tree/master/case_05" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
+            <div class="card"  data-aos="flip-right" data-aos-duration="1000">
+                <div class="img">
+
+                    <img src="assets/images/skills/assignment_04_case_06.png" alt="">
+
+                </div>
+
+                <div class="textBox">
+
+
+                    <p class="text head">Assignment 04</p>
+                    <span class="case">Case 06</span>
+                    <span class="span"><a href="http://assignment04.great-site.net/case_06/index.html" target="_blank">Full View</a></span>
+                    <p class="text price"><a href="https://github.com/KasunKVI/assignment_04_html_css/tree/master/case_06" target="_blank">GitHub</a></p>
+                </div>
+
+            </div>
         </div>
 
     </section>
 
 </main>
 <footer>
-        <h3>Fuel Your Creativity</h3>
-        <h3>Code Your Imagination</h3>
+    <div id="tag">
+        <h3 id="first_line">Fuel Your Creativity</h3>
+        <h3 id="second_line">Code Your Imagination</h3>
+    </div>
 </footer>
+<script src="../assets/js/lib/jquery.min.js"></script>
+<script src="../assets/js/header_navigation.js"></script>
+<script src="../assets/js/cursor.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <script>
     AOS.init();
 </script>
