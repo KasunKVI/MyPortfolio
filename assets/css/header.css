@@ -12,6 +12,7 @@
     background: #F3FFF1;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: all 0.5s ease;
+    display: none;
 }
 #mobile_navigation > dl > dd > a {
     text-decoration: none;

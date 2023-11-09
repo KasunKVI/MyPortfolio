@@ -1,16 +1,3 @@
-#button {
-    display: flex;
-    justify-content: center;
-    color: black;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    transition: all 0.3s ease-in-out 0s;
-    box-shadow: rgba(193, 244, 4, 0.698) 0px 0px 0px 0px;
-    animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
-    align-items: center;
-    border: 0;
-}
 
 #button:is(:hover, :focus) {
     transform: scale(1.2);
@@ -31,14 +18,19 @@
     text-align: center;
     border-radius: 4px;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 5vh;
+    right: 4vw;
+    margin-left: 2vw;
     transition: background-color .3s,
     opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: rgba(193, 244, 4, 0.698) 0px 0px 0px 0px;
+    animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
 }
+
 #button::after {
     content: "\f077";
     font-family: FontAwesome;

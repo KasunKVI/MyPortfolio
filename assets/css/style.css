@@ -18,11 +18,7 @@ header{
 }
 
 body, #home,#about,#youtube,#skills,#resume,#project,#assignment,#contact,footer{
+    width: 100vw;
     overflow-x: hidden !important;
-}
-@media all and (max-width: 425px){
-    body{
-        overflow-x: hidden !important;
-    }
 }
 
