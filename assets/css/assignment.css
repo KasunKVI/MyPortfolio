@@ -454,6 +454,9 @@
     .textBox > .span {
         font-size: 13px;
     }
+    #assignment{
+        height: 350vh;
+    }
 }
 @media all and (max-width: 320px){
 
