@@ -2,7 +2,7 @@
     position: relative;
     padding-top: 0;
     top: 0;
-    height: 100vh;
+    height: 170vh;
     padding-bottom: 180vh;
 }
 #project_header{
@@ -35,12 +35,12 @@
 #tea_project>div>a{
     position: absolute;
 }
-#tea_lang, #zoo_lang, #connect4_lang{
+#tea_lang, #zoo_lang, #connect4_lang, #pos_lang{
     position: absolute;
     display: flex;
 }
 
-#zoo_project>h2{
+#zoo_project>h2,#pos_system>h2{
     position: absolute;
     right: 0;
     background: #B4E5AC;
@@ -49,17 +49,17 @@
     font-family: 'Aclonica', sans-serif;
     color: #2B9819;
 }
-#zoo_project>div>p{
+#zoo_project>div>p, #pos_system>div>p{
     position: absolute;
     text-align: right;
     font-family: 'Amarante', cursive;
     color: #686B68;
 }
-#zoo_project>div>a{
+#zoo_project>div>a, #pos_system>div>a{
     position: absolute;
 }
 
-#zoo_lang>h6, #connect4_lang>h6, #tea_lang>h6{
+#zoo_lang>h6, #connect4_lang>h6, #tea_lang>h6, #pos_lang>h6{
     background: #26AABC;
     border-radius: 15px;
     font-family: 'Almendra', serif;
@@ -110,7 +110,7 @@
         top: 52vh;
         left: 9vw;
     }
-    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6, #pos_lang>h6{
         margin: 20px;
         padding: 5%;
         font-size: 15px;
@@ -155,7 +155,6 @@
         top: 128vh;
         right: 12vw;
     }
-
     #zoo_images>picture:first-child{
         position: absolute;
         left: 27vw;
@@ -200,13 +199,43 @@
     }
     #connect4_images>picture:first-child{
         position: absolute;
-        bottom: 60vh;
+        bottom: 130vh;
         right: 30vw;
     }
     #connect4_images>picture:last-child{
         position: absolute;
-        bottom: 45vh;
+        bottom: 125vh;
         right: 8vw;
+    }
+    #pos_system>h2{
+        width: 20vw;
+        padding-top: 2vh;
+        top: 240vh;
+        height: 4vh;
+        font-size: 25px;
+    }
+    #pos_system>div>p{
+        right: 10vw;
+        top: 255vh;
+        font-size: 18px;
+    }
+    #pos_system>div>a{
+        right: 3vw;
+        top: 258vh;
+    }
+    #pos_lang{
+        top: 270vh;
+        right: 12vw;
+    }
+    #pos_images>picture:first-child{
+        position: absolute;
+        left: 27vw;
+        top: 250vh;
+    }
+    #pos_images>picture:nth-child(2){
+        position: absolute;
+        left: 5vw;
+        top: 260vh;
     }
 
 }
@@ -336,6 +365,37 @@
         bottom: 45vh;
         right: 8vw;
     }
+    #pos_system>h2{
+        width: 20vw;
+        padding-top: 2vh;
+        top: 245vh;
+        height: 4vh;
+        font-size: 23px;
+    }
+    #pos_system>div>p{
+        right: 10vw;
+        top: 260vh;
+        font-size: 16px;
+    }
+    #pos_system>div>a{
+        right: 3vw;
+        top: 263vh;
+    }
+    #pos_lang{
+        top: 277vh;
+        right: 13vw;
+    }
+    #pos_images>picture:first-child{
+        position: absolute;
+        left: 27vw;
+        top: 240vh;
+    }
+    #pos_images>picture:nth-child(2){
+        position: absolute;
+        left: 5vw;
+        top: 250vh;
+    }
+
 }
 @media all and (max-width: 1024px){
 
@@ -464,6 +524,36 @@
         bottom: 25vh;
         right: 2vw;
     }
+    #pos_system>h2{
+        width: 25vw;
+        padding-top: 2vh;
+        top: 250vh;
+        height: 4vh;
+        font-size: 18px;
+    }
+    #pos_system>div>p{
+        right: 10vw;
+        top: 265vh;
+        font-size: 13px;
+    }
+    #pos_system>div>a{
+        right: 3vw;
+        top: 268vh;
+    }
+    #pos_lang{
+        top: 282vh;
+        right: 13vw;
+    }
+    #pos_images>picture:first-child{
+        position: absolute;
+        left: 27vw;
+        top: 245vh;
+    }
+    #pos_images>picture:nth-child(2){
+        position: absolute;
+        left: 5vw;
+        top: 255vh;
+    }
 }
 @media all and (max-width: 768px){
 
@@ -496,7 +586,7 @@
         height: 4vh;
         font-size: 18px;
     }
-    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6, #pos_lang>h6{
         margin: 20px;
         padding: 5%;
         font-size: 10px;
@@ -584,14 +674,44 @@
     }
     #connect4_images>picture:first-child{
         position: absolute;
-        bottom: 40vh;
+        bottom: 110vh;
         left: 15vw;
     }
     #connect4_images>picture:last-child{
         position: absolute;
-        bottom: 35vh;
+        bottom: 115vh;
         right: 8vw;
 
+    }
+    #pos_system>h2{
+        width: 45vw;
+        padding-top: 2vh;
+        top: 250vh;
+        height: 4vh;
+        font-size: 18px;
+    }
+    #pos_system>div>p{
+        right: 23vw;
+        top: 265vh;
+        font-size: 14px;
+    }
+    #pos_system>div>a{
+        right: 10vw;
+        top: 268vh;
+    }
+    #pos_lang{
+        top: 282vh;
+        right: 26vw;
+    }
+    #pos_images>picture:first-child{
+        position: absolute;
+        left: 35vw;
+        top: 295vh;
+    }
+    #pos_images>picture:nth-child(2){
+        position: absolute;
+        left: 5vw;
+        top: 275vh;
     }
 }
 @media all and (min-width: 425px) and (max-width: 768px){
@@ -642,6 +762,17 @@
         top: 204vh;
         left: 8vw;
     }
+    #pos_images>picture:first-child{
+        position: absolute;
+        left: 45vw;
+        top: 295vh;
+    }
+    #pos_images>picture:nth-child(2){
+        position: absolute;
+        left: 5vw;
+        top: 300vh;
+    }
+
 }
 @media all and (max-width: 425px){
 
@@ -674,7 +805,7 @@
         height: 4vh;
         font-size: 17px;
     }
-    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6, #pos_lang>h6{
         margin: 16px;
         padding: 6%;
         font-size: 9px;
@@ -761,14 +892,44 @@
     }
     #connect4_images>picture:first-child{
         position: absolute;
-        bottom: 40vh;
+        bottom: 110vh;
         left: 10vw;
     }
     #connect4_images>picture:last-child{
         position: absolute;
-        bottom: 32vh;
+        bottom: 105vh;
         right: 8vw;
 
+    }
+    #pos_system>h2{
+        width: 57vw;
+        padding-top: 2vh;
+        top: 250vh;
+        height: 4vh;
+        font-size: 17px;
+    }
+    #pos_system>div>p{
+        right: 23vw;
+        top: 265vh;
+        font-size: 11px;
+    }
+    #pos_system>div>a{
+        right: 10vw;
+        top: 268vh;
+    }
+    #pos_lang{
+        top: 282vh;
+        right: 29vw;
+    }
+    #pos_images>picture:first-child{
+        position: absolute;
+        left: 45vw;
+        top: 295vh;
+    }
+    #pos_images>picture:nth-child(2){
+        position: absolute;
+        left: 5vw;
+        top: 300vh;
     }
 
 }
@@ -803,7 +964,7 @@
         height: 4vh;
         font-size: 16px;
     }
-    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6, #pos_lang>h6{
         margin: 16px;
         padding: 6%;
         font-size: 8px;
@@ -891,14 +1052,44 @@
     }
     #connect4_images>picture:first-child{
         position: absolute;
-        bottom: 40vh;
+        bottom: 125vh;
         left: 10vw;
     }
     #connect4_images>picture:last-child{
         position: absolute;
-        bottom: 22vh;
+        bottom: 110vh;
         right: 8vw;
 
+    }
+    #pos_system>h2{
+        width: 57vw;
+        padding-top: 2vh;
+        top: 250vh;
+        height: 4vh;
+        font-size: 16px;
+    }
+    #pos_system>div>p{
+        right: 23vw;
+        top: 265vh;
+        font-size: 10px;
+    }
+    #pos_system>div>a{
+        right: 10vw;
+        top: 268vh;
+    }
+    #pos_lang{
+        top: 282vh;
+        right: 29vw;
+    }
+    #pos_images>picture:first-child{
+        position: absolute;
+        left: 45vw;
+        top: 295vh;
+    }
+    #pos_images>picture:nth-child(2){
+        position: absolute;
+        left: 2vw;
+        top: 300vh;
     }
 
 }
@@ -933,7 +1124,7 @@
         height: 4vh;
         font-size: 14px;
     }
-    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6{
+    #tea_lang>h6,#zoo_lang>h6, #connect4_lang>h6, #pos_lang>h6{
         margin: 16px;
         padding: 6%;
         font-size: 8px;
@@ -1012,14 +1203,44 @@
     }
     #connect4_images>picture:first-child{
         position: absolute;
-        bottom: 40vh;
-        left: 10vw;
+        bottom: 110vh;
+        left: 2vw;
     }
     #connect4_images>picture:last-child{
         position: absolute;
-        bottom: 16vh;
-        right: 5vw;
+        bottom: 100vh;
+        right: 0;
 
+    }
+    #pos_system>h2{
+        width: 57vw;
+        padding-top: 2vh;
+        top: 250vh;
+        height: 4vh;
+        font-size: 14px;
+    }
+    #pos_system>div>p{
+        right: 23vw;
+        top: 265vh;
+        font-size: 9px;
+    }
+    #pos_system>div>a{
+        right: 10vw;
+        top: 268vh;
+    }
+    #pos_lang{
+        top: 282vh;
+        right: 29vw;
+    }
+    #pos_images>picture:first-child{
+        position: absolute;
+        right: 0;
+        top: 295vh;
+    }
+    #pos_images>picture:nth-child(2){
+        position: absolute;
+        left: 0;
+        top: 320vh;
     }
 }
 
