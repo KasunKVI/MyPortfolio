@@ -213,7 +213,7 @@
         height: 180px;
     }
     #skills2{
-        top: 90vh;
+        top: 100vh;
         display: block;
         height: 550px;
         margin: 20px;
@@ -235,6 +235,10 @@
         height: 700px;
         width: 280px;
         left: 60px;
+        top: 150vh;
+    }
+    #skills{
+        height: 180vh;
     }
 }
 @media all and (max-width: 425px){
@@ -254,7 +258,7 @@
         height: 180px;
     }
     #skills2{
-        top: 100vh;
+        top: 160vh;
         display: block;
         height: 600px;
         margin: 10px;
@@ -290,7 +294,7 @@
         height: 180px;
     }
     #skills2{
-        top: 90vh;
+        top: 170vh;
         display: block;
         height: 600px;
         margin: 10px;
@@ -300,6 +304,7 @@
     }
     #skills{
         padding-bottom: 100vh;
+        height: 180vh;
     }
     #skills2>img{
         padding-top: 95px;
@@ -325,7 +330,7 @@
         height: 175px;
     }
     #skills2{
-        top: 90vh;
+        top: 160vh;
         display: block;
         height: 700px;
         margin: 50px;
@@ -335,6 +340,7 @@
     }
     #skills{
         padding-bottom: 100vh;
+        height: 180vh;
     }
     #skills2>img{
         padding-top: 70px;
